@@ -5,7 +5,11 @@
 include ../../rules.mk
 
 all:
-	@echo "run: make picture.png"
+	@echo "Usage: make covers"
+	@echo "Usage: make cover.png"
+	@echo "Usage: make cover.pdf"
+	@echo "Usage: make clean"
+	@echo "Usage: make fullclean"
 
 %.pdf: %.tex ../NSU-logo.png 
 	pdflatex $<
@@ -15,5 +19,12 @@ all:
                  -singlefile $< $<
 	mv $<.png $@
 
+COVERS := $(patsubst %.tex,%.png,$(wildcard *.tex))
+
+covers: $(COVERS)
+
 clean:
-	rm *.png *.pdf *.log *.aux *.synctex.gz *~
+	rm -f *.log *.aux *.synctex.gz *~
+
+fullclean: clean
+	rm -rf *.png *.pdf auto/
