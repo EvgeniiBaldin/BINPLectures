@@ -19,10 +19,14 @@
 *.toc
 *.ver
 *.hst
+*.png
+*.mkv
+*.mp4
 *~
 *-eps-converted-to.pdf
 .#*
 \#*
 # auctex dir
 auto/
+/bin/ffmpeg
 *.synctex.gz
