@@ -6,24 +6,22 @@ include rules.mk
 
 
 all:
-	@echo "run: make picture.eps"
+	@echo "run: make src"
 
 
-%.pdf: %.tex NSU-logo.png 
-	pdflatex $<
-
-%.png: %.pdf  
-	pdftoppm -png -scale-to-x 1920 -scale-to-y 1080 \
-                 -singlefile $< $<
-	mv $<.png $@
-
-Делаем торрент:c
-torrent -t -s NSUphyslectsrc.torrent -u udp://tracker.publicbt.com:80 source/
-
-transmission-create --comment "NSU Lectures on Physics (sources) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA" --outfile NSUphyslectsrc.torrent --tracker udp://tracker.publicbt.com:80 /Space/Lectures/source/
+src:
+	git archive --format=tar.gz HEAD \
+          --prefix=720p-`date +'%y%m%d'`/  \
+           -o skeleton720p.tar.gz 
 
 
-thphlecsource.torrent перемещаем на microserver и загружаем через web-морду. Убеждаемся, что в Download скопирована /Space/Lectures/source/
+#Делаем торрент:c
+#torrent -t -s NSUphyslectsrc.torrent -u udp://tracker.publicbt.com:80 source/
+
+#transmission-create --comment "NSU Lectures on Physics (sources) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA" --outfile NSUphyslectsrc.torrent --tracker udp://tracker.publicbt.com:80 /Space/Lectures/source/
+
+
+#thphlecsource.torrent перемещаем на microserver и загружаем через web-морду. Убеждаемся, что в Download скопирована /Space/Lectures/source/
 
 
 #QCD_Lectures_Fadin_Spring_2014
