@@ -8,15 +8,16 @@
 # -------------------------------------------
 # --     What to redirect to where         --
 #$ -cwd
-#$ -o log_$JOB_NAME.$JOB_ID
+#log_$JOB_NAME.$JOB_ID
+#$ -o /dev/null
 #$ -j y
 # -------------------------------------------
 # --             Qeue list                 --
 # default, vm_q
-#$ -q vm_q
+#$ -q default
 # -------------------------------------------
 # --             mail me                   --
-#$ -M E.M.Baldin@gmail.com
+# -M E.M.Baldin@gmail.com
 #$ -m be
 # -------------------------------------------
 use Getopt::Std;
@@ -258,15 +259,15 @@ if (defined($opt_h)||
 	   dir => "EW_Lectures_Chernyak_Autumn_2013",
 	  },
 	  {
-	   file => "CHAOS_Zjirov_Lecture01",
+	   file => "CHAOS_Zhirov_Lecture01",
 	   dir => "Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014",
 	  },
 	  {
-	   file => "CHAOS_Zjirov_Lecture02",
+	   file => "CHAOS_Zhirov_Lecture02",
 	   dir => "Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014",
 	  },
 	  {
-	   file => "CHAOS_Zjirov_Lecture03",
+	   file => "CHAOS_Zhirov_Lecture03",
 	   dir => "Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014",
 	  },
 	 );
@@ -278,7 +279,7 @@ if (defined $opt_c) {
   exit(0);
 }
 
-#$delta=1;#$ENV{SGE_TASK_STEPSIZE};
+#delta=1;#ENV{SGE_TASK_STEPSIZE};
 $nfile=$ENV{SGE_TASK_ID}-1;
 
 $cmd="cd ".$FILES[$nfile]{dir}."; make ".$FILES[$nfile]{file}.".mp4";
