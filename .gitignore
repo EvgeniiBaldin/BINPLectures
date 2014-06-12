@@ -11,6 +11,7 @@
 *.glo
 *.gls
 *.tar.bz2
+*.tar.gz
 *.mpx
 *.out
 *.exa
