@@ -53,13 +53,14 @@ ECHO:=/bin/echo
 MERGE =	n=0 ; for x in $1; do  let "n+=1" ; done ; let "m=n-1" ;\
          $(FFMPEG) $(patsubst %,-i %,$1)  -filter_complex \
            "$$(eval "echo \[{0..$$m}:{0,1}\]") concat=n=$$n:v=1:a=1 [v] [a] "\
-           -map "[v]" -map "[a]" $(FOUTKEY) $@
+           -map "[v]" -map "[a]" -metadata title=$2 -metadata comment=$3 \
+           $(FOUTKEY) $@
 # Цель функции сформировать строчку вида (для трёх файлов):
-#	$(FFMPEG) -i QCD_Fadin_Lecture01.png.$(VIDEOEXT) -i QCD_Fadin_Lecture01.1_18.02.2014.mts.$(VIDEOEXT) -i QCD_Fadin_Lecture01.2_18.02.2014.mts.$(VIDEOEXT)  -filter_complex \
+#	$(FFMPEG) -i QCD_Fadin_Lecture01.png.$(VIDEOEXT) -i QCD_Fadin_Lecture01.1_18.02.2014.mts.$(VIDEOEXT) -i QCD_Fadin_Lecture01.2_18.02.2014.mts.$(VIDEOEXT)  -filter_complex  \
 #  '[0:0] [0:1] [1:0] [1:1] [2:0] [2:1] concat=n=3:v=1:a=1 [v] [a] ' \
-#-map '[v]' -map '[a]' $(FOUTKEY) $@
+#-map '[v]' -map '[a]' -metadata title="QCD" -metadata comment="2014" $(FOUTKEY) $@
 # (для двух файлов):
 #	$(FFMPEG) -i QCD_Fadin_Lecture02.png.$(VIDEOEXT) -i QCD_Fadin_Lecture02.1_18.02.2014.mts.$(VIDEOEXT) -filter_complex \
 #  '[0:0] [0:1] [1:0] [1:1]  concat=n=2:v=1:a=1 [v] [a] ' \
-# -map '[v]' -map '[a]' $(FOUTKEY) $@
+# -map '[v]' -map '[a]' -metadata title="QCD" -metadata comment="2014" $(FOUTKEY) $@
 
