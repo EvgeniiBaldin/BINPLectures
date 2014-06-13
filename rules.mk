@@ -4,11 +4,11 @@
 # Размер картинки (нужно для заставки)
 #1080p: 1920 х 1080;
 #720p: 1280 х 720;
-XSIZE:=1280
-YSIZE:=720
+XSIZE:=1920
+YSIZE:=1080
 # Переменнеые для кодирования видео
 # Тип видео
-VIDEOTYPE:=hd720
+VIDEOTYPE:=hd1080 
 # Путь до видеоисходников
 SRCPATH:= ../source/
 # Путь до заставок
@@ -48,7 +48,7 @@ ECHO:=/bin/echo
 	$(FFMPEG) -loop 1 -i $< -f lavfi -i aevalsrc=0 $(FOUTKEY) -q:v 1 -t $(COVERDURATION) $@
 # Кодирование фрагментов видеофайлов
 %.mts.$(VIDEOEXT): $(SRCPATH)/%.mts
-	$(FFMPEG) -i $<  $(FOUTKEY) $@
+	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $@
 # Объединение файлов 
 MERGE =	n=0 ; for x in $1; do  let "n+=1" ; done ; let "m=n-1" ;\
          $(FFMPEG) $(patsubst %,-i %,$1)  -filter_complex \
