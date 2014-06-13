@@ -11,8 +11,8 @@ all:
 
 src:
 	git archive --format=tar.gz HEAD \
-          --prefix=720p-`date +'%y%m%d'`/  \
-           -o skeleton720p.tar.gz 
+          --prefix=1080p-`date +'%y%m%d'`/  \
+           -o skeleton1080p.tar.gz 
 
 
 #Делаем торрент:c
