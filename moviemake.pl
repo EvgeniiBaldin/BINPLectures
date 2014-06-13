@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+# Костыль для использования кластера
 # -------------------------------------------
 # --          use perl                     --
 #$ -S /usr/bin/perl
@@ -26,6 +27,7 @@ use File::stat;
 
 getopts("hc");
 use vars qw/$opt_h $opt_c/;
+
 
 
 if (defined($opt_h)||
@@ -270,6 +272,10 @@ if (defined($opt_h)||
 	   file => "CHAOS_Zhirov_Lecture03",
 	   dir => "Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014",
 	  },
+	  {
+	   file => "CHAOS_Zhirov_Lecture04",
+	   dir => "Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014",
+	  },
 	 );
 
 
@@ -280,9 +286,17 @@ if (defined $opt_c) {
 }
 
 #delta=1;#ENV{SGE_TASK_STEPSIZE};
-$nfile=$ENV{SGE_TASK_ID}-1;
+#nfile=$ENV{SGE_TASK_ID}-1;
+$nfile=int(($ENV{SGE_TASK_ID}-1)/4);
+$sparse=($ENV{SGE_TASK_ID}-1)%4;
+# sparce используется, чтобы на восьмиядерном узле одновременно
+# запускалось по возможности только два потока. Костыль.
+if ($sparse==0) {
+  $cmd="cd ".$FILES[$nfile]{dir}."; make ".$FILES[$nfile]{file}.".mp4";
+  print "$cmd\n";
+  system($cmd);
+}
+else {
+  sleep(120);
+}
 
-$cmd="cd ".$FILES[$nfile]{dir}."; make ".$FILES[$nfile]{file}.".mp4";
-
-print "$cmd\n";
-system($cmd);

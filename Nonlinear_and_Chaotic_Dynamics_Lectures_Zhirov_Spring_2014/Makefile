@@ -19,6 +19,9 @@ CHAOS_Zhirov_Lecture02.$(VIDEOEXT): CHAOS_Zhirov_Lecture02.png.$(VIDEOEXT) CHAOS
 CHAOS_Zhirov_Lecture03.$(VIDEOEXT): CHAOS_Zhirov_Lecture03.png.$(VIDEOEXT) CHAOS_Zjirov_Lecture_3.1-21-05-2014.mts.$(VIDEOEXT) 
 	$(call MERGE,$^,"CHAOS Zhirov O.V. Lecture N 03","NSU 2014")
 
+CHAOS_Zhirov_Lecture04.$(VIDEOEXT): CHAOS_Zhirov_Lecture04.png.$(VIDEOEXT) CHAOS_Zjirov_Lecture_04.1-05-06-2014.mts.$(VIDEOEXT) CHAOS_Zjirov_Lecture_04.2-05-06-2014.mts.$(VIDEOEXT) CHAOS_Zjirov_Lecture_04.3-05-06-2014.mts.$(VIDEOEXT)
+	$(call MERGE,$^,"CHAOS Zhirov O.V. Lecture N 04","NSU 2014")
+
 
 # Чистка
 clean:
