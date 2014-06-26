@@ -57,6 +57,19 @@ http://creativecommons.org/licenses/by-sa/4.0/
 Скрипты makemovie в корневой директории являются «костылём» для
 запуска процедуры упаковки на кластере.
 
+** Создание торрент-файла
+
+transmission-create --comment "NSU Lectures on Physics (1080p libx264 ac3)
+http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
+License CC-BY-SA" --outfile NSUphyslect1080p-140613.torrent --tracker
+udp://tracker.publicbt.com:80 /Space/Lectures/1080p-140613/
+
+
+** TODO
+ * Сделать глобальную автоматическую чистку от промежуточных файлов.
+ * Разделить сборку и файлы.
+ * Увеличить степень сжатия (это можно как минимум на 30%)
+
 ** Обратная связь
 
 Если возникнут полезные идеи и предложения, то приму их с
