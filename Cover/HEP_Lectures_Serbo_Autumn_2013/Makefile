@@ -14,13 +14,12 @@ all:
 %.pdf: %.tex ../NSU-logo.png 
 	pdflatex $<
 
-%-1.png %-2.png: %.pdf  
+%.png: %.pdf  
 	pdftoppm -png -scale-to-x $(XSIZE) -scale-to-y $(YSIZE) \
-                  $< $*
+                 -singlefile $< $<
+	mv $<.png $@
 
-
-
-COVERS :=  $(patsubst %.tex,%-2.png,$(wildcard *.tex)) $(patsubst %.tex,%-1.png,$(wildcard *.tex))
+COVERS := $(patsubst %.tex,%.png,$(wildcard *.tex))
 
 covers: $(COVERS)
 

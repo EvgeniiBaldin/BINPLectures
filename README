@@ -54,8 +54,30 @@ http://creativecommons.org/licenses/by-sa/4.0/
 Исходники для заставки лежат в директории Cover. Компиляция
 проводилась в окружении  дистрибутива TeX Live 2013.
 
-Скрипты makemovie в корневой директории являются «костылём» для
+Скрипты moviemake* в корневой директории являются «костылём» для
 запуска процедуры упаковки на кластере.
+
+*** moviemake
+
+Список лекций перечислен в lectureslist.txt. Формат файла: Номер
+(используется для идентификации файла по номеру задания на кластере),
+директория, имя файла лекции без расширения. Разделителем являесят
+пробел. В имени файла и директории не может быть пробельных
+символов. Можно оставлять комментарии за символом #
+
+moviemake-batch.pl предназначен для запуска на кластере. В зависимости
+от номера в массиве заданий (ключик -t команды qsub) он запускает
+сборку конкретного файла, список которых можно передать через ключик
+-l (по умолчанию lectureslist.txt). Расширение выходного файла можно
+передать через ключик -e (по умолчанию mp4)
+
+./moviemake-batch.pl 
+Usage: ./moviemake-batch.pl [-l lectureslist.txt] [-e ext] (for batch only!)
+Options: -l - lectures list (def. lectureslist.txt)
+Options: -e - output file extention (def. mp4) 
+Options: -h - help message
+
+
 
 ** Создание торрент-файла
 
@@ -63,8 +85,6 @@ transmission-create --comment "NSU Lectures on Physics (1080p libx264 ac3)
 http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
 License CC-BY-SA" --outfile NSUphyslect1080p-140613.torrent --tracker
 udp://tracker.publicbt.com:80 /Space/Lectures/1080p-140613/
-
-
 ** TODO
  * Сделать глобальную автоматическую чистку от промежуточных файлов.
  * Разделить сборку и файлы.
