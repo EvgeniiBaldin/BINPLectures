@@ -24,8 +24,8 @@ if (defined $opt_a) {$opt_t="ALL"};
 	  QED => 17,
 	  SUSY => 32,
 	  EW => 39,
-	  NaCD => 56,
-	  HEP => 60,
+	  HEP => 56,
+	  NaCD => 71,
 );
 
 %last = (
@@ -34,8 +34,8 @@ if (defined $opt_a) {$opt_t="ALL"};
 	  QED => 31,
 	  SUSY => 38,
 	  EW => 55,
-	  NaCD => 59,
-	  HEP => 74,
+	  HEP => 70,
+	  NaCD => 79,
 	);
 
 if (!defined $first{$opt_t}||!defined $last{$opt_t}) {
