@@ -49,7 +49,9 @@ http://creativecommons.org/licenses/by-sa/4.0/
 
 Основные параметры сборки перечислены в файле rules.mk 
 
-Исполняемый файл ffmpeg по умолчанию размещается в директории bin.
+Исполняемый файл ffmpeg по умолчанию размещается в директории
+bin. Нужно убедиться, что для него установлено разрешение на
+исполнение (chmod +x). 
 
 Исходники для заставки лежат в директории Cover. Компиляция
 проводилась в окружении  дистрибутива TeX Live 2013.
@@ -77,8 +79,6 @@ Options: -l - lectures list (def. lectureslist.txt)
 Options: -e - output file extention (def. mp4) 
 Options: -h - help message
 
-
-
 ** Создание торрент-файла
 
 transmission-create --comment "NSU Lectures on Physics (1080p libx264 ac3)
@@ -92,10 +92,410 @@ udp://tracker.publicbt.com:80 /Space/Lectures/1080p-140613/
  * Сделать автоматическую генерацию всех обложек
  * Сделать генерацию как 1080, так и 720 в зависимости от опции
    moviemake.pl
+*** Закачка на YouTube
+**** googlecl
+
+https://code.google.com/p/googlecl/
+
+
+https://code.google.com/p/googlecl/wiki/Manual#YouTube
+
+ --category Education
+
+    Youtube 
+
+        $ google youtube post --category Education killer_robots.avi 
+Youtube
+
+Note: You must log on with your Google account, but the --owner option will only accept YouTube usernames.
+
+Note: The devkey is provided for you. However, because of the nature of the key, it may become invalid in the future, and in that case you will have to supply your own. --devkey will also take the name of a file where the devkey is stored.
+delete
+
+Delete videos.
+
+Requires: title AND devkey
+
+    delete ".*cat.*"
+    delete "Vlog episode [0-9]+" --devkey mydevkey.txt 
+
+list
+
+List videos by user.
+
+Requires: fields AND delimiter Optional: title, owner
+
+    list --owner pomplamoosemusic
+    list --fields title,summary,url "My video" "My other video" 
+
+post
+
+Post a video.
+
+Requires: src AND category AND devkey Optional: title, summary, tags
+
+Note: A list of legal values for category can be found in the Manual. If you don't really care what category your video gets uploaded to, set a default in your configuration file (see ConfigurationOptions).
+
+    post --category Education killer_robots.avi
+    post ~/videos/cat-falls-down-stairs.avi Comedy --tags "currency of the internet" --summary "Poor whiskers takes a tumble. She's fine, though, don't worry." 
+
+tag
+
+Add tags to a video and/or change its category.
+
+Requires: title AND (tags OR category) AND devkey
+
+    tag "Cooking with Rob" --category Education
+    tag "Vlog .*" "my life, video blogging, AWESOME" --category People 
+
+ google   [picasa|blogger|youtube|docs|contacts|calendar|finance]   TASK
+       [options]
+
+
+ Available tasks for service youtube: 'post', 'tag', 'list', 'delete'
+
+              post: Post a video.
+
+              Requires:  src AND category AND devkey Optional: title, summary,
+              tags, access
+
+              tag: Add tags to a video and/or change its category.
+
+              Requires: title AND (tags OR category) AND devkey
+
+              list: List videos by user.
+
+              Requires: fields AND delimiter Optional: title, owner
+
+              delete: Delete videos.
+
+              Requires: title AND devkey
+
+ --access=ACCESS
+              Specify access/visibility level of an upload
+
+ --devkey=DEVKEY
+              YouTube only - specify a developer key
+
+ -n TITLE, --title=TITLE
+              Title of the item
+
+ -s SUMMARY, --summary=SUMMARY
+              Description of the upload, or file containing the description.
+
+ -t TAGS, --tags=TAGS
+              Tags for item, e.g. "Sunsets, Earth Day"
+
+ -c CATEGORY, --category=CATEGORY
+              YouTube only - specify video categories  as  a  commaseparated  list,  e.g.
+              "Film, Travel"
+
+
+google youtube post -n "QCD Фадин" -s "тестирование возможностей googlecl" -t "Fadin,QCD,HEP" -u e.m.baldin@gmail.com -c Education QCD_Fadin_Lecture01.mkv 
+
+ -u USER, --user=USER
+              Username to log in with for the service.
+
+
+e.m.baldin@gmail.com
+
+**** YouTube Data API - Uploading a Video
+https://developers.google.com/youtube/v3/guides/uploading_a_video
+
+
+This guide provides and explains a Python script that uploads a YouTube video using the YouTube Data API. The code uses the Google APIs Client Library for Python. (Client libraries for other popular programming languages are also available.)
+
+This guide contains the following sections:
+
+    The Requirements section identifies prerequisites for running the sample code in this guide.
+
+    The Sample request section provides an example that demonstrates how to upload a video using the script.
+
+    The Calling the script section defines the command-line arguments that you use to call the script.
+
+    The Sample code section provides the script's code.
+
+Note: The sample script does not do error handling.
+Requirements
+
+    Python 2.5 or higher
+
+    Install the Google APIs Client Library for Python (google-api-python-client)
+
+    Register your application with Google so that it can use the OAuth 2.0 protocol to authorize access to user data.
+
+    To use OAuth 2.0 steps with this script, you'll need to create a client_secrets.json file that contains information from the APIs Console. The file should be in the same directory as the script.
+
+#+BEGIN_SRC text
+    {
+      "web": {
+        "client_id": "[[INSERT CLIENT ID HERE]]",
+        "client_secret": "[[INSERT CLIENT SECRET HERE]]",
+        "redirect_uris": [],
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://accounts.google.com/o/oauth2/token"
+      }
+    }
+#+END_SRC 
+
+
+Sample requests
+
+This request uploads a video and sets various metadata fields for the video, including its title, description, keywords, and category. The command-line arguments are all defined in detail in the following section.
+
+#+BEGIN_SRC shell
+python upload_video.py --file="/tmp/test_video_file.flv"
+                       --title="Summer vacation in California"
+                       --description="Had a great time surfing in Santa Cruz"
+                       --keywords="surfing,Santa Cruz"
+                       --category="22"
+                       --privacyStatus="private"
+#+END_SRC 
+
+In this example, the script would build and insert the following video resource for the video:
+
+#+BEGIN_SRC text
+{
+  "snippet": {
+    "title": "Summer vacation in California",
+    "description": "Had a great time surfing in Santa Cruz",
+    "tags": ["surfing", "Santa Cruz"],
+    "categoryId": "22"
+  },
+  "status": {
+    "privacyStatus": "private"
+  }
+}
+#+END_SRC 
+
+Calling the script
+
+The list below defines the script's command-line arguments:
+
+    --file – This argument identifies the location of the video file that you are uploading.
+
+    Example:
+    --file="/home/path/to/file.mov"
+
+    --title – The title of the video that you are uploading. The default value is Test title.
+
+    Example:
+    --title="Summer vacation in ____"
+
+    --description – The description of the video that you're uploading. The default value is Test description.
+
+    Example:
+    --description="Had a great time ____ in ____."
+
+    --category – The category ID for the YouTube video category associated with the video. The default value is 22, which refers to the People & Blogs category.
+
+    Example:
+    --category="VIDEO_CATEGORY_TRAVEL"
+
+    --keywords – A comma-separated list of keywords associated with the video. The default value is an empty string.
+
+    Example:
+    --keywords="summer vacation,parasailing,crazy hippies"
+
+    --privacyStatus – The privacy status of the video. The default behavior is for an uploaded video to be publicly visible (public). When uploading test videos, you may want to specify a --privacyStatus argument value to ensure that those videos are private or unlisted. Valid values are public, private, and unlisted.
+
+    Example:
+    --privacyStatus="private"
+
+Sample code
+
+The complete working sample for the upload_video.py script is listed below:
+
+#+BEGIN_SRC python
+#!/usr/bin/python
+
+import httplib
+import httplib2
+import os
+import random
+import sys
+import time
+
+from apiclient.discovery import build
+from apiclient.errors import HttpError
+from apiclient.http import MediaFileUpload
+from oauth2client.file import Storage
+from oauth2client.client import flow_from_clientsecrets
+from oauth2client.tools import run
+from optparse import OptionParser
+
+
+# Explicitly tell the underlying HTTP transport library not to retry, since
+# we are handling retry logic ourselves.
+httplib2.RETRIES = 1
+
+# Maximum number of times to retry before giving up.
+MAX_RETRIES = 10
+
+# Always retry when these exceptions are raised.
+RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, httplib.NotConnected,
+  httplib.IncompleteRead, httplib.ImproperConnectionState,
+  httplib.CannotSendRequest, httplib.CannotSendHeader,
+  httplib.ResponseNotReady, httplib.BadStatusLine)
+
+# Always retry when an apiclient.errors.HttpError with one of these status
+# codes is raised.
+RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
+
+# CLIENT_SECRETS_FILE, name of a file containing the OAuth 2.0 information for
+# this application, including client_id and client_secret. You can acquire an
+# ID/secret pair from the API Access tab on the Google APIs Console
+#   http://code.google.com/apis/console#access
+# For more information about using OAuth2 to access Google APIs, please visit:
+#   https://developers.google.com/accounts/docs/OAuth2
+# For more information about the client_secrets.json file format, please visit:
+#   https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+# Please ensure that you have enabled the YouTube Data API for your project.
+CLIENT_SECRETS_FILE = "client_secrets.json"
+
+# A limited OAuth 2 access scope that allows for uploading files, but not other
+# types of account access.
+YOUTUBE_UPLOAD_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
+YOUTUBE_API_SERVICE_NAME = "youtube"
+YOUTUBE_API_VERSION = "v3"
+
+# Helpful message to display if the CLIENT_SECRETS_FILE is missing.
+MISSING_CLIENT_SECRETS_MESSAGE = """
+WARNING: Please configure OAuth 2.0
+
+To make this sample run you will need to populate the client_secrets.json file
+found at:
+
+   %s
+
+with information from the APIs Console
+https://code.google.com/apis/console#access
+
+For more information about the client_secrets.json file format, please visit:
+https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+""" % os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                   CLIENT_SECRETS_FILE))
+
+def get_authenticated_service():
+  flow = flow_from_clientsecrets(CLIENT_SECRETS_FILE, scope=YOUTUBE_UPLOAD_SCOPE,
+    message=MISSING_CLIENT_SECRETS_MESSAGE)
+
+  storage = Storage("%s-oauth2.json" % sys.argv[0])
+  credentials = storage.get()
+
+  if credentials is None or credentials.invalid:
+    credentials = run(flow, storage)
+
+  return build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
+    http=credentials.authorize(httplib2.Http()))
+
+
+def initialize_upload(options):
+  youtube = get_authenticated_service()
+
+  tags = None
+  if options.keywords:
+    tags = options.keywords.split(",")
+
+  insert_request = youtube.videos().insert(
+    part="snippet,status",
+    body=dict(
+      snippet=dict(
+        title=options.title,
+        description=options.description,
+        tags=tags,
+        categoryId=options.category
+      ),
+      status=dict(
+        privacyStatus=options.privacyStatus
+      )
+    ),
+    # chunksize=-1 means that the entire file will be uploaded in a single
+    # HTTP request. (If the upload fails, it will still be retried where it
+    # left off.) This is usually a best practice, but if you're using Python
+    # older than 2.6 or if you're running on App Engine, you should set the
+    # chunksize to something like 1024 * 1024 (1 megabyte).
+    media_body=MediaFileUpload(options.file, chunksize=-1, resumable=True)
+  )
+
+  resumable_upload(insert_request)
+
+
+def resumable_upload(insert_request):
+  response = None
+  error = None
+  retry = 0
+  while response is None:
+    try:
+      print "Uploading file..."
+      status, response = insert_request.next_chunk()
+      if 'id' in response:
+        print "'%s' (video id: %s) was successfully uploaded." % (
+          options.title, response['id'])
+      else:
+        exit("The upload failed with an unexpected response: %s" % response)
+    except HttpError, e:
+      if e.resp.status in RETRIABLE_STATUS_CODES:
+        error = "A retriable HTTP error %d occurred:\n%s" % (e.resp.status,
+                                                             e.content)
+      else:
+        raise
+    except RETRIABLE_EXCEPTIONS, e:
+      error = "A retriable error occurred: %s" % e
+
+    if error is not None:
+      print error
+      retry += 1
+      if retry > MAX_RETRIES:
+        exit("No longer attempting to retry.")
+
+      max_sleep = 2 ** retry
+      sleep_seconds = random.random() * max_sleep
+      print "Sleeping %f seconds and then retrying..." % sleep_seconds
+      time.sleep(sleep_seconds)
+
+
+if __name__ == '__main__':
+  parser = OptionParser()
+  parser.add_option("--file", dest="file", help="Video file to upload")
+  parser.add_option("--title", dest="title", help="Video title",
+    default="Test Title")
+  parser.add_option("--description", dest="description",
+    help="Video description",
+    default="Test Description")
+  parser.add_option("--category", dest="category",
+    help="Numeric video category. " +
+      "See https://developers.google.com/youtube/v3/docs/videoCategories/list",
+    default="22")
+  parser.add_option("--keywords", dest="keywords",
+    help="Video keywords, comma separated", default="")
+  parser.add_option("--privacyStatus", dest="privacyStatus",
+    help="Video privacy status: public, private or unlisted",
+    default="public")
+  (options, args) = parser.parse_args()
+
+  if options.file is None or not os.path.exists(options.file):
+    exit("Please specify a valid file using the --file= parameter.")
+  else:
+    initialize_upload(options)
+#+END_SRC 
 
 ** Обратная связь
 
-Если возникнут полезные идеи и предложения, то приму их с
-благодарностью по электронной почте: E.M.Baldin@inp.nsk.su
+В проекте на разных его стадиях участвовали
 
-С уважением Евгений
+Андрей Грабовский (лидер проекта) agrabovsky@gmail.com, 8-962-839-96-37
+Алексей Резниченко (замлидера) A.V.Reznichenko@inp.nsk.su, 8-913-946-45-55
+Евгений Балдин (торренты и сжатие видеофайлов)  E.M.Baldin@inp.nsk.su
+Виталий Воробьев 
+Роман Герасимов
+Александр Руденко
+Ирина Соколова
+
+Сайт проекта:
+
+http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
+
+или
+
+http://www.inp.nsk.su/~baldin/PhysLect/index.html

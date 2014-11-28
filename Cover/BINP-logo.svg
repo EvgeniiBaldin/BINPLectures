@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with sK1/UniConvertor (http://sk1project.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="595.276pt"
+   height="841.89pt"
+   viewBox="0 0 595.276 841.89"
+   fill-rule="evenodd"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="BINP-logo.pdf">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1830"
+     inkscape:window-height="995"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="1.2685909"
+     inkscape:cx="449.09756"
+     inkscape:cy="455.49264"
+     inkscape:window-x="2065"
+     inkscape:window-y="66"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <marker
+       id="ArrowEnd"
+       viewBox="0 0 10 10"
+       refX="0"
+       refY="5"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       markerHeight="3"
+       orient="auto">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         id="path7" />
+    </marker>
+    <marker
+       id="ArrowStart"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       markerHeight="3"
+       orient="auto">
+      <path
+         d="M 10 0 L 0 5 L 10 10 z"
+         id="path10" />
+    </marker>
+  </defs>
+  <g
+     id="g12"
+     style="fill:#000000">
+    <g
+       id="g14"
+       style="fill:#000000">
+      <path
+         style="stroke:none;fill:#000000"
+         d="M 331.827 453.251L 303.929 408.315L 248.441 408.34L 244.092 401.399L 306.661 401.423L 338.6 453.252C 336.461 453.252 334.108 453.252 331.827 453.251zM 346.822 453.347L 309.869 395.837L 240.955 395.839L 211.013 346.529L 216.681 346.53L 248.797 384.908L 315.478 384.907L 352.739 444.222L 352.739 453.323C 352.74 453.371 346.845 453.275 346.822 453.347zM 352.763 434.002L 322.821 385.502L 329.474 385.264L 352.763 423.642L 352.763 434.002zM 273.986 378.967L 218.498 337.024L 270.778 364.708L 264.481 344.985L 277.551 358.768L 281.828 283.556L 287.769 356.391L 310.345 328.469L 295.374 362.332L 342.782 332.746L 292.047 378.967C 286.106 378.967 280.046 378.967 273.986 378.967z"
+         id="path16" />
+    </g>
+  </g>
+  <g
+     id="g18" />
+</svg>
