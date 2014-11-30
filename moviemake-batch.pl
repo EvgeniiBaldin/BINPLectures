@@ -26,7 +26,6 @@ use File::stat;
 
 getopts("hl:e:");
 use vars qw/$opt_h $opt_l $opt_e/;
-$ENV{SGE_TASK_ID}=80;
 if (defined($opt_h)||(!defined($ENV{SGE_TASK_ID}))) {
   print "Usage: $0 [-l lectureslist.txt] [-e ext] (for batch only!)\n";
   print "Options: -l - lectures list (def. lectureslist.txt)\n";
