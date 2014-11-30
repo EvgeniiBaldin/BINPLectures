@@ -11,15 +11,24 @@ all:
 	@echo "Usage: make clean"
 	@echo "Usage: make fullclean"
 
-%.pdf: %.tex ../NSU-logo.png 
+%.pdf: %.tex ../NSU-logo.png ../BINP-logo.pdf
 	pdflatex $<
 
-%.png: %.pdf  
-	pdftoppm -png -scale-to-x $(XSIZE) -scale-to-y $(YSIZE) \
-                 -singlefile $< $<
-	mv $<.png $@
 
-COVERS := $(patsubst %.tex,%.png,$(wildcard *.tex))
+%-1.png %-2.png: %.pdf  
+	pdftoppm -png -scale-to-x $(XSIZE) -scale-to-y $(YSIZE) \
+                  $< $*
+
+
+
+COVERS :=  $(patsubst %.tex,%-2.png,$(wildcard *.tex)) $(patsubst %.tex,%-1.png,$(wildcard *.tex))
+
+#%.png: %.pdf  
+#	pdftoppm -png -scale-to-x $(XSIZE) -scale-to-y $(YSIZE) \
+#                 -singlefile $< $<
+#	mv $<.png $@
+
+#COVERS := $(patsubst %.tex,%.png,$(wildcard *.tex))
 
 covers: $(COVERS)
 

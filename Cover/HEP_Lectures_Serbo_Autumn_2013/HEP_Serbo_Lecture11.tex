@@ -19,11 +19,23 @@
 %научные символы и смайлики \smiley \frownie
 \usepackage{wasysym}
 \usepackage{ccicons}
+%перенос формул в тексте
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+  {\hbox{$\mathsurround=0pt #1$}}{}}
+
 \begin{document}
 \begin{titlepage}
-  \vspace*{-1em}
-  \begin{center}
-    \includegraphics[width=0.23\textwidth]{../NSU-logo}
+  \vspace*{-0.5em}
+  \begin{center}    
+    \hspace*{3em}
+    \begin{minipage}[t]{3em}
+      \includegraphics[width=\textwidth]{../BINP-logo}
+    \end{minipage}\hfill
+    \begin{minipage}{0.23\linewidth}
+    \includegraphics[width=\textwidth]{../NSU-logo}
+    \end{minipage}
+    \hfill
+    \hspace*{6em}
 
     Кафедра теоретической физики физического факультета НГУ
     \medskip
@@ -48,4 +60,17 @@
     \normalsize \ccbysa\hspace{0.5em}  Новосибирск 2013
   \end{center}
 \end{titlepage}
+\vspace*{-1em}
+\begin{center}
+ \vfill
+  \begin{minipage}{0.66\linewidth}
+    Понятие о виртуальных частицах (окончание). Процесс $\pi^0 \pi^-
+    \hm{\to} \pi^0 \pi^-$ и $\pi^+ \pi^- \to \pi^0 \pi^0$. Второй
+    порядок теории возмущений в~КЭД.
+  \end{minipage}
+  \vfill
+  % Новосибирск 2013
+
+  % \normalsize \ccbysa
+\end{center}
 \end{document}
