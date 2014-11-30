@@ -49,6 +49,9 @@ ECHO:=/bin/echo
 # Кодирование фрагментов видеофайлов
 %.mts.$(VIDEOEXT): $(SRCPATH)/%.mts
 	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $@
+
+%.MTS.$(VIDEOEXT): $(SRCPATH)/%.MTS
+	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $@
 # Объединение файлов 
 MERGE =	n=0 ; for x in $1; do  let "n+=1" ; done ; let "m=n-1" ;\
          $(FFMPEG) $(patsubst %,-i %,$1)  -filter_complex \
