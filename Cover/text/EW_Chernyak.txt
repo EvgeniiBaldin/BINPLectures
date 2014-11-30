@@ -1,0 +1,237 @@
+<p>
+<li>   Лекция № 1 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture01.1_13.09.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture01.2_13.09.2013.mts">часть 2</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture01.3_13.09.2013.mts">часть 3</a>).
+<p>
+Вводная лекция. Иерархия времён сильных, электромагнитных и слабых распадов. Основная цель 
+курса "--- слабые распады преимущественно в борновском приближении, Стандартная модель в целом. 
+Общее напоминание про КХД. Лагранжиан КХД. Симметрии лагранжиана КХД. Калибровочная 
+симметрия. Внешние симметрии: флейворная симметрия SU(N<sub><small>F</small></sub>). Правые и левые спиноры. 
+Киральность и спиральность. Киральная симметрия SU(N<sub><small>F</small></sub>)<sub><small>L</small></sub>&otimes;
+SU(N<sub><small>F</small></sub>)<sub><small>R</small></sub> для безмассовых кварков. 
+Иерархия по реальным массам кварков и лептонов. Изотопическая симметрия сильного взаимодействия. 
+Точность изотопической симметрии. Симметрии лагранжианов и вакуумных состояний: отличие КЭД и КХД. 
+Спонтанное нарушение симметрии. Динамические массы кварков и связь непертурбативных эффектов с точностью изотопической симметрии.
+</li>
+
+<li>   Лекция № 2 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture02.1_13.09.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture02.2_13.09.2013.mts">часть 2</a>).
+<p>
+Киральная и векторная симметрии лагранжиана КХД. Параметры нарушения этих симметрий.
+Лагранжиан Стандартной модели. Калибровочные симметрии лагранжиана и калибровочные поля. 
+Слабый изоспин. Поля материи. Семейства кварков и лептонов. Появление массы в лагранжиане. 
+Скалярное поле Хиггса. Потенциал хиггсовского поля. Юкавский тип взаимодействия кварков и лептонов с хиггсовым полем.
+</li>
+
+
+<li>   Лекция № 3 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture03.1_20.09.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture03.2_20.09.2013.mts">часть 2</a>).
+<p>
+Псевдореальные представления в группе SU(2). Механизм возникновения масс частиц. 
+Спонтанное нарушение симметрии. Примеры явного нарушения симметрии. 
+Примеры спонтанного нарушения симметрии: скалярное вещественное поле, комплексное скалярное поле. Теорема Голдстоуна.
+</li>
+
+
+<li>   Лекция № 4 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture04.1_27.09.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture04.2_27.09.2013.mts">часть 2</a>).
+<p>
+Спонтанное нарушение симметрии. Примеры с ферромагнетиком и кристаллом. Механизм Хиггса. 
+Пример массивной скалярной электродинамики, связь с моделью сверхпроводимости. 
+Хиггсовский механизм в Стандартной модели: применение теоремы Голдстоуна, безмассовый фотон.
+</li>
+
+
+<li>   Лекция № 5 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture05.1_04.10.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture05.2_04.10.2013.mts">часть 2</a>).
+<p>
+Хиггсовский механизм в Стандартной модели: массы векторных бозонов, угол Вайнберга, соотношение Q=T<sub><small>3</small></sub>+Y/2, 
+соотношения между константами взаимодействия, массами калибровочных бозонов и углом Вайнберга. 
+История лагранжиана Стандартной модели: замечание о теории Дж. Глэшоу (без нейтральных токов), нейтральные слабые токи. 
+Взаимодействие хиггсовского бозона с фермионами. Два типа взаимодействия Юкавы "--- 
+массы верхних и нижних кварков. Обобщение юкавского взаимодействия: массовые матрицы для верхних и нижних кварков, 
+диагонализация массовых матриц, появление матрицы Кабиббо-Кабаяши-Маскавы (CKM) для заряженных токов.
+</li>
+
+
+<li>   Лекция № 6 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture06.1_10.10.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture06.2_10.10.2013.mts">часть 2</a>).
+<p>
+Лагранжиан электрослабой теории (без хиггсовского сектора и лептонной матрицы смешивания). 
+Константы g<sub><small>V</small></sub> и g<sub><small>A</small></sub>. 
+Диагонализация массовой матрицы. Матрица Кабиббо-Кабаяши-Маскавы. Параметризация матрицы CKM через 4 параметра. 
+Два флейвора. Угол Кабиббо. Приближённая параметризация Вольфенштейна. Треугольник унитарности. Углы &alpha;, &beta;, &gamma;. 
+Дискретные симметрии лагранжиана электрослабой теории. История электрослабой теории: нарушение P-чётности.
+</li>
+
+
+<li>   Лекция № 7 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture07.1_18.10.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture07.2_18.10.2013.mts">часть 2</a>).
+<p>
+Нарушение P- и CP-чётности. Процессы первого порядка. Вычисление ширины распада W-бозона на электрон и антинейтрино. 
+Ширина распада t-кварка на W-бозон и b-кварк.
+</li>
+
+
+<li>   Лекция № 8 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture08.1_25.10.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture08.2_25.10.2013.mts">часть 2</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture08.3_25.10.2013.mts">часть 3</a>).
+<p>
+Полная ширина распада W-бозона. КХД-поправки к данному распаду. Ширина распада Z-бозона. Слабые процессы второго порядка. 
+Рассеяние электрона на кварке. Схема вычисления ширины распада мюона на электрон, электронное антинейтрино и мюонное нейтрино. 
+Константа Ферми. Лагранжиан Ферми. Лептонные слабые процессы. Распад &pi;-мезона на электрон и электронное антинейтрино, 
+а также мюон и мюонное антинейтрино. Адронные матричные элементы. Константа <i>f</i><sub><small>&pi;</small></sub>. 
+Отношение электронной и мюонной ширин. Качественное объяснение пропорциональности этого отношения квадратам масс.
+</li>
+
+
+<li>   Лекция № 9 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture09.1_01.11.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture09.2_01.11.2013.mts">часть 2</a>).
+<p>
+Анализ формулы для ширины распада мюона на электрон, электронное антинейтрино и мюонное нейтрино. Полная ширина распада &tau;-лептона. 
+Анализ формулы для лептонной ширины распада &pi;-мезона. Распады псевдоскалярных мезонов (&pi;<sup>-</sup>, K<sup>-</sup>, D<sup>-</sup>, 
+B<sup>-</sup>) на лептонную пару: 
+<i>f</i><sub><small>&pi;</small></sub> и <i>f</i><sub><small>K</small></sub>, отношение ширин распада K<sup>-</sup> в лептон и антинейтрино и 
+&pi;<sup>-</sup> в лептон и антинейтрино, предел SU(3) изотопической симметрии. Распад заряженного векторного мезона на лептонную пару (лептон и нейтрино). 
+Распад &rho;<sup>-</sup>. Константа <i>f</i><sub><small>&rho;</small></sub>. Отсутствие подавления по спиральности. 
+Трудности экспериментального наблюдения слабого распада &rho;<sup>-</sup>. Распад &tau;-лептона на &pi; (&rho;) и 
+антинейтрино (&nu;<sub><small>&tau;</small></sub>).
+</li>
+
+
+<li>   Лекция № 10 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture10.1_08.11.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture10.2_08.11.2013.mts">часть 2</a>).
+<p>
+Распад &tau;<sup>-</sup> &rarr; &rho;<sup>-</sup> + &nu;<sub><small>&tau;</small></sub>. Вычисление ширины. 
+Метод измерения <i>f</i><sub><small>&rho;</small></sub>: процесс &rho;<sup><small>0</small></sup> &rarr; e<sup><small>+</small></sup> e<sup>-</sup>, 
+матричный элемент электромагнитного тока с &rho;<sup><small>0</small></sup> и вакуумом. 
+Использование изотопической симметрии для связи “сильных” матричных элементов.
+</li>
+
+
+<li>   Лекция № 11 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture11.1_15.11.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture11.2_15.11.2013.mts">часть 2</a>).
+<p>
+Нахождение фундаментальных параметров сильной и электрослабой теории. Полулептонные процессы. Бета-распад &pi;-мезона: 
+ширина распада &pi;<sup>-</sup> &rarr; &pi;<sup><small>0</small></sup> + e<sup>-</sup> + 
+<span style="text-decoration:overline">&nu;<sub><small>e</small></sub></span>. 
+Вычисление адронного матричного элемента, входящего в амплитуду этого распада. 
+Формфакторы <i>f</i><sub><small>+</small></sub>(q<sup><small>2</small></sup>) и <i>f</i><sub>-</sub>(q<sup><small>2</small></sup>). 
+Изотопическая симметрия и дивергенции векторных токов. Подавление формфактора <i>f</i><sub>-</sub> в изотопическом пределе. 
+Вычисление формфактора <i>f</i><sub><small>+</small></sub>(q<sup><small>2</small></sup>=0) = &radic;2 в изотопическом пределе. 
+Анализ ответа для ширины распада &pi;<sup>-</sup> &rarr; &pi;<sup><small>0</small></sup> + e<sup>-</sup> + 
+<span style="text-decoration:overline">&nu;<sub><small>e</small></sub></span> : подавление множителем из фазового объёма, 
+независимое измерение V<sub><small>ud</small></sub>, пион-бета эксперимент. 
+Распад K<sup>-</sup> &rarr; &pi;<sup><small>0</small></sup> + e<sup>-</sup> + 
+<span style="text-decoration:overline">&nu;<sub><small>e</small></sub></span> : точность SU(3) флейворной 
+симметрии при вычислении <i>f</i><sub><small>+</small></sub>(q<sup><small>2</small></sup>=0).
+</li>
+
+<li>   Лекция № 12 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture12.1_22.11.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture12.2_22.11.2013.mts">часть 2</a>).
+<p>
+Полулептонные распады B-мезонов. Приближение тяжёлых кварков. Спектатор. 
+Распад B &rarr; D + <i>l</i> + <span style="text-decoration:overline">&nu;<sub><small><i>l</i></small></sub></span>. 
+Адронный матричный элемент, входящий в эту амплитуду. Формфакторы <i>f</i><sub><small>0</small></sub>, <i>f</i><sub>-</sub>, 
+<i>f</i><sub><small>+</small></sub>. 
+Их связь в крайних кинематических точках. Оценка отличия масс псевдоскалярного и векторного В-мезонов (сверхтонкое расщепление).
+Инклюзивные распады В-мезонов: ширина 
+B &rarr; <i>l</i> + <span style="text-decoration:overline">&nu;<sub><small><i>l</i></small></sub></span> + <i>X</i>, 
+КХД-поправка и поправка на энергию связи. 
+Метод определения V<sub><small>cb</small></sub> : сравнение эксклюзивных и инклюзивных методов.
+</li>
+
+<li>   Лекция № 13 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture13.1_29.11.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture13.2_29.11.2013.mts">часть 2</a>).
+<p>
+Полулептонный распад 
+B &rarr; &pi;<sup><small>0</small></sup> + <i>l</i> + <span style="text-decoration:overline">&nu;<sub><small><i>l</i></small></sub></span>. 
+Физический смысл формфакторов адронных матричных элементов. Бета-распад нейтрона: 
+n &rarr; p + e<sup>-</sup> + <span style="text-decoration:overline">&nu;<sub><small>e</small></sub></span>. 
+Анализ адронного матричного элемента: 4 формфактора, относительный вклад разных формфакторов, разложение их в нуле. 
+Вычисление <i>f</i><sub><small>1</small></sub>(0)=1 с использованием изотопической симметрии. 
+Правила сумм Адлера для нахождения g<sub><small>1</small></sub>(0). Константа g<sub><small>&pi;NN</small></sub>. 
+Вывод соотношения Голдбергера-Треймана (связь g<sub><small>1</small></sub>(0), g<sub><small>&pi;NN</small></sub> и <i>f</i><sub><small>&pi;</small></sub>) 
+дивергенция аксиального тока и связь g<sub><small>1</small></sub>(q<sup><small>2</small></sup>) и 
+g<sub><small>2</small></sub>(q<sup><small>2</small></sup>) в киральном SU(2) пределе, 
+полюсной вклад &pi;-мезона в формфактор g<sub><small>2</small></sub>(q<sup><small>2</small></sup>) 
+при вычислении аксиальной части адронного матричного элемента.
+</li>
+
+<li>   Лекция № 14 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture14.1_06.12.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture14.2_06.12.2013.mts">часть 2</a>).
+<p>
+Экспериментальное и теоретическое значения g<sub><small>&pi;NN</small></sub> и g<sub><small>1</small></sub>(0). 
+Адронные матричные элементы электромагнитного тока по протону и нейтрону: электромагнитные формфакторы протона и нейтрона, 
+связь этих формфакторов с <i>f</i><sub><small>1</small></sub>(0) и <i>f</i><sub><small>2</small></sub>(0). 
+Способы извлечения V<sub><small>ud</small></sub> : бета-распад протона и ядерные распады (сверхразрешённые распады). Бета-распады гиперонов. 
+Распады с изменением странности, высокая точность SU(3) флейворной симметрии. Нелептонные слабые распады. 
+Распад K<sup>-</sup> &rarr; &pi;<sup>-</sup> + &pi;<sup><small>0</small></sup>. Приближение факторизации. 
+Распад B<sup>-</sup> &rarr; &pi;<sup>-</sup> + &pi;<sup><small>0</small></sup>. Приближение факторизации и поправки по 
+&Lambda;<sub><small>QCD</small></sub>/M<sub><small>b</small></sub>. 
+Получение эффективного лагранжиана для нелептонных распадов. Учёт глюонных поправок в приближении ведущих логарифмов. 
+Операторное смешивание при перенормировке. Мультипликативно перенормируемые комбинации двух операторов эффективного лагранжиана.
+</li>
+
+<li>   Лекция № 15 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture15.1_13.12.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture15.2_13.12.2013.mts">часть 2</a>).
+<p>
+Оценки для нелептонных распадов в приближении факторизации на примере распадов: 
+1) B<sup>-</sup> &rarr; D<sup><small>0</small></sup> + &pi;<sup>-</sup>, 
+2) <span style="text-decoration:overline">B<sup><small>0</small></sup></span> &rarr; D<sup><small>+</small></sup> + &pi;<sup>-</sup>, 
+3) <span style="text-decoration:overline">B<sup><small>0</small></sup></span> &rarr; D<sup><small>0</small></sup> + &pi;<sup><small>0</small></sup>.
+Применение тождеств Фирца в эффективном лагранжиане с операторами 
+O<sub><small>1</small></sub> = <span style="text-decoration:overline">d</span>(1-&gamma;<sub><small>5</small></sub>)&gamma;<sup><small>&mu;</small></sup>u <span style="text-decoration:overline">c</span>(1-&gamma;<sub><small>5</small></sub>)&gamma;<sub><small>&mu;</small></sub>b и 
+O<sub><small>2</small></sub> = <span style="text-decoration:overline">c</span>(1-&gamma;<sub><small>5</small></sub>)&gamma;<sup><small>&mu;</small></sup>u <span style="text-decoration:overline">d</span>(1-&gamma;<sub><small>5</small></sub>)&gamma;<sub><small>&mu;</small></sub>b. 
+Связь ширин нелептонных распадов в приближении факторизации с формфакторами полулептонных распадов. 
+Зависимость полулептонных формфакторов от передачи импульса: полюсное приближение (резонансные вклады). Численные значения для формфакторов.
+</li>
+
+<li>   Лекция № 16 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture16.1_20.12.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture16.2_20.12.2013.mts">часть 2</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture16.3_20.12.2013.mts">часть 3</a>).
+<p>
+Древесные и пингвинные диаграммы. Механизм появления правых кварков в пингвинных операторах. Четырёхфермионные пингвинные операторы. 
+Магнитные пингвинные операторы. Эффективный лагранжиан с пингвинными операторами. Коэффициенты C<sub><small>4</small></sub> и C<sub><small>6</small></sub>. 
+Распад <span style="text-decoration:overline">B<sup><small>0</small></sup></span> &rarr; K<sup>-</sup> + &pi;<sup><small>+</small></sup> "--- 
+анализ древесных и пингвинных вкладов. 
+Электрослабые пингвинные диаграммы (с Z<sup><small>0</small></sup>-бозоном).
+</li>
+
+<li>   Лекция № 17 
+(<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture17.1_27.12.2013.mts">часть 1</a>, 
+<a href="https://office.inp.nsk.su/sites/store/lectures/EW_Lectures_Chernyak_Autumn_2013/EW_Chernyak_Lecture17.2_27.12.2013.mts">часть 2</a>).
+<p>
+CP-нарушение. Параметризация CP-нарушения в матрице CKM: параметры &beta; и &gamma;. 
+Типы CP-нарушения: прямое CP-нарушение и CP-нарушение за счёт смешивания нейтральных мезонов. 
+B<sup><small>0</small></sup>-<span style="text-decoration:overline">B<sup><small>0</small></sup></span> осцилляции во втором порядке теории возмущений: 
+&Delta;F = 2 переходы (изменение флейвора на 2). Прямое CP-нарушение. Распад B<sup>-</sup> &rarr; K<sup>-</sup> + &pi;<sup><small>0</small></sup> и 
+B<sup><small>+</small></sup> &rarr; K<sup><small>+</small></sup> + &pi;<sup><small>0</small></sup>. 
+Трудности описания сильных (CP-чётных) фаз амплитуды. Древесные и пингвинные вклады. Разность парциальных ширин распадов 
+B<sup>-</sup> &rarr; K<sup>-</sup> + &pi;<sup><small>0</small></sup> и 
+B<sup><small>+</small></sup> &rarr; K<sup><small>+</small></sup> + &pi;<sup><small>0</small></sup>. 
+CP-нарушение за счёт смешивания нейтральных мезонов. Массовая матрица для 
+B<sup><small>0</small></sup>-<span style="text-decoration:overline">B<sup><small>0</small></sup></span> смешивания. 
+Матричный элемент M<sub><small>12</small></sub> в приближении факторизации. Разности масс для собственных состояний массовой матрицы. 
+Соотношение унитарности, мнимая часть массовой матрицы, ширины распадов B-мезонов. B-фабрики и определение угла &beta;. Золотая мода. 
+Распад B<sup><small>0</small></sup> &rarr; J/&psi; + K<sub><small>S</small></sub> 
+(<span style="text-decoration:overline">B<sup><small>0</small></sup></span> &rarr; J/&psi; + K<sub><small>S</small></sub>). 
+Малость пингвинных вкладов в золотой моде. Тагирующая мода в распадах B<sup><small>0</small></sup> и 
+<span style="text-decoration:overline">B<sup><small>0</small></sup></span>.
+</li>

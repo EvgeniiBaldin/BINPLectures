@@ -59,6 +59,19 @@ bin. Нужно убедиться, что для него установлен�
 Скрипты moviemake* в корневой директории являются «костылём» для
 запуска процедуры упаковки на кластере.
 
+*** сокращения
+
+ * QCD  QCD_Lectures_Fadin_Spring_2014
+ * QED  QED_Lectures_Fadin_Autumn_2013
+ * SUSY SUSY_Lectures_Chernyak_Autumn_2013
+ * EW   EW_Lectures_Chernyak_Autumn_2013
+ * HEP  HEP_Lectures_Serbo_Autumn_2013
+ * NaCD Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014
+ * GG   Gamma-Gamma_Serbo_Lecture
+ * HEPs Introduction_to_HEP_Seminars_Skovpen
+ * NUC  Nucleus_Dmitriev_Lecture
+ * STR  Strings_Lectures_Pomeransky
+
 *** moviemake
 
 Список лекций перечислен в lectureslist.txt. Формат файла: Номер
