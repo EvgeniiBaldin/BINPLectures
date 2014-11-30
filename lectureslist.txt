@@ -85,6 +85,7 @@
 78 Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014 CHAOS_Zhirov_Lecture08
 79 Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014 CHAOS_Zhirov_Lecture09
 80 NONE NONE
+# GG
 81 Gamma-Gamma_Serbo_Lecture Gamma-Gamma_Serbo_Lecture01
 82 Gamma-Gamma_Serbo_Lecture Gamma-Gamma_Serbo_Lecture02
 83 Gamma-Gamma_Serbo_Lecture Gamma-Gamma_Serbo_Lecture03
@@ -105,6 +106,7 @@
 98 NONE NONE
 99 NONE NONE
 100 NONE NONE
+# HEPs
 101 Introduction_to_HEP_Seminars_Skovpen HEP_Skovpen_Seminar01
 102 Introduction_to_HEP_Seminars_Skovpen HEP_Skovpen_Seminar02
 103 Introduction_to_HEP_Seminars_Skovpen HEP_Skovpen_Seminar03
@@ -125,6 +127,7 @@
 118 NONE NONE
 119 NONE NONE
 120 NONE NONE
+# NUC
 121 Nucleus_Dmitriev_Lecture Nucleus_Dmitriev_Lecture01
 122 Nucleus_Dmitriev_Lecture Nucleus_Dmitriev_Lecture02
 123 Nucleus_Dmitriev_Lecture Nucleus_Dmitriev_Lecture03
@@ -140,6 +143,7 @@
 133 NONE NONE
 134 NONE NONE
 135 NONE NONE
+# STR
 136 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture01
 137 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture02
 138 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture03
