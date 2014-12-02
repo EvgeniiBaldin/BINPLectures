@@ -31,7 +31,7 @@ HEP_Serbo_Lecture06.$(VIDEOEXT): HEP_Serbo_Lecture06-1.png.$(VIDEOEXT) HEP_Serbo
 HEP_Serbo_Lecture07.$(VIDEOEXT): HEP_Serbo_Lecture07-1.png.$(VIDEOEXT) HEP_Serbo_Lecture07-2.png.$(VIDEOEXT) HEP_Serbo_Lecture07.1_18.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture07.2_18.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture07.3_18.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture_afterwords-1.png.$(VIDEOEXT)
 	$(call MERGE,$^,"HEP Serbo V.G. Lecture N 07","NSU 2013")
 
-HEP_Serbo_Lecture08.$(VIDEOEXT): HEP_Serbo_Lecture08-1.png.$(VIDEOEXT) HEP_Serbo_Lecture08-2.png.$(VIDEOEXT) HEP_Serbo_Lecture08.1_25.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture08.2_25.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture_afterwords.png-1.$(VIDEOEXT)
+HEP_Serbo_Lecture08.$(VIDEOEXT): HEP_Serbo_Lecture08-1.png.$(VIDEOEXT) HEP_Serbo_Lecture08-2.png.$(VIDEOEXT) HEP_Serbo_Lecture08.1_25.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture08.2_25.10.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture_afterwords-1.png.$(VIDEOEXT)
 	$(call MERGE,$^,"HEP Serbo V.G. Lecture N 08","NSU 2013")
 
 HEP_Serbo_Lecture09.$(VIDEOEXT): HEP_Serbo_Lecture09-1.png.$(VIDEOEXT) HEP_Serbo_Lecture09-2.png.$(VIDEOEXT) HEP_Serbo_Lecture09.1_01.11.2013.mts.$(VIDEOEXT) HEP_Serbo_Lecture09.2_01.11.2013.mts.$(VIDEOEXT)  HEP_Serbo_Lecture_afterwords-1.png.$(VIDEOEXT)
