@@ -2,8 +2,7 @@
 # only data structure (for including)
 
 #base dir
-$basepath{"1080p"}="/Space/Lectures/1080p-141201";
-$basepath{"src"}="/Space/Lectures/source";
+$torrentpath="/Space/Lectures/torrent";
 
 #tracker list for announce
 @trackerlist=qw{udp://tracker.openbittorrent.com:80
