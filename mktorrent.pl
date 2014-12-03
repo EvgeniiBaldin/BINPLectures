@@ -2,7 +2,8 @@
 require data;
 $bin="transmission-create ";
 
-foreach $item (keys %dir) {
+#foreach $item (keys %dir) {
+foreach $item (qw(GG HEP)) {
 # 720p tracker
   $cmd="cd $torrentpath ; $bin --comment \"$comment720p{$item}\" --outfile $torrentfilename720p{$item} ";
   for ($i=0;$i<=$#trackerlist;$i++) {$cmd.="--tracker $trackerlist[$i] "}
