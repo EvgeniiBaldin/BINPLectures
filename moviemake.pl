@@ -50,7 +50,7 @@ if (!defined $first{$opt_t}||!defined $last{$opt_t}) {
   die "Undefined $opt_t";
 }
 
-$cmd="qsub -pe smp 4 -t $first{$opt_t}-$last{$opt_t} ./moviemake-batch.pl";
+$cmd="qsub -pe smp 8 -t $first{$opt_t}-$last{$opt_t} ./moviemake-batch.pl";
 print "$cmd\n";
 system($cmd);
 
