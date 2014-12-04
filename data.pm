@@ -308,6 +308,55 @@ $dirsrc{HEP} ="HEP_Lectures_Serbo_Autumn_2013_(src)";
 $commentsrc{HEP}="HEP Serbo V.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilenamesrc{HEP}="NSUphyslect-HEP-Serbo-source.torrent";
 
+$category{HEP}="Education";
+$tags{HEP}="Serbo,HEP";
+$number{HEP}=15;
+
+$name{"HEP-1"}="HEP_Serbo_Lecture01";
+$title{"HEP-1"}="HEP Serbo V.G. Lecture N 1";
+$summary{"HEP-1"}="Введение: элементарные частицы и их взаимодействия. Частицы. Взаимодействия. Три поколения лептонов и кварков. Кварки и адроны. Понятие о квантовой теории поля. Квантование электромагнитного поля. Электромагнитное поле как набор осцилляторов.";
+$name{"HEP-2"}="HEP_Serbo_Lecture02";
+$title{"HEP-2"}="HEP Serbo V.G. Lecture N 2";
+$summary{"HEP-2"}="Квантование электромагнитного поля. Рождение и уничтожение квантов поля.";
+$name{"HEP-3"}="HEP_Serbo_Lecture03";
+$title{"HEP-3"}="HEP Serbo V.G. Lecture N 3";
+$summary{"HEP-3"}="Лагранжев подход в теории поля. Уравнения Лагранжа. Симметрия и законы сохранения.";
+$name{"HEP-4"}="HEP_Serbo_Lecture04";
+$title{"HEP-4"}="HEP Serbo V.G. Lecture N 4";
+$summary{"HEP-4"}="Симметрия и законы сохранения (окончание). Действительное скалярное поле.";
+$name{"HEP-5"}="HEP_Serbo_Lecture05";
+$title{"HEP-5"}="HEP Serbo V.G. Lecture N 5";
+$summary{"HEP-5"}="Действительное скалярное поле (окончание). Комплексное скалярное поле. C, P, T-преобразования комплексного скалярного поля.";
+$name{"HEP-6"}="HEP_Serbo_Lecture06";
+$title{"HEP-6"}="HEP Serbo V.G. Lecture N 6";
+$summary{"HEP-6"}="C, P, T-преобразования комплексного скалярного поля (окончание). Спинорное поле Дирака.";
+$name{"HEP-7"}="HEP_Serbo_Lecture07";
+$title{"HEP-7"}="HEP Serbo V.G. Lecture N 7";
+$summary{"HEP-7"}="Спинорное поле Дирака (окончание). Представление взаимодействия. Инвариантная теория возмущений. Амплитуды и вероятности переходов. Амплитуда рассеяния.";
+$name{"HEP-8"}="HEP_Serbo_Lecture08";
+$title{"HEP-8"}="HEP Serbo V.G. Lecture N 8";
+$summary{"HEP-8"}="Ширина распада. Сечение рассеяния. Первый порядок теории возмущений. Взаимодействие g hat{phi}^+ hat{phi} hat{Phi}.";
+$name{"HEP-9"}="HEP_Serbo_Lecture09";
+$title{"HEP-9"}="HEP Serbo V.G. Lecture N 9";
+$summary{"HEP-9"}="Взаимодействие g hat{phi}^+ hat{phi} hat{Phi}. Распад хиггсовского бозона. Квантовая электродинамика (КЭД). Правила для диаграмм Фейнмана.";
+$name{"HEP-10"}="HEP_Serbo_Lecture10";
+$title{"HEP-10"}="HEP Serbo V.G. Lecture N 10";
+$summary{"HEP-10"}="Второй порядок теории возмущений для взаимодействия g hat{phi}^+ hat{phi} hat{Phi}. Переменные Мандельштама. Пропагатор скалярной частицы. Понятие о виртуальных частицах.";
+$name{"HEP-11"}="HEP_Serbo_Lecture11";
+$title{"HEP-11"}="HEP Serbo V.G. Lecture N 11";
+$summary{"HEP-11"}="Понятие о виртуальных частицах (окончание). Процесс pi^0 pi^- → pi^0 pi^- и pi^+ pi^- → pi^0 pi^0. Второй порядок теории возмущений в КЭД.";
+$name{"HEP-12"}="HEP_Serbo_Lecture12";
+$title{"HEP-12"}="HEP Serbo V.G. Lecture N 12";
+$summary{"HEP-12"}="Рассеяние электронов. Фотонный пропагатор. Процесс аннигиляции e^+e^- → mu^+mu^-.";
+$name{"HEP-13"}="HEP_Serbo_Lecture13";
+$title{"HEP-13"}="HEP Serbo V.G. Lecture N 13";
+$summary{"HEP-13"}="Процессы e^+e^- → q bar{q} и e^+e^- → адроны при высоких энергиях. Процесс e mu-рассеяния (e mu → e mu) и перекрёстная симметрия. Процесс gamma e-рассеяния (gamma e → gamma e). Электронный пропагатор.";
+$name{"HEP-14"}="HEP_Serbo_Lecture14";
+$title{"HEP-14"}="HEP Serbo V.G. Lecture N 14";
+$summary{"HEP-14"}="Электронный пропагатор (окончание). Эффект Комптона.";
+$name{"HEP-15"}="HEP_Serbo_Lecture15";
+$title{"HEP-15"}="HEP Serbo V.G. Lecture N 15";
+$summary{"HEP-15"}="Эффект Комптона и его применения. Основные характеристики процессов e^+e^- → gamma gamma и gamma gamma → e^+ e^- при высоких энергиях.";
 
 # Физика элементарных частиц (семинары, доцент Сковпень Ю.И., 2014 г.)
 $dir{HEPs}="Introduction_to_HEP_Seminars_Skovpen";
@@ -389,6 +438,39 @@ $dirsrc{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014_(src)"
 $commentsrc{NaCD}="NaCD Zhirov O.V., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilenamesrc{NaCD}="NSUphyslect-NaCD-Zhirov-source.torrent";
 
+$category{NaCD}="Education";
+$tags{NaCD}="Zhirov,NaCD";
+$number{NaCD}=9;
+
+$name{"NaCD-1"}="CHAOS_Zhirov_Lecture01";
+$title{"NaCD-1"}="NaCD Zhirov O.V. Lecture N 1";
+$summary{"NaCD-1"}="Лекция N 1";
+$name{"NaCD-2"}="CHAOS_Zhirov_Lecture02";
+$title{"NaCD-2"}="NaCD Zhirov O.V. Lecture N 2";
+$summary{"NaCD-2"}="Лекция N 2";
+$name{"NaCD-3"}="CHAOS_Zhirov_Lecture03";
+$title{"NaCD-3"}="NaCD Zhirov O.V. Lecture N 3";
+$summary{"NaCD-3"}="Лекция N 3";
+$name{"NaCD-4"}="CHAOS_Zhirov_Lecture04";
+$title{"NaCD-4"}="NaCD Zhirov O.V. Lecture N 4";
+$summary{"NaCD-4"}="Лекция N 4";
+$name{"NaCD-5"}="CHAOS_Zhirov_Lecture05";
+$title{"NaCD-5"}="NaCD Zhirov O.V. Lecture N 5";
+$summary{"NaCD-5"}="Лекция N 5";
+$name{"NaCD-6"}="CHAOS_Zhirov_Lecture06";
+$title{"NaCD-6"}="NaCD Zhirov O.V. Lecture N 6";
+$summary{"NaCD-6"}="Лекция N 6";
+$name{"NaCD-7"}="CHAOS_Zhirov_Lecture07";
+$title{"NaCD-7"}="NaCD Zhirov O.V. Lecture N 7";
+$summary{"NaCD-7"}="Лекция N 7";
+$name{"NaCD-8"}="CHAOS_Zhirov_Lecture08";
+$title{"NaCD-8"}="NaCD Zhirov O.V. Lecture N 8";
+$summary{"NaCD-8"}="Лекция N 8";
+$name{"NaCD-9"}="CHAOS_Zhirov_Lecture09";
+$title{"NaCD-9"}="NaCD Zhirov O.V. Lecture N 9";
+$summary{"NaCD-9"}="Лекция N 9";
+
+
 # Двухфотонная физика (лекции, профессор Сербо В.Г., 2014 г.)
 $dir{GG}  ="Gamma-Gamma_Serbo_Lecture";
 
@@ -404,6 +486,43 @@ $dirsrc{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014_(src)";
 $commentsrc{GG}="GG Serbo V.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilenamesrc{GG}="NSUphyslect-GG-Serbo-source.torrent";
 
+$category{GG}="Education";
+$tags{GG}="Serbo,Gamma-Gamma";
+$number{GG}=11;
+
+$name{"GG-1"}="Gamma-Gamma_Serbo_Lecture01";
+$title{"GG-1"}="GG Serbo V.G. Lecture N 1";
+$summary{"GG-1"}="Лекция N 1";
+$name{"GG-2"}="Gamma-Gamma_Serbo_Lecture02";
+$title{"GG-2"}="GG Serbo V.G. Lecture N 2";
+$summary{"GG-2"}="Лекция N 2";
+$name{"GG-3"}="Gamma-Gamma_Serbo_Lecture03";
+$title{"GG-3"}="GG Serbo V.G. Lecture N 3";
+$summary{"GG-3"}="Лекция N 3";
+$name{"GG-4"}="Gamma-Gamma_Serbo_Lecture04";
+$title{"GG-4"}="GG Serbo V.G. Lecture N 4";
+$summary{"GG-4"}="Лекция N 4";
+$name{"GG-5"}="Gamma-Gamma_Serbo_Lecture05";
+$title{"GG-5"}="GG Serbo V.G. Lecture N 5";
+$summary{"GG-5"}="Лекция N 5";
+$name{"GG-6"}="Gamma-Gamma_Serbo_Lecture06";
+$title{"GG-6"}="GG Serbo V.G. Lecture N 6";
+$summary{"GG-6"}="Лекция N 6";
+$name{"GG-7"}="Gamma-Gamma_Serbo_Lecture07";
+$title{"GG-7"}="GG Serbo V.G. Lecture N 7";
+$summary{"GG-7"}="Лекция N 7";
+$name{"GG-8"}="Gamma-Gamma_Serbo_Lecture08";
+$title{"GG-8"}="GG Serbo V.G. Lecture N 8";
+$summary{"GG-8"}="Лекция N 8";
+$name{"GG-9"}="Gamma-Gamma_Serbo_Lecture09";
+$title{"GG-9"}="GG Serbo V.G. Lecture N 9";
+$summary{"GG-9"}="Лекция N 9";
+$name{"GG-10"}="Gamma-Gamma_Serbo_Lecture10";
+$title{"GG-10"}="GG Serbo V.G. Lecture N 10";
+$summary{"GG-10"}="Лекция N 10";
+$name{"GG-11"}="Gamma-Gamma_Serbo_Lecture11";
+$title{"GG-11"}="GG Serbo V.G. Lecture N 11";
+$summary{"GG-11"}="Лекция N 11";
 
 # Атомное ядро (лекции, профессор Дмитриев В.Ф., 2014 г.)
 $dir{NUC} ="Nucleus_Dmitriev_Lecture";
@@ -469,3 +588,23 @@ $torrentfilename720p{STR}="NSUphyslect-STR-Pomeransky-720p.torrent";
 $dirsrc{STR} ="Strings_Lectures_Pomeransky_2014_(src)";
 $commentsrc{STR}="STR Pomeransky A.A., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilenamesrc{STR}="NSUphyslect-STR-Pomeransky-source.torrent";
+
+$category{STR}="Education";
+$tags{STR}="Pomeransky,Strings";
+$number{STR}=5;
+
+$name{"STR-1"}="Strings_Pomeransky_Lecture01";
+$title{"STR-1"}="STR Pomeransky V.F. Lecture N 1";
+$summary{"STR-1"}="Лекция N 1";
+$name{"STR-2"}="Strings_Pomeransky_Lecture02";
+$title{"STR-2"}="STR Pomeransky V.F. Lecture N 2";
+$summary{"STR-2"}="Лекция N 2";
+$name{"STR-3"}="Strings_Pomeransky_Lecture03";
+$title{"STR-3"}="STR Pomeransky V.F. Lecture N 3";
+$summary{"STR-3"}="Лекция N 3";
+$name{"STR-4"}="Strings_Pomeransky_Lecture04";
+$title{"STR-4"}="STR Pomeransky V.F. Lecture N 4";
+$summary{"STR-4"}="Лекция N 4";
+$name{"STR-5"}="Strings_Pomeransky_Lecture05";
+$title{"STR-5"}="STR Pomeransky V.F. Lecture N 5";
+$summary{"STR-5"}="Лекция N 5";

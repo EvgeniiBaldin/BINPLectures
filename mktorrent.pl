@@ -3,14 +3,14 @@ require data;
 $bin="transmission-create ";
 
 #foreach $item (keys %dir) {
-foreach $item (qw(GG HEP)) {
+foreach $item (qw(HEP)) {
 # 720p tracker
   $cmd="cd $torrentpath ; $bin --comment \"$comment720p{$item}\" --outfile $torrentfilename720p{$item} ";
   for ($i=0;$i<=$#trackerlist;$i++) {$cmd.="--tracker $trackerlist[$i] "}
   $cmd.="\"$dir720p{$item}\" ";
 
   print "$cmd\n";
-  system($cmd);
+#  system($cmd);
 
 # 1080p tracker
   $cmd="cd $torrentpath ; $bin --comment \"$comment1080p{$item}\" --outfile $torrentfilename1080p{$item} ";
@@ -26,6 +26,6 @@ foreach $item (qw(GG HEP)) {
   $cmd.="\"$dirsrc{$item}\" ";
 
   print "$cmd\n";
-  system($cmd);
+#  system($cmd);
 }
 
