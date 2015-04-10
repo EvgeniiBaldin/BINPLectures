@@ -5,10 +5,17 @@
 $torrentpath="/Space/Lectures/torrent";
 
 #tracker list for announce
-@trackerlist=qw{udp://tracker.openbittorrent.com:80
-                udp://tracker.publicbt.com:80
-                udp://tracker.istole.it:80
-                udp://tracker.ccc.de:80};
+
+@trackerlist=qw{udp://open.demonii.com:1337
+                udp://tracker.coppersurfer.tk:6969
+                udp://tracker.leechers-paradise.org:6969
+		};
+
+#@trackerlist=qw{udp://tracker.openbittorrent.com:80
+#                udp://tracker.publicbt.com:80
+#                udp://tracker.istole.it:80
+#                udp://tracker.ccc.de:80};
+
 
 
 # Теория сильных взаимодействий (лекции, профессор Фадин В.С., 2014 г.)
@@ -359,7 +366,7 @@ $title{"HEP-15"}="HEP Serbo V.G. Lecture N 15";
 $summary{"HEP-15"}="Эффект Комптона и его применения. Основные характеристики процессов e^+e^- → gamma gamma и gamma gamma → e^+ e^- при высоких энергиях.";
 
 # Физика элементарных частиц (семинары, доцент Сковпень Ю.И., 2014 г.)
-$dir{HEPs}="Introduction_to_HEP_Seminars_Skovpen";
+$dir{HEPs}="HEP_Seminars_Skovpen_Autumn_2014";
 $dir1080p{HEPs}="HEP_Seminars_Skovpen_Autumn_2014_(1080p)";
 $comment1080p{HEPs}="HEPs Skovpen Yu.I., NSU Seminars on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilename1080p{HEPs}="NSUphyslect-HEPs-Skovpen-1080p.torrent";
@@ -425,7 +432,6 @@ $summary{"HEPs-15"}="Семинар N 15";
 # Избранные вопросы нелинейной и хаотической динамики. (спецкурс
 # доцента Жирова О.В., 2014 г.)
 $dir{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014";
-
 $dir1080p{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014_(1080p)";
 $comment1080p{NaCD}="NaCD Zhirov O.V., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilename1080p{NaCD}="NSUphyslect-NaCD-Zhirov-1080p.torrent";
@@ -472,8 +478,7 @@ $summary{"NaCD-9"}="Лекция N 9";
 
 
 # Двухфотонная физика (лекции, профессор Сербо В.Г., 2014 г.)
-$dir{GG}  ="Gamma-Gamma_Serbo_Lecture";
-
+$dir{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014";
 $dir1080p{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014_(1080p)";
 $comment1080p{GG}="GG Serbo V.G., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilename1080p{GG}="NSUphyslect-GG-Serbo-1080p.torrent";
@@ -525,7 +530,7 @@ $title{"GG-11"}="GG Serbo V.G. Lecture N 11";
 $summary{"GG-11"}="Лекция N 11";
 
 # Атомное ядро (лекции, профессор Дмитриев В.Ф., 2014 г.)
-$dir{NUC} ="Nucleus_Dmitriev_Lecture";
+$dir{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014";
 
 $dir1080p{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014_(1080p)";
 $comment1080p{NUC}="NUC Dmitriev V.F., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
@@ -576,7 +581,7 @@ $summary{"NUC-10"}="Лекция N 10";
 
 # Экскурсии в теорию струн (спецкурс ст. преп., к.ф.-м.н. Померанского
 # А.А., 2014 г.)
-$dir{STR} ="Strings_Lectures_Pomeransky_Autumn";
+$dir{STR} ="Strings_Lectures_Pomeransky_2014";
 $dir1080p{STR} ="Strings_Lectures_Pomeransky_2014_(1080p)";
 $comment1080p{STR}="STR Pomeransky A.A., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilename1080p{STR}="NSUphyslect-STR-Pomeransky-1080p.torrent";
