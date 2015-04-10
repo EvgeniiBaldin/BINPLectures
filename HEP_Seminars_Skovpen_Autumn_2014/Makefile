@@ -55,6 +55,12 @@ HEP_Skovpen_Seminar14.$(VIDEOEXT): HEP_Skovpen_Seminar14.png.$(VIDEOEXT) Introdu
 HEP_Skovpen_Seminar15.$(VIDEOEXT): HEP_Skovpen_Seminar15.png.$(VIDEOEXT) Introduction_to_HEP_Seminars_Skovpen_15.1-21-11-2014.MTS.$(VIDEOEXT) Introduction_to_HEP_Seminars_Skovpen_15.2-21-11-2014.MTS.$(VIDEOEXT)  HEP_Skovpen_Seminar_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"HEP Skovpen Yu.I. Seminar N 15","NSU 2015")
 
+HEP_Skovpen_Seminar16.$(VIDEOEXT): HEP_Skovpen_Seminar16.png.$(VIDEOEXT) Introduction_to_HEP_Seminars_Skovpen_16.1-27-11-2014.MTS.$(VIDEOEXT) Introduction_to_HEP_Seminars_Skovpen_16.2-27-11-2014.MTS.$(VIDEOEXT)  HEP_Skovpen_Seminar_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"HEP Skovpen Yu.I. Seminar N 16","NSU 2015")
+
+HEP_Skovpen_Seminar17.$(VIDEOEXT): HEP_Skovpen_Seminar17.png.$(VIDEOEXT) Introduction_to_HEP_Seminars_Skovpen_17.1-18-12-2014.MTS.$(VIDEOEXT) Introduction_to_HEP_Seminars_Skovpen_17.2-18-12-2014.MTS.$(VIDEOEXT) HEP_Skovpen_Seminar_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"HEP Skovpen Yu.I. Seminar N 17","NSU 2015")
+
 # Чистка
 clean:
 	rm -f *.*.$(VIDEOEXT)  *~

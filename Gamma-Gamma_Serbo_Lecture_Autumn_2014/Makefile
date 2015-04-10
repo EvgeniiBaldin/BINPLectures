@@ -43,6 +43,27 @@ Gamma-Gamma_Serbo_Lecture10.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture10.png.$(VIDEO
 Gamma-Gamma_Serbo_Lecture11.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture11.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture11.1_13.11.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture11.2_13.11.2014.MTS.$(VIDEOEXT)  Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 11","NSU 2014")
 
+
+Gamma-Gamma_Serbo_Lecture12.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture12.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture12.1_27.11.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture12.2_27.11.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 12","NSU 2014")
+
+
+Gamma-Gamma_Serbo_Lecture13.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture13.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture13.1_04.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture13.2_04.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 13","NSU 2014")
+
+Gamma-Gamma_Serbo_Lecture14.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture14.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture14.1_11.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture14.2_11.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 14","NSU 2014")
+
+Gamma-Gamma_Serbo_Lecture15.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture15.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture15.1_18.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture15.2_18.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture15.3_18.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 15","NSU 2014")
+
+Gamma-Gamma_Serbo_Lecture16.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture16.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture16.1_23.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture16.2_23.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 16","NSU 2014")
+
+Gamma-Gamma_Serbo_Lecture17.$(VIDEOEXT): Gamma-Gamma_Serbo_Lecture17.png.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture17.1_25.12.2014.MTS.$(VIDEOEXT) Gamma-Gamma_Serbo_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Gamma-gamma Serbo V.G. Lecture N 17","NSU 2014")
+
+
 # Чистка
 clean:
 	rm -f *.*.$(VIDEOEXT)  *~
