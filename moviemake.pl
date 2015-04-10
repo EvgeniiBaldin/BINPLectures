@@ -2,20 +2,22 @@
 use Getopt::Std;
 
 getopts("ht:a");
-use vars qw/$opt_h $opt_t $opt_a/;
+use vars qw/$opt_h $opt_c $opt_a $opt_f $opt_t/;
 
 
 if (defined($opt_h)||
-    (!defined($opt_t)&&!defined($opt_a))) {
+    (!defined($opt_c)&&!defined($opt_a))) {
   print "Usage: $0 [-h] [-a || -t ABBR]\n";
   print "Options: -h - help message\n";
   print "Options: -a - convert all lectures\n";
-  print "Options: -t ABBR - convert specific course\n";
+  print "Options: -c ABBR - convert specific course\n";
   print "Options:    ABBR could be ASTRO, QCD(s), QED, SUSY, EW, NaCD, HEP(s), GG, NUC, STR\n";
+  print "Options: -f INT - number of the first videofile (def. 1)\n";
+  print "Options: -t INT - number of the last videofile \n";
   exit();
 }
 
-if (defined $opt_a) {$opt_t="ALL"};
+if (defined $opt_a) {$opt_c="ALL"};
 
 # due to lectureslist.txt
 %first = (
@@ -50,11 +52,15 @@ if (defined $opt_a) {$opt_t="ALL"};
 	  QCDs => 179,
 	);
 
-if (!defined $first{$opt_t}||!defined $last{$opt_t}) {
-  die "Undefined $opt_t";
+if (!defined $first{$opt_c}||!defined $last{$opt_c}) {
+  die "Undefined $opt_c";
 }
 
-$cmd="qsub -pe smp 8 -t $first{$opt_t}-$last{$opt_t} ./moviemake-batch.pl";
+if (defined $opt_f) {$first{$opt_c}=$first{$opt_c}+$opt_f-1};
+if (defined $opt_t) {$last{$opt_c}=$first{$opt_c}+$opt_t-1};
+
+
+$cmd="qsub -pe smp 4 -t $first{$opt_c}-$last{$opt_c} ./moviemake-batch.pl";
 print "$cmd\n";
 system($cmd);
 
