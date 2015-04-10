@@ -190,8 +190,9 @@
 177 QCD_Seminars_Reznichenko_Spring_2015 QCD_Reznichenko_Seminar07
 178 QCD_Seminars_Reznichenko_Spring_2015 QCD_Reznichenko_Seminar08
 179 QCD_Seminars_Reznichenko_Spring_2015 QCD_Reznichenko_Seminar09
-180 NONE NONE
-181 NONE NONE
+180 QCD_Seminars_Reznichenko_Spring_2015 QCD_Reznichenko_Seminar10
+181 QCD_Seminars_Reznichenko_Spring_2015 QCD_Reznichenko_Seminar11
+182 QCD_Seminars_Reznichenko_Spring_2015 QCD_Reznichenko_Seminar12
 182 NONE NONE
 183 NONE NONE
 184 NONE NONE

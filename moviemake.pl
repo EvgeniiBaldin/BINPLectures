@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use Getopt::Std;
 
-getopts("ht:a");
+getopts("ht:c:f:a");
 use vars qw/$opt_h $opt_c $opt_a $opt_f $opt_t/;
 
 
@@ -49,15 +49,15 @@ if (defined $opt_a) {$opt_c="ALL"};
           NUC => 136,
 	  STR => 145,
 	  ASTRO => 154,
-	  QCDs => 179,
+	  QCDs => 182,
 	);
 
 if (!defined $first{$opt_c}||!defined $last{$opt_c}) {
   die "Undefined $opt_c";
 }
 
-if (defined $opt_f) {$first{$opt_c}=$first{$opt_c}+$opt_f-1};
 if (defined $opt_t) {$last{$opt_c}=$first{$opt_c}+$opt_t-1};
+if (defined $opt_f) {$first{$opt_c}=$first{$opt_c}+$opt_f-1};
 
 
 $cmd="qsub -pe smp 4 -t $first{$opt_c}-$last{$opt_c} ./moviemake-batch.pl";
