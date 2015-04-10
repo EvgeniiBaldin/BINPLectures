@@ -11,7 +11,7 @@ if (defined($opt_h)||
   print "Options: -h - help message\n";
   print "Options: -a - convert all lectures\n";
   print "Options: -t ABBR - convert specific course\n";
-  print "Options:    ABBR could be QCD, QED, SUSY, EW, NaCD, HEP(s) GG NUC an STR\n";
+  print "Options:    ABBR could be ASTRO, QCD(s), QED, SUSY, EW, NaCD, HEP(s), GG, NUC, STR\n";
   exit();
 }
 
@@ -29,21 +29,25 @@ if (defined $opt_a) {$opt_t="ALL"};
 	  GG => 81,
 	  HEPs => 101,
           NUC => 121,
-	  STR => 136,
+	  STR => 141,
+	  ASTRO => 151,
+	  QCDs => 171,
 );
 
 %last = (
-	  ALL => 140,
+	  ALL => 190,
 	  QCD => 16,
 	  QED => 31,
 	  SUSY => 38,
 	  EW => 55,
 	  HEP => 70,
 	  NaCD => 79,
-	  GG => 91,
-	  HEPs => 115,
-          NUC => 130,
-	  STR => 140,
+	  GG => 97,
+	  HEPs => 117,
+          NUC => 136,
+	  STR => 145,
+	  ASTRO => 154,
+	  QCDs => 179,
 	);
 
 if (!defined $first{$opt_t}||!defined $last{$opt_t}) {
