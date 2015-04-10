@@ -40,6 +40,24 @@ Nucleus_Dmitriev_Lecture09.$(VIDEOEXT): Nucleus_Dmitriev_Lecture09.png.$(VIDEOEX
 Nucleus_Dmitriev_Lecture10.$(VIDEOEXT): Nucleus_Dmitriev_Lecture10.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture10.1-06-11-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture10.2-06-11-2014.MTS.$(VIDEOEXT)  Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 10","NSU 2014")
 
+Nucleus_Dmitriev_Lecture11.$(VIDEOEXT): Nucleus_Dmitriev_Lecture11.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture11.1-05-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture11.2-05-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 11","NSU 2014")
+
+Nucleus_Dmitriev_Lecture12.$(VIDEOEXT): Nucleus_Dmitriev_Lecture12.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture12.1-05-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture12.2-05-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture12.3-05-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 12","NSU 2014")
+
+Nucleus_Dmitriev_Lecture13.$(VIDEOEXT): Nucleus_Dmitriev_Lecture13.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture13.1-11-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture13.2-11-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 13","NSU 2014")
+
+Nucleus_Dmitriev_Lecture14.$(VIDEOEXT): Nucleus_Dmitriev_Lecture14.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture14.1-12-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture14.2-12-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 14","NSU 2014")
+
+Nucleus_Dmitriev_Lecture15.$(VIDEOEXT): Nucleus_Dmitriev_Lecture15.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture15.1-18-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture15.2-18-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 15","NSU 2014")
+
+Nucleus_Dmitriev_Lecture16.$(VIDEOEXT): Nucleus_Dmitriev_Lecture16.png.$(VIDEOEXT) Nucleus_Dmitriev_Lecture16.1-25-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture16.2-25-12-2014.MTS.$(VIDEOEXT) Nucleus_Dmitriev_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Nuclear physics Dmitriev V.F. Lecture N 16","NSU 2014")
+
 # Чистка
 clean:
 	rm -f *.*.$(VIDEOEXT)  *~
