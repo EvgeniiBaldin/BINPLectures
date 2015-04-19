@@ -138,7 +138,22 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
 
 Первый раз производится авторизация, затем закачка происходит
 автоматически. Совершенно непонятно как выбирается канал для закачки.
-** TODO
+
+Понятно — случайным образом, точнее googlecl заброшен и не знает что
+такое каналы, привязанные к google-pages+ (возможно опять что-то
+«улучшили и система поломалась»).
+
+Для указания канала нужно добавить --user=lekcii-po-teore-5099
+(страничка google+ -- в неё нужно зайти) и для того, чтобы
+аутентификация прошла нужно, поправить исходник
+/usr/lib/python2.7/dist-packages/googlecl/authentication.py , а именно
+заменить в одном месте gmail.com на pages.plusgoogle.com примерно так:
+
+    if given_account.find('@') == -1:
+#      given_account += '@gmail.com'
+      given_account += '@pages.plusgoogle.com'
+
+** TODO [2/12]
  * [X] Переименовать директории следуя именованию директорий в torrent
  * [ ] Сделать глобальную автоматическую чистку от промежуточных файлов.
  * [ ] Разделить сборку и файлы.
@@ -151,6 +166,10 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
  * [ ] Выложить исходники на git, а видеофайлы прикрутить туда через
    git-lfs. Стартовать отсюда:
    http://www.opennet.ru/opennews/art.shtml?num=42003
+ * [ ] разобраться с git-annex
+ * [ ] Приглядеться к git-lab
+   https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/
+   https://about.gitlab.com/2015/04/08/gitlab-dot-com-storage-limit-raised-to-10gb-per-repo/
  * [ ] Выложить ссылки на rutracker
 *** magnet links
 http://www.opennet.ru/opennews/art.shtml?num=41258#69
@@ -187,7 +206,6 @@ magnet:?xt=urn:btih:364d7ee5bccf6decce765a497a141e4eb80d24c1&dn=QCD%5FLectures%5
 или даже
 
 magnet:?xt=urn:btih:364d7ee5bccf6decce765a497a141e4eb80d24c1
-
 
 ** Обратная связь
 

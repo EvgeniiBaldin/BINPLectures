@@ -60,7 +60,7 @@ if (defined $opt_t) {$last{$opt_c}=$first{$opt_c}+$opt_t-1};
 if (defined $opt_f) {$first{$opt_c}=$first{$opt_c}+$opt_f-1};
 
 
-$cmd="qsub -pe smp 4 -t $first{$opt_c}-$last{$opt_c} ./moviemake-batch.pl";
+$cmd="qsub -pe smp 2 -t $first{$opt_c}-$last{$opt_c} ./moviemake-batch.pl";
 print "$cmd\n";
 system($cmd);
 

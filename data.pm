@@ -18,6 +18,7 @@ $torrentpath="/Space/Lectures/torrent";
 
 
 
+
 # Теория сильных взаимодействий (лекции, профессор Фадин В.С., 2014 г.)
 $dir{QCD} ="QCD_Lectures_Fadin_Spring_2014";
 $dir1080p{QCD} ="QCD_Lectures_Fadin_Spring_2014_(1080p)";
@@ -85,6 +86,52 @@ $summary{"QCD-15"}="Функциональные интегралы в кван�
 $name{"QCD-16"}="QCD_Fadin_Lecture16";
 $title{"QCD-16"}="QCD Fadin V.S. Lecture N 16";
 $summary{"QCD-16"}="Духи Фаддеева-Попова. Калибровочная инвариантность действия. Групповая мера для калибровочной группы. Инфинитезимальные калибровочные преобразования. Проблемы канонического квантования. Фиксация калибровки в функциональном пространстве, det[M]. Калибровочная инвариантность детерминанта. Факторизация бесконечной меры в функциональном интеграле. Введение духовых полей для представления det[M]. Член, фиксирующий калибровку. Духи в КЭД. Духов член в лагранжиане для калибровки Лоренца.";
+
+# Теория сильных взаимодействий (семинар, Резниченко А.В., 2015 г.)
+$dir{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015";
+$dir1080p{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015_(1080p)";
+$comment1080p{QCDs}="QCD Reznichenko A.V., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{QCDs}="NSUphyslect-QCDs-Reznichenko-1080p.torrent";
+
+$dir720p{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015_(720p)";
+$comment720p{QCDs}="QCD Reznichenko A.V., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{QCDs}="NSUphyslect-QCDs-Reznichenko-720p.torrent";
+
+$dirsrc{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015_(src)";
+$commentsrc{QCDs}="QCD Reznichenko A.V., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{QCDs}="NSUphyslect-QCDs-Reznichenko-source.torrent";
+
+$category{QCDs}="Education";
+$tags{QCDs}="Reznichenko,QCD";
+$number{QCDs}=9;
+
+$name{"QCDs-1"}="QCD_Reznichenko_Seminar01";
+$title{"QCDs-1"}="QCD Reznichenko A.V. Seminar N 1";
+$summary{"QCDs-1"}="Семинар N 1";
+$name{"QCDs-2"}="QCD_Reznichenko_Seminar02";
+$title{"QCDs-2"}="QCD Reznichenko A.V. Seminar N 2";
+$summary{"QCDs-2"}="Семинар N 2";
+$name{"QCDs-3"}="QCD_Reznichenko_Seminar03";
+$title{"QCDs-3"}="QCD Reznichenko A.V. Seminar N 3";
+$summary{"QCDs-3"}="Семинар N 3";
+$name{"QCDs-4"}="QCD_Reznichenko_Seminar04";
+$title{"QCDs-4"}="QCD Reznichenko A.V. Seminar N 4";
+$summary{"QCDs-4"}="Семинар N 4";
+$name{"QCDs-5"}="QCD_Reznichenko_Seminar05";
+$title{"QCDs-5"}="QCD Reznichenko A.V. Seminar N 5";
+$summary{"QCDs-5"}="Семинар N 5";
+$name{"QCDs-6"}="QCD_Reznichenko_Seminar06";
+$title{"QCDs-6"}="QCD Reznichenko A.V. Seminar N 6";
+$summary{"QCDs-6"}="Семинар N 6";
+$name{"QCDs-7"}="QCD_Reznichenko_Seminar07";
+$title{"QCDs-7"}="QCD Reznichenko A.V. Seminar N 7";
+$summary{"QCDs-7"}="Семинар N 7";
+$name{"QCDs-8"}="QCD_Reznichenko_Seminar08";
+$title{"QCDs-8"}="QCD Reznichenko A.V. Seminar N 8";
+$summary{"QCDs-8"}="Семинар N 8";
+$name{"QCDs-9"}="QCD_Reznichenko_Seminar09";
+$title{"QCDs-9"}="QCD Reznichenko A.V. Seminar N 9";
+$summary{"QCDs-9"}="Семинар N 9";
 
 
 # Квантовая электродинамика (лекции, профессор Фадин В.С., 2013 г.)
@@ -381,7 +428,7 @@ $torrentfilenamesrc{HEPs}="NSUphyslect-HEPs-Skovpen-source.torrent";
 
 $category{HEPs}="Education";
 $tags{HEPs}="Skovpen,HEP";
-$number{HEPs}=15;
+$number{HEPs}=17;
 
 $name{"HEPs-1"}="HEP_Skovpen_Seminar01";
 $title{"HEPs-1"}="HEP Skovpen Yu.I. Seminar N 1";
@@ -428,6 +475,12 @@ $summary{"HEPs-14"}="Семинар N 14";
 $name{"HEPs-15"}="HEP_Skovpen_Seminar15";
 $title{"HEPs-15"}="HEP Skovpen Yu.I. Seminar N 15";
 $summary{"HEPs-15"}="Семинар N 15";
+$name{"HEPs-16"}="HEP_Skovpen_Seminar16";
+$title{"HEPs-16"}="HEP Skovpen Yu.I. Seminar N 16";
+$summary{"HEPs-16"}="Семинар N 16";
+$name{"HEPs-17"}="HEP_Skovpen_Seminar17";
+$title{"HEPs-17"}="HEP Skovpen Yu.I. Seminar N 17";
+$summary{"HEPs-17"}="Семинар N 17";
 
 # Избранные вопросы нелинейной и хаотической динамики. (спецкурс
 # доцента Жирова О.В., 2014 г.)
@@ -493,7 +546,7 @@ $torrentfilenamesrc{GG}="NSUphyslect-GG-Serbo-source.torrent";
 
 $category{GG}="Education";
 $tags{GG}="Serbo,Gamma-Gamma";
-$number{GG}=11;
+$number{GG}=17;
 
 $name{"GG-1"}="Gamma-Gamma_Serbo_Lecture01";
 $title{"GG-1"}="GG Serbo V.G. Lecture N 1";
@@ -528,6 +581,24 @@ $summary{"GG-10"}="Лекция N 10";
 $name{"GG-11"}="Gamma-Gamma_Serbo_Lecture11";
 $title{"GG-11"}="GG Serbo V.G. Lecture N 11";
 $summary{"GG-11"}="Лекция N 11";
+$name{"GG-12"}="Gamma-Gamma_Serbo_Lecture12";
+$title{"GG-12"}="GG Serbo V.G. Lecture N 12";
+$summary{"GG-12"}="Лекция N 12";
+$name{"GG-13"}="Gamma-Gamma_Serbo_Lecture13";
+$title{"GG-13"}="GG Serbo V.G. Lecture N 13";
+$summary{"GG-13"}="Лекция N 13";
+$name{"GG-14"}="Gamma-Gamma_Serbo_Lecture14";
+$title{"GG-14"}="GG Serbo V.G. Lecture N 14";
+$summary{"GG-14"}="Лекция N 14";
+$name{"GG-15"}="Gamma-Gamma_Serbo_Lecture15";
+$title{"GG-15"}="GG Serbo V.G. Lecture N 15";
+$summary{"GG-15"}="Лекция N 15";
+$name{"GG-16"}="Gamma-Gamma_Serbo_Lecture16";
+$title{"GG-16"}="GG Serbo V.G. Lecture N 16";
+$summary{"GG-16"}="Лекция N 16";
+$name{"GG-17"}="Gamma-Gamma_Serbo_Lecture17";
+$title{"GG-17"}="GG Serbo V.G. Lecture N 17";
+$summary{"GG-17"}="Лекция N 17";
 
 # Атомное ядро (лекции, профессор Дмитриев В.Ф., 2014 г.)
 $dir{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014";
@@ -546,7 +617,7 @@ $torrentfilenamesrc{NUC}="NSUphyslect-NUC-Dmitriev-source.torrent";
 
 $category{NUC}="Education";
 $tags{NUC}="Dmitriev,Nucleus";
-$number{NUC}=10;
+$number{NUC}=16;
 
 $name{"NUC-1"}="Nucleus_Dmitriev_Lecture01";
 $title{"NUC-1"}="NUC Dmitriev V.F. Lecture N 1";
@@ -578,6 +649,24 @@ $summary{"NUC-9"}="Лекция N 9";
 $name{"NUC-10"}="Nucleus_Dmitriev_Lecture10";
 $title{"NUC-10"}="NUC Dmitriev V.F. Lecture N 10";
 $summary{"NUC-10"}="Лекция N 10";
+$name{"NUC-11"}="Nucleus_Dmitriev_Lecture11";
+$title{"NUC-11"}="NUC Dmitriev V.F. Lecture N 11";
+$summary{"NUC-11"}="Лекция N 11";
+$name{"NUC-12"}="Nucleus_Dmitriev_Lecture12";
+$title{"NUC-12"}="NUC Dmitriev V.F. Lecture N 12";
+$summary{"NUC-12"}="Лекция N 12";
+$name{"NUC-13"}="Nucleus_Dmitriev_Lecture13";
+$title{"NUC-13"}="NUC Dmitriev V.F. Lecture N 13";
+$summary{"NUC-13"}="Лекция N 13";
+$name{"NUC-14"}="Nucleus_Dmitriev_Lecture14";
+$title{"NUC-14"}="NUC Dmitriev V.F. Lecture N 14";
+$summary{"NUC-14"}="Лекция N 14";
+$name{"NUC-15"}="Nucleus_Dmitriev_Lecture15";
+$title{"NUC-15"}="NUC Dmitriev V.F. Lecture N 15";
+$summary{"NUC-15"}="Лекция N 15";
+$name{"NUC-16"}="Nucleus_Dmitriev_Lecture16";
+$title{"NUC-16"}="NUC Dmitriev V.F. Lecture N 16";
+$summary{"NUC-16"}="Лекция N 16";
 
 # Экскурсии в теорию струн (спецкурс ст. преп., к.ф.-м.н. Померанского
 # А.А., 2014 г.)
@@ -613,3 +702,35 @@ $summary{"STR-4"}="Лекция N 4";
 $name{"STR-5"}="Strings_Pomeransky_Lecture05";
 $title{"STR-5"}="STR Pomeransky V.F. Lecture N 5";
 $summary{"STR-5"}="Лекция N 5";
+
+
+# Лекции по космологии (лекции, Долгов А.Д., 2015 г.)
+$dir{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015";
+$dir1080p{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015_(1080p)";
+$comment1080p{ASTRO}="AstroPh Dologov A.D., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{ASTRO}="NSUphyslect-ASTRO-Dolgov-1080p.torrent";
+
+$dir720p{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015_(720p)";
+$comment720p{ASTRO}="AstroPh Dologov A.D., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{ASTRO}="NSUphyslect-ASTRO-Dolgov-720p.torrent";
+
+$dirsrc{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015_(src)";
+$commentsrc{ASTRO}="AstroPh Dologov A.D., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{ASTRO}="NSUphyslect-ASTRO-Dolgov-source.torrent";
+
+$category{ASTRO}="Education";
+$tags{ASTRO}="Dolgov,AstroPh";
+$number{ASTRO}=4;
+
+$name{"ASTRO-1"}="AstroPh_Dolgov_Lecture01";
+$title{"ASTRO-1"}="AstroPh Dologov A.D. Lecture N 1";
+$summary{"ASTRO-1"}="Лекция N 1";
+$name{"ASTRO-2"}="AstroPh_Dolgov_Lecture02";
+$title{"ASTRO-2"}="AstroPh Dologov A.D. Lecture N 2";
+$summary{"ASTRO-2"}="Лекция N 2";
+$name{"ASTRO-3"}="AstroPh_Dolgov_Lecture03";
+$title{"ASTRO-3"}="AstroPh Dologov A.D. Lecture N 3";
+$summary{"ASTRO-3"}="Лекция N 3";
+$name{"ASTRO-4"}="AstroPh_Dolgov_Lecture04";
+$title{"ASTRO-4"}="AstroPh Dologov A.D. Lecture N 4";
+$summary{"ASTRO-4"}="Лекция N 4";
