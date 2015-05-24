@@ -14,13 +14,13 @@ Grozin_3Loop_Cusp_Anomalous_dimension_in_QCD.$(VIDEOEXT): Grozin_3Loop_Cusp_Anom
 	$(call MERGE,$^,"Grozin A.G., Three-loop cusp anomalous dimension in QCD","BINP 2015")
 
 Morokuma_Tominaga_Rapid_Transient_Phenomena_Discovered_in_Wide_Field_Surveys.$(VIDEOEXT): Morokuma_Tominaga_Rapid_Transient_Phenomena_Discovered_in_Wide_Field_Surveys.png.$(VIDEOEXT) Morokuma_Tominaga_Rapid_Transient_Phenomena_Discovered_in_Wide_Field_Surveys1-11.03.15.MTS.$(VIDEOEXT) Morokuma_Tominaga_Rapid_Transient_Phenomena_Discovered_in_Wide_Field_Surveys2-11.03.15.MTS.$(VIDEOEXT) Morokuma_Tominaga_Rapid_Transient_Phenomena_Discovered_in_Wide_Field_Surveys_afterwords.png.$(VIDEOEXT)
-	$(call MERGE,$^,"Tomoki Morokuma (University of Tokyo), Nozomu Tominaga (Konan University), Rapid Transient Phenomena Discovered in Wide-Field Surveys","BINP 2015")
+	$(call MERGE,$^,"Tomoki Morokuma, Nozomu Tominaga, Rapid Transient Phenomena Discovered in Wide-Field Surveys","BINP 2015")
 
 Lee_Reducing_differential_equations_for_master_integrals_to_canonical_form.$(VIDEOEXT): Lee_Reducing_differential_equations_for_master_integrals_to_canonical_form.png.$(VIDEOEXT) Lee_Reducing_differential_equations_for_master_integrals_to_canonical_form_1_5.3.15.MTS.$(VIDEOEXT) Lee_Reducing_differential_equations_for_master_integrals_to_canonical_form_2_5.3.15.MTS.$(VIDEOEXT) Lee_Reducing_differential_equations_for_master_integrals_to_canonical_form_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Roman N. Lee, Reducing differential equations for master integrals to canonical form","BINP 2015")
 
 Shepelyansky_Google_Matrix_of_World_Trade_Network.$(VIDEOEXT): Shepelyansky_Google_Matrix_of_World_Trade_Network.png.$(VIDEOEXT) Shepelyansky_Google_Matrix_of_World_Trade_Network_1_18-12-14.MTS.$(VIDEOEXT) Shepelyansky_Google_Matrix_of_World_Trade_Network_2_18-12-14.MTS.$(VIDEOEXT) Shepelyansky_Google_Matrix_of_World_Trade_Network_3_18-12-14.MTS.$(VIDEOEXT) Shepelyansky_Google_Matrix_of_World_Trade_Network_afterwords.png.$(VIDEOEXT)
-	$(call MERGE,$^,"Dima Shepelyansky (CNRS, Toulouse), Google matrix of world trade nerwork","BINP 2014")
+	$(call MERGE,$^,"Dima Shepelyansky, Google matrix of world trade nerwork","BINP 2014")
 
 
 Dolgov_Problems_of_Cosmology_and_Particle_Physics01.$(VIDEOEXT): Dolgov_Problems_of_Cosmology_and_Particle_Physics01.png.$(VIDEOEXT) Dolgov_Problems_of_Cosmology_and_Particle_Physics1.1_9.12.14.MTS.$(VIDEOEXT) Dolgov_Problems_of_Cosmology_and_Particle_Physics1.2_9.12.14.MTS.$(VIDEOEXT) Dolgov_Problems_of_Cosmology_and_Particle_Physics1.3_9.12.14.MTS.$(VIDEOEXT) Dolgov_Problems_of_Cosmology_and_Particle_Physics_afterwords.png.$(VIDEOEXT)
