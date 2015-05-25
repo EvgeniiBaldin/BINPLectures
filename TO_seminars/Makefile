@@ -38,7 +38,7 @@ Blinnikov_Supernova_HighLum.$(VIDEOEXT): Blinnikov_Supernova_HighLum.png.$(VIDEO
 	$(call MERGE,$^,"Sergey Blinnikov Supernova HighLum","BINP 2014")
 
 
-Glazyrin_Combustion_physics_in_1a_supernovas.$(VIDEOEXT): Glazyrin_Combustion_physics_in_1a_supernovas.png.$(VIDEOEXT) TO_Seminar_Glazyrin_Combustion_physics_in_1a_supernovas-1_2.12.2014.mts.$(VIDEOEXT) TO_Seminar_Glazyrin_Combustion_physics_in_1a_supernovas-2_2.12.2014.mts.$(VIDEOEXT) .$(VIDEOEXT) Glazyrin_Combustion_physics_in_1a_supernovas_afterwords.png.$(VIDEOEXT)
+Glazyrin_Combustion_physics_in_1a_supernovas.$(VIDEOEXT): Glazyrin_Combustion_physics_in_1a_supernovas.png.$(VIDEOEXT) TO_Seminar_Glazyrin_Combustion_physics_in_1a_supernovas-1_2.12.2014.mts.$(VIDEOEXT) TO_Seminar_Glazyrin_Combustion_physics_in_1a_supernovas-2_2.12.2014.mts.$(VIDEOEXT) Glazyrin_Combustion_physics_in_1a_supernovas_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Semen Glazyrin, Combustion physics in 1a supernovas","BINP 2014")
 
 Yudin_AsroPhStars01.$(VIDEOEXT): Yudin_AsroPhStars01.png.$(VIDEOEXT) TO_Seminar_Judin_01.1_26-11-2014.MTS.$(VIDEOEXT) TO_Seminar_Judin_01.2_26-11-2014.MTS.$(VIDEOEXT) TO_Seminar_Judin_01.3_26-11-2014.MTS.$(VIDEOEXT) Yudin_AsroPhStars_afterwords.png.$(VIDEOEXT)

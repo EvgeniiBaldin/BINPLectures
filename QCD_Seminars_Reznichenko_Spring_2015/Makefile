@@ -51,7 +51,7 @@ QCD_Reznichenko_Seminar12.$(VIDEOEXT): QCD_Reznichenko_Seminar12.png.$(VIDEOEXT)
 QCD_Reznichenko_Seminar13.$(VIDEOEXT): QCD_Reznichenko_Seminar13.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_13.1-27.04.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_13.2-27.04.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_13.3-27.04.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"QCD Reznichenko A.V. Seminar N 13","NSU 2015")
 
-QCD_Reznichenko_Seminar14.$(VIDEOEXT): QCD_Reznichenko_Seminar14.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_14.1-28.04.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_14.2-28.04.15.MTS.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
+QCD_Reznichenko_Seminar14.$(VIDEOEXT): QCD_Reznichenko_Seminar14.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_14.1-28.04.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_14.2-28.04.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"QCD Reznichenko A.V. Seminar N 14","NSU 2015")
 
 QCD_Reznichenko_Seminar15.$(VIDEOEXT): QCD_Reznichenko_Seminar15.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_15.1-05.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_15.2-05.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_15.3-05.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
