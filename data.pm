@@ -103,7 +103,7 @@ $torrentfilenamesrc{QCDs}="NSUphyslect-QCDs-Reznichenko-source.torrent";
 
 $category{QCDs}="Education";
 $tags{QCDs}="Reznichenko,QCD";
-$number{QCDs}=9;
+$number{QCDs}=20;
 
 $name{"QCDs-1"}="QCD_Reznichenko_Seminar01";
 $title{"QCDs-1"}="QCD Reznichenko A.V. Seminar N 1";
@@ -132,6 +132,40 @@ $summary{"QCDs-8"}="Семинар N 8";
 $name{"QCDs-9"}="QCD_Reznichenko_Seminar09";
 $title{"QCDs-9"}="QCD Reznichenko A.V. Seminar N 9";
 $summary{"QCDs-9"}="Семинар N 9";
+$name{"QCDs-10"}="QCD_Reznichenko_Seminar10";
+$title{"QCDs-10"}="QCD Reznichenko A.V. Seminar N 10";
+$summary{"QCDs-10"}="Семинар N 10";
+$name{"QCDs-11"}="QCD_Reznichenko_Seminar11";
+$title{"QCDs-11"}="QCD Reznichenko A.V. Seminar N 11";
+$summary{"QCDs-11"}="Семинар N 11";
+$name{"QCDs-12"}="QCD_Reznichenko_Seminar12";
+$title{"QCDs-12"}="QCD Reznichenko A.V. Seminar N 12";
+$summary{"QCDs-12"}="Семинар N 12";
+$name{"QCDs-13"}="QCD_Reznichenko_Seminar13";
+$title{"QCDs-13"}="QCD Reznichenko A.V. Seminar N 13";
+$summary{"QCDs-13"}="Семинар N 13";
+$name{"QCDs-14"}="QCD_Reznichenko_Seminar14";
+$title{"QCDs-14"}="QCD Reznichenko A.V. Seminar N 14";
+$summary{"QCDs-14"}="Семинар N 14";
+$name{"QCDs-15"}="QCD_Reznichenko_Seminar15";
+$title{"QCDs-15"}="QCD Reznichenko A.V. Seminar N 15";
+$summary{"QCDs-15"}="Семинар N 15";
+$name{"QCDs-16"}="QCD_Reznichenko_Seminar16";
+$title{"QCDs-16"}="QCD Reznichenko A.V. Seminar N 16";
+$summary{"QCDs-16"}="Семинар N 16";
+$name{"QCDs-17"}="QCD_Reznichenko_Seminar17";
+$title{"QCDs-17"}="QCD Reznichenko A.V. Seminar N 17";
+$summary{"QCDs-17"}="Семинар N 17";
+$name{"QCDs-18"}="QCD_Reznichenko_Seminar18";
+$title{"QCDs-18"}="QCD Reznichenko A.V. Seminar N 18";
+$summary{"QCDs-18"}="Семинар N 18";
+$name{"QCDs-19"}="QCD_Reznichenko_Seminar19";
+$title{"QCDs-19"}="QCD Reznichenko A.V. Seminar N 19";
+$summary{"QCDs-19"}="Семинар N 19";
+$name{"QCDs-20"}="QCD_Reznichenko_Seminar20";
+$title{"QCDs-20"}="QCD Reznichenko A.V. Seminar N 20";
+$summary{"QCDs-20"}="Семинар N 20";
+
 
 
 # Квантовая электродинамика (лекции, профессор Фадин В.С., 2013 г.)
@@ -734,3 +768,34 @@ $summary{"ASTRO-3"}="Лекция N 3";
 $name{"ASTRO-4"}="AstroPh_Dolgov_Lecture04";
 $title{"ASTRO-4"}="AstroPh Dologov A.D. Lecture N 4";
 $summary{"ASTRO-4"}="Лекция N 4";
+
+# Лекции по космологии (лекции, Долгов А.Д., 2015 г.)
+$dir{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015";
+$dir1080p{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015_(1080p)";
+$comment1080p{ANTAR}="Astrophysics in Antarctica, David Besson, NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{ANTAR}="NSUphyslect-ANTAR-Besson-1080p.torrent";
+
+$dir720p{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015_(720p)";
+$comment720p{ANTAR}="AstroPh Dologov A.D., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{ANTAR}="NSUphyslect-ANTAR-Besson-720p.torrent";
+
+$dirsrc{ANTAR} ="AstroPh_Lectures_Dolgov_Spring_2015_(src)";
+$commentsrc{ANTAR}="AstroPh Dologov A.D., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{ANTAR}="NSUphyslect-ANTAR-Dolgov-source.torrent";
+
+$category{ANTAR}="Education";
+$tags{ANTAR}="Dolgov,AstroPh";
+$number{ANTAR}=4;
+
+$name{"ANTAR-1"}="AstroPh_Dolgov_Lecture01";
+$title{"ANTAR-1"}="AstroPh Dologov A.D. Lecture N 1";
+$summary{"ANTAR-1"}="Лекция N 1";
+$name{"ANTAR-2"}="AstroPh_Dolgov_Lecture02";
+$title{"ANTAR-2"}="AstroPh Dologov A.D. Lecture N 2";
+$summary{"ANTAR-2"}="Лекция N 2";
+$name{"ANTAR-3"}="AstroPh_Dolgov_Lecture03";
+$title{"ANTAR-3"}="AstroPh Dologov A.D. Lecture N 3";
+$summary{"ANTAR-3"}="Лекция N 3";
+$name{"ANTAR-4"}="AstroPh_Dolgov_Lecture04";
+$title{"ANTAR-4"}="AstroPh Dologov A.D. Lecture N 4";
+$summary{"ANTAR-4"}="Лекция N 4";

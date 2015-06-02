@@ -72,6 +72,17 @@ QCD_Reznichenko_Seminar19.$(VIDEOEXT): QCD_Reznichenko_Seminar19.png.$(VIDEOEXT)
 QCD_Reznichenko_Seminar20.$(VIDEOEXT): QCD_Reznichenko_Seminar20.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_20.1-22.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_20.2-22.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_20.3-22.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_20.4-22.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"QCD Reznichenko A.V. Seminar N 20","NSU 2015")
 
+
+QCD_Reznichenko_Seminar21.$(VIDEOEXT): QCD_Reznichenko_Seminar21.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_21.1-26.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_21.2-26.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_21.3-26.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"QCD Reznichenko A.V. Seminar N 21","NSU 2015")
+
+
+QCD_Reznichenko_Seminar22.$(VIDEOEXT): QCD_Reznichenko_Seminar22.png.$(VIDEOEXT) QCD_Reznichenko_Seminar_22.1-29.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_22.2-29.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_22.3-29.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_22.4-29.05.15.MTS.$(VIDEOEXT) QCD_Reznichenko_Seminar_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"QCD Reznichenko A.V. Seminar N 22","NSU 2015")
+
+
+
+
 # Чистка
 clean:
 	rm -f *.*.$(VIDEOEXT)  *~

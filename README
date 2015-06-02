@@ -166,6 +166,8 @@ License CC-BY-SA" --outfile NSUphyslect1080p-140613.torrent --tracker
 udp://tracker.publicbt.com:80, но с ним что-то случилось.
 
 ** Закачка на YouTube
+Через интерфейс google. Закачка из командной строки дала дуба.
+
 Закачка производится через скрипт sendtoyoutube.pl 
 
 Первый раз производится авторизация, затем закачка происходит
