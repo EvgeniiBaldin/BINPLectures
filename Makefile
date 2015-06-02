@@ -7,6 +7,10 @@ include rules.mk
 
 all:
 	@echo "run: make src"
+	@echo "run: make exec"
+
+exec: 
+	@chmod +x *.pl 
 
 
 src:
