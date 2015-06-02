@@ -34,7 +34,7 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  STR => 141,
 	  ASTRO => 151,
 	  QCDs => 171,
-	  TO => 191,
+	  TO => 201,
 	  ANTAR => 241,
 );
 
@@ -51,8 +51,8 @@ if (defined $opt_a) {$opt_c="ALL"};
           NUC => 136,
 	  STR => 145,
 	  ASTRO => 154,
-	  QCDs => 190,
-	  TO => 206,
+	  QCDs => 192,
+	  TO => 215,
 	  ANTAR => 245,
 	);
 
