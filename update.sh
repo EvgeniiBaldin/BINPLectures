@@ -1,6 +1,6 @@
-./moviemake.pl -c QCDs -f 21 -t 22
+#./moviemake.pl -c QCDs -f 21 -t 22
 #./moviemake.pl -c TO
-#./moviemake.pl -c ANTAR
+./moviemake.pl -c ANTAR
 
 
 #./moviemake.pl -c ASTRO
