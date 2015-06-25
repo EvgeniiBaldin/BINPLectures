@@ -2,7 +2,7 @@
 # only data structure (for including)
 
 #base dir
-$torrentpath="/Space/Lectures/torrent";
+$torrentpath="/Space1/Lectures/torrent";
 
 #tracker list for announce
 
@@ -23,15 +23,15 @@ $torrentpath="/Space/Lectures/torrent";
 $dir{QCD} ="QCD_Lectures_Fadin_Spring_2014";
 $dir1080p{QCD} ="QCD_Lectures_Fadin_Spring_2014_(1080p)";
 $comment1080p{QCD}="QCD Fadin V.S., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{QCD}="NSUphyslect-QCD-Fadin-1080p.torrent";
+$torrentfilename1080p{QCD}="NSUphyslect-QCD-Fadin-1080p";
 
 $dir720p{QCD} ="QCD_Lectures_Fadin_Spring_2014_(720p)";
 $comment720p{QCD}="QCD Fadin V.S., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{QCD}="NSUphyslect-QCD-Fadin-720p.torrent";
+$torrentfilename720p{QCD}="NSUphyslect-QCD-Fadin-720p";
 
 $dirsrc{QCD} ="QCD_Lectures_Fadin_Spring_2014_(src)";
 $commentsrc{QCD}="QCD Fadin V.S., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{QCD}="NSUphyslect-QCD-Fadin-source.torrent";
+$torrentfilenamesrc{QCD}="NSUphyslect-QCD-Fadin-source";
 
 $category{QCD}="Education";
 $tags{QCD}="Fadin,QCD";
@@ -91,15 +91,15 @@ $summary{"QCD-16"}="Духи Фаддеева-Попова. Калибровоч
 $dir{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015";
 $dir1080p{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015_(1080p)";
 $comment1080p{QCDs}="QCD Reznichenko A.V., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{QCDs}="NSUphyslect-QCDs-Reznichenko-1080p.torrent";
+$torrentfilename1080p{QCDs}="NSUphyslect-QCDs-Reznichenko-1080p";
 
 $dir720p{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015_(720p)";
 $comment720p{QCDs}="QCD Reznichenko A.V., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{QCDs}="NSUphyslect-QCDs-Reznichenko-720p.torrent";
+$torrentfilename720p{QCDs}="NSUphyslect-QCDs-Reznichenko-720p";
 
 $dirsrc{QCDs} ="QCD_Seminars_Reznichenko_Spring_2015_(src)";
 $commentsrc{QCDs}="QCD Reznichenko A.V., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{QCDs}="NSUphyslect-QCDs-Reznichenko-source.torrent";
+$torrentfilenamesrc{QCDs}="NSUphyslect-QCDs-Reznichenko-source";
 
 $category{QCDs}="Education";
 $tags{QCDs}="Reznichenko,QCD";
@@ -173,15 +173,15 @@ $dir{QED} ="QED_Lectures_Fadin_Autumn_2013";
 
 $dir1080p{QED} ="QED_Lectures_Fadin_Autumn_2013_(1080p)";
 $comment1080p{QED}="QED Fadin V.S., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{QED}="NSUphyslect-QED-Fadin-1080p.torrent";
+$torrentfilename1080p{QED}="NSUphyslect-QED-Fadin-1080p";
 
 $dir720p{QED} ="QED_Lectures_Fadin_Autumn_2013_(720p)";
 $comment720p{QED}="QED Fadin V.S., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{QED}="NSUphyslect-QED-Fadin-720p.torrent";
+$torrentfilename720p{QED}="NSUphyslect-QED-Fadin-720p";
 
 $dirsrc{QED} ="QED_Lectures_Fadin_Autumn_2013_(src)";
 $commentsrc{QED}="QED Fadin V.S., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{QED}="NSUphyslect-QED-Fadin-source.torrent";
+$torrentfilenamesrc{QED}="NSUphyslect-QED-Fadin-source";
 
 
 $category{QED}="Education";
@@ -253,15 +253,15 @@ $summary{"QED-15"}="Вершинная функция с учетом радиа
 $dir{SUSY}="SUSY_Lectures_Chernyak_Autumn_2013";
 $dir1080p{SUSY}="SUSY_Lectures_Chernyak_Autumn_2013_(1080p)";
 $comment1080p{SUSY}="SUSY Chernyak V.L., NSU Lectures on Physics (1080p  libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{SUSY}="NSUphyslect-SUSY-Chernyak-1080p.torrent";
+$torrentfilename1080p{SUSY}="NSUphyslect-SUSY-Chernyak-1080p";
 
 $dir720p{SUSY}="SUSY_Lectures_Chernyak_Autumn_2013_(720p)";
 $comment720p{SUSY}="SUSY Chernyak V.L., NSU Lectures on Physics (720p  libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{SUSY}="NSUphyslect-SUSY-Chernyak-720p.torrent";
+$torrentfilename720p{SUSY}="NSUphyslect-SUSY-Chernyak-720p";
 
 $dirsrc{SUSY}="SUSY_Lectures_Chernyak_Autumn_2013_(src)";
 $commentsrc{SUSY}="SUSY Chernyak V.L., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{SUSY}="NSUphyslect-SUSY-Chernyak-source.torrent";
+$torrentfilenamesrc{SUSY}="NSUphyslect-SUSY-Chernyak-source";
 
 $category{SUSY}="Education";
 $tags{SUSY}="Chernyak,SUSY";
@@ -300,15 +300,15 @@ $summary{"SUSY-25"}="Лекция N 25";
 $dir{EW}  ="EW_Lectures_Chernyak_Autumn_2013";
 $dir1080p{EW}  ="EW_Lectures_Chernyak_Autumn_2013_(1080p)";
 $comment1080p{EW}="EW Chernyak V.L., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{EW}="NSUphyslect-EW-Chernyak-1080p.torrent";
+$torrentfilename1080p{EW}="NSUphyslect-EW-Chernyak-1080p";
 
 $dir720p{EW}  ="EW_Lectures_Chernyak_Autumn_2013_(720p)";
 $comment720p{EW}="EW Chernyak V.L., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{EW}="NSUphyslect-EW-Chernyak-720p.torrent";
+$torrentfilename720p{EW}="NSUphyslect-EW-Chernyak-720p";
 
 $dirsrc{EW}  ="EW_Lectures_Chernyak_Autumn_2013_(src)";
 $commentsrc{EW}="EW Chernyak V.L., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{EW}="NSUphyslect-EW-Chernyak-source.torrent";
+$torrentfilenamesrc{EW}="NSUphyslect-EW-Chernyak-source";
 
 $category{EW}="Education";
 $tags{EW}="Chernyak,EW";
@@ -386,15 +386,15 @@ $summary{"EW-17"}="CP-нарушение. Параметризация CP-нар
 $dir{HEP} ="HEP_Lectures_Serbo_Autumn_2013";
 $dir1080p{HEP} ="HEP_Lectures_Serbo_Autumn_2013_(1080p)";
 $comment1080p{HEP}="HEP Serbo V.G., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{HEP}="NSUphyslect-HEP-Serbo-1080p.torrent";
+$torrentfilename1080p{HEP}="NSUphyslect-HEP-Serbo-1080p";
 
 $dir720p{HEP} ="HEP_Lectures_Serbo_Autumn_2013_(720p)";
 $comment720p{HEP}="HEP Serbo V.G., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{HEP}="NSUphyslect-HEP-Serbo-720p.torrent";
+$torrentfilename720p{HEP}="NSUphyslect-HEP-Serbo-720p";
 
 $dirsrc{HEP} ="HEP_Lectures_Serbo_Autumn_2013_(src)";
 $commentsrc{HEP}="HEP Serbo V.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{HEP}="NSUphyslect-HEP-Serbo-source.torrent";
+$torrentfilenamesrc{HEP}="NSUphyslect-HEP-Serbo-source";
 
 $category{HEP}="Education";
 $tags{HEP}="Serbo,HEP";
@@ -450,15 +450,15 @@ $summary{"HEP-15"}="Эффект Комптона и его применения
 $dir{HEPs}="HEP_Seminars_Skovpen_Autumn_2014";
 $dir1080p{HEPs}="HEP_Seminars_Skovpen_Autumn_2014_(1080p)";
 $comment1080p{HEPs}="HEPs Skovpen Yu.I., NSU Seminars on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{HEPs}="NSUphyslect-HEPs-Skovpen-1080p.torrent";
+$torrentfilename1080p{HEPs}="NSUphyslect-HEPs-Skovpen-1080p";
 
 $dir720p{HEPs}="HEP_Seminars_Skovpen_Autumn_2014_(720p)";
 $comment720p{HEPs}="HEPs Skovpen Yu.I., NSU Seminars on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{HEPs}="NSUphyslect-HEPs-Skovpen-720p.torrent";
+$torrentfilename720p{HEPs}="NSUphyslect-HEPs-Skovpen-720p";
 
 $dirsrc{HEPs}="HEP_Seminars_Skovpen_Autumn_2014_(src)";
 $commentsrc{HEPs}="HEPs Skovpen Yu.I., NSU Seminars on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{HEPs}="NSUphyslect-HEPs-Skovpen-source.torrent";
+$torrentfilenamesrc{HEPs}="NSUphyslect-HEPs-Skovpen-source";
 
 $category{HEPs}="Education";
 $tags{HEPs}="Skovpen,HEP";
@@ -521,15 +521,15 @@ $summary{"HEPs-17"}="Семинар N 17";
 $dir{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014";
 $dir1080p{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014_(1080p)";
 $comment1080p{NaCD}="NaCD Zhirov O.V., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{NaCD}="NSUphyslect-NaCD-Zhirov-1080p.torrent";
+$torrentfilename1080p{NaCD}="NSUphyslect-NaCD-Zhirov-1080p";
 
 $dir720p{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014_(720p)";
 $comment720p{NaCD}="NaCD Zhirov O.V., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{NaCD}="NSUphyslect-NaCD-Zhirov-720p.torrent";
+$torrentfilename720p{NaCD}="NSUphyslect-NaCD-Zhirov-720p";
 
 $dirsrc{NaCD}="Nonlinear_and_Chaotic_Dynamics_Lectures_Zhirov_Spring_2014_(src)";
 $commentsrc{NaCD}="NaCD Zhirov O.V., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{NaCD}="NSUphyslect-NaCD-Zhirov-source.torrent";
+$torrentfilenamesrc{NaCD}="NSUphyslect-NaCD-Zhirov-source";
 
 $category{NaCD}="Education";
 $tags{NaCD}="Zhirov,NaCD";
@@ -568,15 +568,15 @@ $summary{"NaCD-9"}="Лекция N 9";
 $dir{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014";
 $dir1080p{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014_(1080p)";
 $comment1080p{GG}="GG Serbo V.G., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{GG}="NSUphyslect-GG-Serbo-1080p.torrent";
+$torrentfilename1080p{GG}="NSUphyslect-GG-Serbo-1080p";
 
 $dir720p{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014_(720p)";
 $comment720p{GG}="GG Serbo V.G., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{GG}="NSUphyslect-GG-Serbo-720p.torrent";
+$torrentfilename720p{GG}="NSUphyslect-GG-Serbo-720p";
 
 $dirsrc{GG}  ="Gamma-Gamma_Serbo_Lecture_Autumn_2014_(src)";
 $commentsrc{GG}="GG Serbo V.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{GG}="NSUphyslect-GG-Serbo-source.torrent";
+$torrentfilenamesrc{GG}="NSUphyslect-GG-Serbo-source";
 
 $category{GG}="Education";
 $tags{GG}="Serbo,Gamma-Gamma";
@@ -639,15 +639,15 @@ $dir{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014";
 
 $dir1080p{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014_(1080p)";
 $comment1080p{NUC}="NUC Dmitriev V.F., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{NUC}="NSUphyslect-NUC-Dmitriev-1080p.torrent";
+$torrentfilename1080p{NUC}="NSUphyslect-NUC-Dmitriev-1080p";
 
 $dir720p{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014_(720p)";
 $comment720p{NUC}="NUC Dmitriev V.F., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{NUC}="NSUphyslect-NUC-Dmitriev-720p.torrent";
+$torrentfilename720p{NUC}="NSUphyslect-NUC-Dmitriev-720p";
 
 $dirsrc{NUC} ="Nucleus_Dmitriev_Lecture_Autumn_2014_(src)";
 $commentsrc{NUC}="NUC Dmitriev V.F., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{NUC}="NSUphyslect-NUC-Dmitriev-source.torrent";
+$torrentfilenamesrc{NUC}="NSUphyslect-NUC-Dmitriev-source";
 
 $category{NUC}="Education";
 $tags{NUC}="Dmitriev,Nucleus";
@@ -707,15 +707,15 @@ $summary{"NUC-16"}="Лекция N 16";
 $dir{STR} ="Strings_Lectures_Pomeransky_2014";
 $dir1080p{STR} ="Strings_Lectures_Pomeransky_2014_(1080p)";
 $comment1080p{STR}="STR Pomeransky A.A., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{STR}="NSUphyslect-STR-Pomeransky-1080p.torrent";
+$torrentfilename1080p{STR}="NSUphyslect-STR-Pomeransky-1080p";
 
 $dir720p{STR} ="Strings_Lectures_Pomeransky_2014_(720p)";
 $comment720p{STR}="STR Pomeransky A.A., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{STR}="NSUphyslect-STR-Pomeransky-720p.torrent";
+$torrentfilename720p{STR}="NSUphyslect-STR-Pomeransky-720p";
 
 $dirsrc{STR} ="Strings_Lectures_Pomeransky_2014_(src)";
 $commentsrc{STR}="STR Pomeransky A.A., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{STR}="NSUphyslect-STR-Pomeransky-source.torrent";
+$torrentfilenamesrc{STR}="NSUphyslect-STR-Pomeransky-source";
 
 $category{STR}="Education";
 $tags{STR}="Pomeransky,Strings";
@@ -742,15 +742,15 @@ $summary{"STR-5"}="Лекция N 5";
 $dir{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015";
 $dir1080p{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015_(1080p)";
 $comment1080p{ASTRO}="AstroPh Dologov A.D., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{ASTRO}="NSUphyslect-ASTRO-Dolgov-1080p.torrent";
+$torrentfilename1080p{ASTRO}="NSUphyslect-ASTRO-Dolgov-1080p";
 
 $dir720p{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015_(720p)";
 $comment720p{ASTRO}="AstroPh Dologov A.D., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{ASTRO}="NSUphyslect-ASTRO-Dolgov-720p.torrent";
+$torrentfilename720p{ASTRO}="NSUphyslect-ASTRO-Dolgov-720p";
 
 $dirsrc{ASTRO} ="AstroPh_Lectures_Dolgov_Spring_2015_(src)";
 $commentsrc{ASTRO}="AstroPh Dologov A.D., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{ASTRO}="NSUphyslect-ASTRO-Dolgov-source.torrent";
+$torrentfilenamesrc{ASTRO}="NSUphyslect-ASTRO-Dolgov-source";
 
 $category{ASTRO}="Education";
 $tags{ASTRO}="Dolgov,AstroPh";
@@ -773,15 +773,15 @@ $summary{"ASTRO-4"}="Лекция N 4";
 $dir{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015";
 $dir1080p{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015_(1080p)";
 $comment1080p{ANTAR}="Astrophysics in Antarctica, David Besson, NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename1080p{ANTAR}="NSUphyslect-ANTAR-Besson-1080p.torrent";
+$torrentfilename1080p{ANTAR}="NSUphyslect-ANTAR-Besson-1080p";
 
 $dir720p{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015_(720p)";
 $comment720p{ANTAR}="AstroPh Dologov A.D., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilename720p{ANTAR}="NSUphyslect-ANTAR-Besson-720p.torrent";
+$torrentfilename720p{ANTAR}="NSUphyslect-ANTAR-Besson-720p";
 
 $dirsrc{ANTAR} ="AstroPh_Lectures_Dolgov_Spring_2015_(src)";
 $commentsrc{ANTAR}="AstroPh Dologov A.D., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{ANTAR}="NSUphyslect-ANTAR-Dolgov-source.torrent";
+$torrentfilenamesrc{ANTAR}="NSUphyslect-ANTAR-Dolgov-source";
 
 $category{ANTAR}="Education";
 $tags{ANTAR}="Dolgov,AstroPh";
@@ -799,3 +799,18 @@ $summary{"ANTAR-3"}="Лекция N 3";
 $name{"ANTAR-4"}="AstroPh_Dolgov_Lecture04";
 $title{"ANTAR-4"}="AstroPh Dologov A.D. Lecture N 4";
 $summary{"ANTAR-4"}="Лекция N 4";
+
+
+# Семинары Теоротдела
+$dir{TO} ="TO_seminars";
+$dir1080p{TO} ="TO_seminars_(1080p)";
+$comment1080p{TO}="BINP TO seminars (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{TO}="BINP-TO-seminar-1080p";
+
+$dir720p{TO} ="TO_seminars_(720p)";
+$comment720p{TO}="BINP TO seminars (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{TO}="BINP-TO-seminar-720p";
+
+$dirsrc{TO} ="TO_seminars_(src)";
+$commentsrc{TO}="BINP TO seminars (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{TO}="BINP-TO-seminar-source";
