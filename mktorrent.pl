@@ -6,7 +6,7 @@ $bin="transmission-create ";
 foreach $item (keys %dir) {
 #foreach $item (qw(HEP)) {
 # 720p tracker
-  $cmd="cd $torrentpath ; $bin --comment \"$comment720p{$item}\" --outfile $torrentfilename720p{$item}\[torrents.ru\].torrent  ;
+  $cmd="cd $torrentpath ; $bin --comment \"$comment720p{$item}\" --outfile $torrentfilename720p{$item}\[torrents.ru\].torrent ";
 #  for ($i=0;$i<=$#trackerlist;$i++) {$cmd.="--tracker $trackerlist[$i] "}
   $cmd.="\"$dir720p{$item}\" ";
 
