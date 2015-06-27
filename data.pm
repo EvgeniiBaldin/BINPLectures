@@ -4,12 +4,13 @@
 #base dir
 $torrentpath="/Space1/Lectures/torrent";
 
-#tracker list for announce
-
-@trackerlist=qw{udp://open.demonii.com:1337
+#tracker list for announce from https://openbittorrent.com/
+@trackerlist=qw{udp://tracker.openbittorrent.com:80
+                udp://open.demonii.com:1337
                 udp://tracker.coppersurfer.tk:6969
                 udp://tracker.leechers-paradise.org:6969
 		};
+
 
 #@trackerlist=qw{udp://tracker.openbittorrent.com:80
 #                udp://tracker.publicbt.com:80
