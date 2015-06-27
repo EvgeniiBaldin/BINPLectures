@@ -23,7 +23,6 @@ foreach $item (keys %dir) {
 # 1080p tracker
 # rutracker
   $cmd="cd $torrentpath ; $bin --comment \"$comment1080p{$item}\" --outfile $rutrackerdir/$torrentfilename1080p{$item}\[torrents.ru\].torrent ";
-#  for ($i=0;$i<=$#trackerlist;$i++) {$cmd.="--tracker $trackerlist[$i] "}
   $cmd.="\"$dir1080p{$item}\" ";
   print "$cmd\n";
   system($cmd);
@@ -45,7 +44,7 @@ foreach $item (keys %dir) {
 
 # src tracker
 # https://openbittorrent.com/
-  $cmd="cd $torrentpath ; $bin --comment \"$commentsrc{$item}\" --outfile $torrentfilenamesrc{$item}\[torrents.ru\].torrent ";
+  $cmd="cd $torrentpath ; $bin --comment \"$commentsrc{$item}\" --outfile $torrentfilenamesrc{$item}.torrent ";
   for ($i=0;$i<=$#trackerlist;$i++) {$cmd.="--tracker $trackerlist[$i] "}
   $cmd.="\"$dirsrc{$item}\" ";
   print "$cmd\n";
