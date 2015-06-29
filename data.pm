@@ -777,29 +777,12 @@ $comment1080p{ANTAR}="Astrophysics in Antarctica, David Besson, NSU Lectures on 
 $torrentfilename1080p{ANTAR}="NSUphyslect-ANTAR-Besson-1080p";
 
 $dir720p{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015_(720p)";
-$comment720p{ANTAR}="AstroPh Dologov A.D., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$comment720p{ANTAR}="Astrophysics in Antarctica, David Besson, NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilename720p{ANTAR}="NSUphyslect-ANTAR-Besson-720p";
 
-$dirsrc{ANTAR} ="AstroPh_Lectures_Dolgov_Spring_2015_(src)";
-$commentsrc{ANTAR}="AstroPh Dologov A.D., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
-$torrentfilenamesrc{ANTAR}="NSUphyslect-ANTAR-Dolgov-source";
-
-$category{ANTAR}="Education";
-$tags{ANTAR}="Dolgov,AstroPh";
-$number{ANTAR}=4;
-
-$name{"ANTAR-1"}="AstroPh_Dolgov_Lecture01";
-$title{"ANTAR-1"}="AstroPh Dologov A.D. Lecture N 1";
-$summary{"ANTAR-1"}="Лекция N 1";
-$name{"ANTAR-2"}="AstroPh_Dolgov_Lecture02";
-$title{"ANTAR-2"}="AstroPh Dologov A.D. Lecture N 2";
-$summary{"ANTAR-2"}="Лекция N 2";
-$name{"ANTAR-3"}="AstroPh_Dolgov_Lecture03";
-$title{"ANTAR-3"}="AstroPh Dologov A.D. Lecture N 3";
-$summary{"ANTAR-3"}="Лекция N 3";
-$name{"ANTAR-4"}="AstroPh_Dolgov_Lecture04";
-$title{"ANTAR-4"}="AstroPh Dologov A.D. Lecture N 4";
-$summary{"ANTAR-4"}="Лекция N 4";
+$dirsrc{ANTAR} ="Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015_(src)";
+$commentsrc{ANTAR}="Astrophysics in Antarctica, David Besson, NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{ANTAR}="NSUphyslect-ANTAR-Besson-source";
 
 
 # Семинары Теоротдела
