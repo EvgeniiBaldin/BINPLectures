@@ -1,0 +1,95 @@
+%% -*- coding: utf-8 -*-
+\documentclass[12pt,pagesize,paper=192mm:108mm]{scrbook} 
+%1920x1080 1280x720
+\areaset[current]{192mm}{108mm}
+\usepackage{calc}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{microtype}
+\usepackage{misccorr}
+\usepackage{cmap}
+%\usepackage[unicode=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{srcltx}
+\usepackage{textcomp}
+\usepackage{braket}
+\usepackage{xspace}
+%научные символы и смайлики \smiley \frownie
+\usepackage{wasysym}
+\usepackage{ccicons}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\Texp}{Texp}
+\renewcommand{\epsilon}{\varepsilon}
+%перенос формул в тексте
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+  {\hbox{$\mathsurround=0pt #1$}}{}}
+\begin{document}
+\begin{titlepage}
+  \vspace*{-0.5em}
+  \begin{center}    
+    \hspace*{3em}
+    \begin{minipage}[t]{3em}
+      \includegraphics[width=\textwidth]{../BINP-logo}
+    \end{minipage}\hfill
+    \begin{minipage}{0.23\linewidth}
+    \includegraphics[width=\textwidth]{../NSU-logo}
+    \end{minipage}
+    \hfill
+    \hspace*{6em}
+
+    Кафедра теоретической физики физического факультета НГУ
+    \medskip
+
+    \Large
+    Резниченко А.\,В.
+    \bigskip
+
+    \huge
+    \textbf{Квантовая электродинамика}
+    \bigskip
+
+    \Large
+    Семинар № 3
+    \vfill
+
+    \normalsize
+    \vfill
+
+    \normalsize \ccbysa\hspace{0.5em}  Новосибирск 2015
+  \end{center}
+\end{titlepage}
+\newpage
+
+\vspace*{-1em}
+\begin{center}
+\vfill
+  \begin{minipage}{0.7\linewidth}
+
+    Пропагаторы фотона и электрона (продолжение).  Задача: показать,
+    основываясь на канонических коммутационных соотношениях, что
+    пропагатор фотона $D^{\mu\nu}(x)$ в ковариантной калибровке с
+    $\xi=1$ является функцией Грина оператора $\partial^2$:
+    $\partial^2 D^{\mu\nu}(x)=i g^{\mu\nu}\delta(x)$.  Задача:
+    показать, основываясь на антикоммутационных соотношениях, что
+    $\delta(x^0-y^0)[j^0(x),j^{\mu}(y)]=0$, где
+    $j^{\mu}={:}\bar{\Psi}(x) \gamma^{\mu} \Psi(x){:}$ "--- оператор
+    электромагнитного тока.
+    \smallskip
+
+    Унитарность $S$"=матрицы в ковариантной калибровке.  Физическое
+    пространство фотонных состояний $\ket{\Phi}$:
+    $\partial_{\mu}A^{\mu+}\ket{\Phi}=0$, где $A^{\mu+}$ "---
+    положительночастотная часть полевого оператора
+    $A^{\mu}$. Следствия соотношения $[\partial_{\mu}A^{\mu+}, S]=0$:
+    физические состояния переходят в физические состояния, оператор
+    эволюции $S=\Texp[i \int L_{\text{int}} d^4 x]$ унитарен на
+    физическом пространстве.
+  \end{minipage}
+  \vfill
+
+  % \normalsize \ccbysa\hspace{0.5em} Новосибирск 2013
+\end{center}
+\end{document}

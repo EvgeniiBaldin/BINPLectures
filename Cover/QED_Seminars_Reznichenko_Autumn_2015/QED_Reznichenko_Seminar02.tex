@@ -1,0 +1,89 @@
+%% -*- coding: utf-8 -*-
+\documentclass[12pt,pagesize,paper=192mm:108mm]{scrbook} 
+%1920x1080 1280x720
+\areaset[current]{192mm}{108mm}
+\usepackage{calc}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{microtype}
+\usepackage{misccorr}
+\usepackage{cmap}
+%\usepackage[unicode=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{srcltx}
+\usepackage{textcomp}
+\usepackage{xspace}
+%научные символы и смайлики \smiley \frownie
+\usepackage{wasysym}
+\usepackage{ccicons}
+\DeclareMathOperator{\Tr}{Tr}
+\renewcommand{\epsilon}{\varepsilon}
+\begin{document}
+\begin{titlepage}
+  \vspace*{-0.5em}
+  \begin{center}    
+    \hspace*{3em}
+    \begin{minipage}[t]{3em}
+      \includegraphics[width=\textwidth]{../BINP-logo}
+    \end{minipage}\hfill
+    \begin{minipage}{0.23\linewidth}
+    \includegraphics[width=\textwidth]{../NSU-logo}
+    \end{minipage}
+    \hfill
+    \hspace*{6em}
+
+    Кафедра теоретической физики физического факультета НГУ
+    \medskip
+
+    \Large
+    Резниченко А.\,В.
+    \bigskip
+
+    \huge
+    \textbf{Квантовая электродинамика}
+    \bigskip
+
+    \Large
+    Семинар № 2
+    \vfill
+
+    \normalsize
+    \vfill
+
+    \normalsize \ccbysa\hspace{0.5em}  Новосибирск 2015
+  \end{center}
+\end{titlepage}
+\newpage
+
+\vspace*{-1em}
+\begin{center}
+\vfill
+  \begin{minipage}{0.7\linewidth}
+
+    Задача: доказать соотношение
+    $\Tr[\gamma^{\mu_1}\gamma^{\mu_2}\ldots\gamma^{\mu_N}]=
+    Tr[\gamma^{\mu_N}\gamma^{\mu_{N-1}}\ldots\gamma^{\mu_1}]$.
+    Доказательство теоремы Фарри в КЭД: сокращение вкладов от
+    фермионных петель с нечетным числом фотонных концов. Связь с
+    $C$"=инвариантностью квантовой электродинамики. $C$"=чётность
+    фотона.  Вывод тождеств Фирца из соотношения полноты для
+    $\gamma$"=матриц.
+    \smallskip
+
+    Пропагаторы бозонных и фермионных полей.  Нахождение пропагатора
+    свободного безмассового скалярного поля в координатном
+    представлении: $\alpha$"=параметризация знаменателей, виковский
+    поворот, асимптотика массивного пропагатора при малых $x$.  Общий
+    алгоритм нахождения (бозонных) пропагаторов исходя из лагранжиана
+    теории на примере вывода свободного пропагатора фотона в
+    ковариантной $\xi$"=калибровке. Пропагаторы как функции Грина для
+    дифференциальных операторов, входящих в уравнение движения поля.
+  \end{minipage}
+  \vfill
+
+  % \normalsize \ccbysa\hspace{0.5em} Новосибирск 2013
+\end{center}
+\end{document}

@@ -1,0 +1,93 @@
+%% -*- coding: utf-8 -*-
+\documentclass[12pt,pagesize,paper=192mm:108mm]{scrbook} 
+%1920x1080 1280x720
+\areaset[current]{192mm}{108mm}
+\usepackage{calc}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{microtype}
+\usepackage{misccorr}
+\usepackage{cmap}
+%\usepackage[unicode=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{srcltx}
+\usepackage{textcomp}
+\usepackage{braket}
+\usepackage{xspace}
+%научные символы и смайлики \smiley \frownie
+\usepackage{wasysym}
+\usepackage{ccicons}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\Texp}{Texp}
+\renewcommand{\epsilon}{\varepsilon}
+%перенос формул в тексте
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+  {\hbox{$\mathsurround=0pt #1$}}{}}
+\begin{document}
+\begin{titlepage}
+  \vspace*{-0.5em}
+  \begin{center}    
+    \hspace*{3em}
+    \begin{minipage}[t]{3em}
+      \includegraphics[width=\textwidth]{../BINP-logo}
+    \end{minipage}\hfill
+    \begin{minipage}{0.23\linewidth}
+    \includegraphics[width=\textwidth]{../NSU-logo}
+    \end{minipage}
+    \hfill
+    \hspace*{6em}
+
+    Кафедра теоретической физики физического факультета НГУ
+    \medskip
+
+    \Large
+    Резниченко А.\,В.
+    \bigskip
+
+    \huge
+    \textbf{Квантовая электродинамика}
+    \bigskip
+
+    \Large
+    Семинар № 17
+    \vfill
+
+    \normalsize
+    \vfill
+
+    \normalsize \ccbysa\hspace{0.5em}  Новосибирск 2015
+  \end{center}
+\end{titlepage}
+\newpage
+
+\vspace*{-1em}
+\begin{center}
+\vfill
+  \begin{minipage}{0.65\linewidth}
+
+    Радиационные поправки.
+    \smallskip
+
+    Задача (алгебра знаменателей): вывести из $\alpha$"=представления общую
+    формулу параметризации Фейнмана.
+    \smallskip
+
+    Задача (интегрирование в $D$ измерениях): вывести простейшие формулы
+    импульсного интегрирования в размерностной регуляризации $D=4+2\epsilon$.
+    \smallskip
+
+    Задача: вычислить в однопетлевом приближении поляризационный
+    оператор $P_{\mu\nu} (q)$ (массовый оператор фотона). Поперечность
+    поляризационного оператора $P_{\mu\nu}(q)=
+    (g^{\mu\nu}q^2-q^{\mu}q^{\nu})P(q^2)$. Перенормированный оператор
+    $P_R(q^2)=P(q^2)-P(0)$. Предел $-q^2/m^2\gg 1$ для $P_R(q^2)$.
+
+  \end{minipage}
+  \vfill
+
+  % \normalsize \ccbysa\hspace{0.5em} Новосибирск 2013
+\end{center}
+\end{document}

@@ -798,3 +798,36 @@ $torrentfilename720p{TO}="BINP-TO-seminar-720p";
 $dirsrc{TO} ="TO_seminars_(src)";
 $commentsrc{TO}="BINP TO seminars (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilenamesrc{TO}="BINP-TO-seminar-source";
+
+
+# Квантовая электродинамика (семинары, Резниченко А.В., 2015 г.)
+$dir{QEDs} ="QEDs_Seminars_Reznichenko_Autumn_2015";
+
+$dir1080p{QEDs} ="QEDs_Seminars_Reznichenko_Autumn_2015_(1080p)";
+$comment1080p{QEDs}="QEDs Reznichenko A.V., NSU Seminars on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{QEDs}="NSUphyslect-QEDs-Reznichenko-1080p";
+
+$dir720p{QEDs} ="QEDs_Seminars_Reznichenko_Autumn_2015_(720p)";
+$comment720p{QEDs}="QEDs Reznichenko A.V., NSU Seminars on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{QEDs}="NSUphyslect-QEDs-Reznichenko-720p";
+
+$dirsrc{QEDs} ="QEDs_Seminars_Reznichenko_Autumn_2015_(src)";
+$commentsrc{QEDs}="QEDs Reznichenko A.V., NSU Seminars on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{QEDs}="NSUphyslect-QEDs-Reznichenko-source";
+
+
+# Python в научных вычислениях (Грозин А.Г., 2015 г.)
+$dir{Python} ="Python_Lectures_Grozin_Autumn_2015";
+
+$dir1080p{Python} ="Python_Lectures_Grozin_Autumn_2015_(1080p)";
+$comment1080p{Python}="Python Grozin A.G., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/~grozin/python/ License CC-BY-SA";
+$torrentfilename1080p{Python}="NSUphyslect-Python-Grozin-1080p";
+
+$dir720p{Python} ="Python_Lectures_Grozin_Autumn_2015_(720p)";
+$comment720p{Python}="Python Grozin A.G., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/~grozin/python/ License CC-BY-SA";
+$torrentfilename720p{Python}="NSUphyslect-Python-Grozin-720p";
+
+$dirsrc{Python} ="Python_Lectures_Grozin_Autumn_2015_(src)";
+$commentsrc{Python}="Python Grozin A.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/~grozin/python/ License CC-BY-SA";
+$torrentfilenamesrc{Python}="NSUphyslect-Python-Grozin-source";
+

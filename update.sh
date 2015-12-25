@@ -1,6 +1,10 @@
+./moviemake.pl -c TO -f 216 -t 219
+./moviemake.pl -c QEDs
+./moviemake.pl -c Python -f 2  -t 2
+./moviemake.pl -c Python -f 4 -t 9
 #./moviemake.pl -c QCDs -f 21 -t 22
 #./moviemake.pl -c TO
-./moviemake.pl -c ANTAR
+#./moviemake.pl -c ANTAR
 
 
 #./moviemake.pl -c ASTRO

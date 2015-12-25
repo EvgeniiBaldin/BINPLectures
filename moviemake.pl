@@ -36,6 +36,8 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  QCDs => 171,
 	  TO => 201,
 	  ANTAR => 241,
+          QEDs => 251,
+          Python => 272,
 );
 
 %last = (
@@ -52,8 +54,10 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  STR => 145,
 	  ASTRO => 154,
 	  QCDs => 192,
-	  TO => 215,
+	  TO => 219,
 	  ANTAR => 245,
+          QEDs => 267,
+          Python => 279,
 	);
 
 if (!defined $first{$opt_c}||!defined $last{$opt_c}) {

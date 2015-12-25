@@ -15,7 +15,7 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
  * Теория сильных взаимодействий (лекции, профессор Фадин В.С., 
    2014 г. QCD и семинары, Резниченко А.В. 2015 г. QCDs)
  * Квантовая электродинамика (лекции, профессор Фадин В.С., 
-   2013 г. QED)
+   2013 г. QED и семинары, Резниченко А.В. 2015 г. QEDs)
  * Теория электрослабых взаимодействий (лекции, профессор Черняк В.Л.,
    2013 г. EW)
  * Суперсимметрия в квантовой теории поля (спецкурс профессора 
@@ -30,7 +30,20 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
    к.ф.-м.н. Померанского А.А., 2014 г. STR)
  * Лекции по космологии (профессор Долгов А.Д., 2015 г. ASTRO)
  * Астрофизика в Антарктиде (профессор Дэвид Бессон, 2015 г. ANTAR)
+ * Python в научных вычислениях (д.ф.-м.н. Андрей Г. Грозин, 2015г.
+   Python)
  * Семинары теоретического отдела TO
+   + к.ф.-м.н. Резниченко А.В. (ИЯФ СО РАН). «Исследование нелинейных
+     каналов связи» (24.12.2015). 
+   + к.ф.-м.н. Козлов Михаил Геннадьевич (ИЯФ СО РАН). «Диаграмма
+     "Пентагон" в произвольной размерности из дифференциальных
+     уравнений в эпсилон-форме» (17.12.2015).
+   + д.ф.-м.н. Д. Шепелянский (CNRS, Toulouse) "Dynamical
+     thermalization in finite interacting systems" (15.10.2015).
+   + Ярослав Харьков (University of New South Wales, Sydney,
+     Australia). "Spin-charge separation: impurity induced
+     magnetization in the vicinity of quantum critical point"
+     (16.07.2015)
    + д.ф.-м.н. А.Г. Грозин (ИЯФ СО РАН). "Трехпетлевая аномальная
      размерность излома Вильсоновской линии"(12.03.2015).
    + Tomoki Morokuma (University of Tokyo), Nozomu Tominaga (Konan
@@ -64,6 +77,7 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
  * QCD   QCD_Lectures_Fadin_Spring_2014
  * QCDs  QCD_Seminars_Reznichenko_Spring_2015
  * QED   QED_Lectures_Fadin_Autumn_2013
+ * QEDs  QED_Seminars_Reznichenko_Autumn_2015
  * EW    EW_Lectures_Chernyak_Autumn_2013
  * SUSY  SUSY_Lectures_Chernyak_Autumn_2013
  * HEP   HEP_Lectures_Serbo_Autumn_2013
@@ -74,6 +88,7 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
  * STR   Strings_Lectures_Pomeransky
  * ASTRO AstroPh_Lectures_Dolgov_Spring_2015
  * ANTAR Astrophysics_in_Antarctica_Lectures_Besson_Spring_2015
+ * Python Python_Lectures_Grozin_Autumn_2015
  * TO    TO_seminars
 
 ** Лицензия
@@ -208,7 +223,62 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
 *** rutracker
 Добавляем в рубрику Образование: http://rutracker.org/forum/viewforum.php?f=614
 
-QCD Fadin: http://rutracker.org/forum/viewtopic.php?t=5069896
+QCD Fadin: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5069896
+   720p http://rutracker.org/forum/viewtopic.php?t=5071311
+    src 
+QCDs Reznichenko: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070081
+   720p
+    src
+QED Fadin: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070157
+   720p 
+    src
+EW Chernyak: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070167
+   720p
+    src
+SUSE Chernyak: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070179
+   720p
+    src
+HEP Serbo: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070200
+   720p
+    src
+HEP Skovpen: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070215
+   720p
+    src
+NaCD Zhirov: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070223
+   720p
+    src
+GG Serbo: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070240
+   720p
+    src
+NUC Dmitriev: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070722
+   720p
+    src
+Strings Pomeranchuk: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070746
+   720p
+    src
+ASTRO Dolgov: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070801
+   720p
+    src
+Antarctic Besson: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070814
+   720p
+    src
+TO: 
+  1080p http://rutracker.org/forum/viewtopic.php?t=5070825
+   720p
+    src
 
 Скармливаем rutracker тот же torrent-файл, что и подготовленный для
 списка с bittorent.com. Скачиваем с rutracker и заменяем (удаляем и
@@ -217,6 +287,17 @@ QCD Fadin: http://rutracker.org/forum/viewtopic.php?t=5069896
 #+BEGIN_SRC sh
 transmission-edit -a <url> file.torrent
 #+END_SRC
+addfile.sh:
+#+BEGIN_SRC sh
+#!/bin/bash
+filename="$1"
+transmission-edit -a udp://tracker.openbittorrent.com:80 $filename
+transmission-edit -a udp://open.demonii.com:1337 $filename
+transmission-edit -a udp://tracker.coppersurfer.tk:6969 $filename
+transmission-edit -a udp://tracker.leechers-paradise.org:6969 $filename
+#+END_SRC
+
+
 
 **** mediainfo
 получение информации
@@ -287,10 +368,10 @@ do
 done
 #+END_SRC
 
-Пробегаем по всем директориям 
+Пробегаем по всем директориям из /Space1/Lectures/torrent/
 
 #+BEGIN_SRC sh
-for d in ./*/ ; do (cd "$d" && ls -1 | xargs -n1 ./makescreens.sh); done
+for d in ./*/ ; do (cd "$d" && ls -1 | xargs -n1 ../makescreens.sh); done
 #+END_SRC
 
 
