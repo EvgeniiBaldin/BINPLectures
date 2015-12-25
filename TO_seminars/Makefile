@@ -10,16 +10,16 @@ all:
 	@echo "Usage: make fullclean"
 
 Reznichenko_Nonlinear_Channels.$(VIDEOEXT): Reznichenko_Nonlinear_Channels.png.$(VIDEOEXT) TO_Seminar_Reznichenko_Nonlinear_Channels_1_24.12.15.MTS.$(VIDEOEXT) TO_Seminar_Reznichenko_Nonlinear_Channels_2_24.12.15.MTS.$(VIDEOEXT) TO_Seminar_Reznichenko_Nonlinear_Channels_3_24.12.15.MTS.$(VIDEOEXT) Reznichenko_Nonlinear_Channels_afterwords.png.$(VIDEOEXT)
-	$(call MERGE,$^,"Alexey Reznichenko, Nonlinear Channels, 24.12.2015","BINP 2015")
+	$(call MERGE,$^,"Alexey Reznichenko Nonlinear Channels 24.12.2015","BINP 2015")
 
 Kozlov_Pentagon.$(VIDEOEXT): Kozlov_Pentagon.png.$(VIDEOEXT) TO_Seminar_Kozlov_Pentagon_17.12.15.MTS.$(VIDEOEXT)  Kozlov_Pentagon_afterwords.png.$(VIDEOEXT)
-	$(call MERGE,$^,"Mihail Kozlov, Diagramma Pentagon, 17.12.2015","BINP 2015")
+	$(call MERGE,$^,"Mihail Kozlov Diagramma Pentagon 17.12.2015","BINP 2015")
 
 Shepelyansky_Dynamical_thermalization_in_finite_quantum_systems.$(VIDEOEXT): Shepelyansky_Dynamical_thermalization_in_finite_quantum_systems.png.$(VIDEOEXT) Shepelyansky_Dynamical_thermalization_in_finite_quantum_systems_1_15.10.15.MTS.$(VIDEOEXT) Shepelyansky_Dynamical_thermalization_in_finite_quantum_systems_2_15.10.15.MTS.$(VIDEOEXT) Shepelyansky_Dynamical_thermalization_in_finite_quantum_systems_afterwords.png.$(VIDEOEXT)
-	$(call MERGE,$^,"D. Shepelyansky, Dynamical thermalization in finite interacting systems, 15.10.2015","BINP 2015")
+	$(call MERGE,$^,"D. Shepelyansky Dynamical thermalization in finite interacting systems 15.10.2015","BINP 2015")
 
 Kharkov_Spin-charge_separation.$(VIDEOEXT): Kharkov_Spin-charge_separation.png.$(VIDEOEXT) Kharkov_Spin-charge_separation_16.07.15-1.MTS.$(VIDEOEXT) Kharkov_Spin-charge_separation_16.07.15-2.MTS.$(VIDEOEXT) Kharkov_Spin-charge_separation_afterwords.png.$(VIDEOEXT)
-	$(call MERGE,$^,"Yaroslav Kharkov, Spin-charge separation: impurity induced magnetization in the vicinity of quantum critical point, 16.07.2015","BINP 2015")
+	$(call MERGE,$^,"Yaroslav Kharkov Spin-charge separation: impurity induced magnetization in the vicinity of quantum critical point 16.07.2015","BINP 2015")
 
 
 Grozin_3Loop_Cusp_Anomalous_dimension_in_QCD.$(VIDEOEXT): Grozin_3Loop_Cusp_Anomalous_dimension_in_QCD.png.$(VIDEOEXT) Grozin_3Loop_Cusp_Anomalous_dimension_in_QCD1-12.3.15.MTS.$(VIDEOEXT) Grozin_3Loop_Cusp_Anomalous_dimension_in_QCD2-12.3.15.MTS.$(VIDEOEXT) Grozin_3Loop_Cusp_Anomalous_dimension_in_QCD_afterwords.png.$(VIDEOEXT)
