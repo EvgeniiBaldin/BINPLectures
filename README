@@ -271,6 +271,7 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
  * [ ] Для каждого итого файла нужен свой _afterwords.tex, так как
    иначе возникают коллизии при параллельной сборке файлов.
  * [ ] Разобраться с github
+       git config credential.helper store
 *** rutracker
 Добавляем в рубрику Образование: http://rutracker.org/forum/viewforum.php?f=614
 
