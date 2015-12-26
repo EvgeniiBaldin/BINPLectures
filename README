@@ -32,18 +32,66 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
  * Астрофизика в Антарктиде (профессор Дэвид Бессон, 2015 г. ANTAR)
  * Python в научных вычислениях (д.ф.-м.н. Андрей Г. Грозин, 2015г.
    Python)
+   https://www.youtube.com/playlist?list=PLPFUq1zn8x34Bx6CWXJyTAZVCGrJLQxlf
+   + Лекция 1. Jupiter. Числа. Строки. Списки. 
+     http://www.inp.nsk.su/~grozin/python/python1.html
+   + Лекция 2. Кортежи. Множества. Словари. Функции.
+     http://www.inp.nsk.su/~grozin/python/python2.html
+     https://youtu.be/hpiDPez_wuE
+   + Лекция 3. Объектно-ориентированное программирование. Исключения. 
+     http://www.inp.nsk.su/~grozin/python/python3.html
+   + Лекция 4. Модули. Ввод-вывод, файлы, директории.
+     http://www.inp.nsk.su/~grozin/python/python4.html
+     https://youtu.be/XntBAdmN_mw
+   + Лекция 5. numpy. Одномерные массивы. Операции над одномерными
+     массивами. 2-мерные массивы. Линейная алгебра. Преобразование
+     Фурье. Интегрирование. Дифференциальные уравнения.
+     http://www.inp.nsk.su/~grozin/python/python5.html
+     https://youtu.be/aRwZGR4PA2w
+   + Лекция 6. matplotlib. Логарифмический масштаб. Полярные
+     координаты. Экпериментальные данные. Гистограмма.  Контурные
+     графики. Images (пиксельные картинки). Трёхмерная
+     линия. Поверхности.
+     http://www.inp.nsk.su/~grozin/python/python6.html
+     https://youtu.be/_LZqiJyjywA
+   + Лекция 7. SymPy. Многочлены и рациональные функции. Элементарные
+     функции. Структура выражений. Решение
+     уравнений. Ряды. Производные. Интегралы. Суммирование
+     рядов. Пределы. Дифференциальные уравнения. Линейная
+     алгебра. Собственные значения и векторы. Нормальная жорданова
+     форма. Графики.
+     http://www.inp.nsk.su/~grozin/python/sympy.html
+     http://www.inp.nsk.su/~grozin/python/python7.html
+     https://youtu.be/3wlt17m6kic
+   + Лекция 8.
+     iminuit.  
+     http://www.inp.nsk.su/~grozin/python/minuit.html
+     cython. Функции. Интерфейс к библиотеке на
+     C. Структуры. cdef классы.  Интерфейс к библиотеке на C.
+     http://www.inp.nsk.su/~grozin/python/python8.html
+     https://youtu.be/_-jBgIJc5VU
+   + Лекция 9. Интерфейс к библиотеке на C (продолжение).  pandas —
+     пакет для статистической обработки данных. Series. DataFrame. sh
+     — простой вызов shell-комманд. rpyc — remote python call. pyroot
+     — интерфейс к пакету анализа данных в том числе и данных очень
+     большого объёма ROOT (http://root.cern.ch). 
+     http://www.inp.nsk.su/~grozin/python/pandas.html
+     http://www.inp.nsk.su/~grozin/python/
+     https://youtu.be/mWK7EeYZwjY
  * Семинары теоретического отдела TO
    + к.ф.-м.н. Резниченко А.В. (ИЯФ СО РАН). «Исследование нелинейных
-     каналов связи» (24.12.2015). 
+     каналов связи» (24.12.2015). https://youtu.be/VM4uB-r3sSQ
    + к.ф.-м.н. Козлов Михаил Геннадьевич (ИЯФ СО РАН). «Диаграмма
      "Пентагон" в произвольной размерности из дифференциальных
-     уравнений в эпсилон-форме» (17.12.2015).
+     уравнений в эпсилон-форме» (17.12.2015). 
+     https://youtu.be/a2F_acIbQDU
    + д.ф.-м.н. Д. Шепелянский (CNRS, Toulouse) "Dynamical
      thermalization in finite interacting systems" (15.10.2015).
+     https://youtu.be/MdVY22T3ggU
    + Ярослав Харьков (University of New South Wales, Sydney,
      Australia). "Spin-charge separation: impurity induced
      magnetization in the vicinity of quantum critical point"
-     (16.07.2015)
+     (16.07.2015) https://youtu.be/gyYgdiq9HT4
    + д.ф.-м.н. А.Г. Грозин (ИЯФ СО РАН). "Трехпетлевая аномальная
      размерность излома Вильсоновской линии"(12.03.2015).
    + Tomoki Morokuma (University of Tokyo), Nozomu Tominaga (Konan
@@ -202,7 +250,7 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
 #      given_account += '@gmail.com'
       given_account += '@pages.plusgoogle.com'
 
-** TODO [2/12]
+** TODO [2/14]
  * [X] Переименовать директории следуя именованию директорий в torrent
  * [ ] Сделать глобальную автоматическую чистку от промежуточных файлов.
  * [ ] Разделить сборку и файлы.
@@ -220,6 +268,9 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
    https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/
    https://about.gitlab.com/2015/04/08/gitlab-dot-com-storage-limit-raised-to-10gb-per-repo/
  * [ ] Выложить ссылки на rutracker
+ * [ ] Для каждого итого файла нужен свой _afterwords.tex, так как
+   иначе возникают коллизии при параллельной сборке файлов.
+ * [ ] Разобраться с github
 *** rutracker
 Добавляем в рубрику Образование: http://rutracker.org/forum/viewforum.php?f=614
 
