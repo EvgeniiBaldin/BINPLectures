@@ -62,6 +62,14 @@ QED_Reznichenko_Seminar16.$(VIDEOEXT): QED_Reznichenko_Seminar16-1.png.$(VIDEOEX
 QED_Reznichenko_Seminar17.$(VIDEOEXT): QED_Reznichenko_Seminar17-1.png.$(VIDEOEXT) QED_Reznichenko_Seminar17-2.png.$(VIDEOEXT) QED_Reznichenko_Seminar_17.1-22.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_17.2-22.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_afterwords-1.png.$(VIDEOEXT)
 	$(call MERGE,$^,"QED Reznichenko A.V. Seminar N 17","NSU 2015")
 
+QED_Reznichenko_Seminar18.$(VIDEOEXT): QED_Reznichenko_Seminar18-1.png.$(VIDEOEXT) QED_Reznichenko_Seminar18-2.png.$(VIDEOEXT) QED_Reznichenko_Seminar_18.1-25.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_18.2-25.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_afterwords-1.png.$(VIDEOEXT)
+	$(call MERGE,$^,"QED Reznichenko A.V. Seminar N 18","NSU 2015")
+
+QED_Reznichenko_Seminar19.$(VIDEOEXT): QED_Reznichenko_Seminar19-1.png.$(VIDEOEXT) QED_Reznichenko_Seminar19-2.png.$(VIDEOEXT) QED_Reznichenko_Seminar_19.1-29.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_19.2-29.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_afterwords-1.png.$(VIDEOEXT)
+	$(call MERGE,$^,"QED Reznichenko A.V. Seminar N 19","NSU 2015")
+
+QED_Reznichenko_Seminar20.$(VIDEOEXT): QED_Reznichenko_Seminar20-1.png.$(VIDEOEXT) QED_Reznichenko_Seminar20-2.png.$(VIDEOEXT) QED_Reznichenko_Seminar_20.1-29.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_20.2-29.12.15.MTS.$(VIDEOEXT) QED_Reznichenko_Seminar_afterwords-1.png.$(VIDEOEXT)
+	$(call MERGE,$^,"QED Reznichenko A.V. Seminar N 20","NSU 2015")
 
 
 # Чистка

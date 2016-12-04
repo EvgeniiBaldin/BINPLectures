@@ -149,11 +149,11 @@
 139 NONE NONE
 140 NONE NONE
 # STR
-141 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture01
-142 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture02
-143 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture03
-144 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture04
-145 Strings_Lectures_Pomeransky Strings_Pomeransky_Lecture05
+141 Strings_Lectures_Pomeransky_2014 Strings_Pomeransky_Lecture01
+142 Strings_Lectures_Pomeransky_2014 Strings_Pomeransky_Lecture02
+143 Strings_Lectures_Pomeransky_2014 Strings_Pomeransky_Lecture03
+144 Strings_Lectures_Pomeransky_2014 Strings_Pomeransky_Lecture04
+145 Strings_Lectures_Pomeransky_2014 Strings_Pomeransky_Lecture05
 146 NONE NONE
 147 NONE NONE
 148 NONE NONE
@@ -280,9 +280,9 @@
 265 QED_Seminars_Reznichenko_Autumn_2015 QED_Reznichenko_Seminar15
 266 QED_Seminars_Reznichenko_Autumn_2015 QED_Reznichenko_Seminar16
 267 QED_Seminars_Reznichenko_Autumn_2015 QED_Reznichenko_Seminar17
-268 NONE NONE
-269 NONE NONE
-270 NONE NONE
+268 QED_Seminars_Reznichenko_Autumn_2015 QED_Reznichenko_Seminar18
+269 QED_Seminars_Reznichenko_Autumn_2015 QED_Reznichenko_Seminar19
+270 QED_Seminars_Reznichenko_Autumn_2015 QED_Reznichenko_Seminar20
 # Python
 271 NONE NONE
 272 Python_Lectures_Grozin_Autumn_2015 Python_Grozin_Lecture02

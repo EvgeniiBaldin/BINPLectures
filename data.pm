@@ -5,10 +5,31 @@
 $torrentpath="/Space1/Lectures/torrent";
 
 #tracker list for announce from https://openbittorrent.com/
+#https://thomas.vanhoutte.be/miniblog/torrent-tracker-2016/
 @trackerlist=qw{udp://tracker.openbittorrent.com:80
                 udp://open.demonii.com:1337
                 udp://tracker.coppersurfer.tk:6969
                 udp://tracker.leechers-paradise.org:6969
+		udp://tracker.opentrackr.org:1337
+		udp://tracker.publicbt.com:80
+		http://tracker.torrenty.org:6969
+                http://9.rarbg.com:2710
+                http://announce.torrentsmd.com:6969
+	        http://bt.careland.com.cn:6969
+	        http://explodie.org:6969
+	        http://mgtracker.org:2710
+	        http://tracker.tfile.me
+	        http://tracker.torrenty.org:6969
+	        http://tracker.trackerfix.com
+	        http://www.mvgroup.org:2710
+	        udp://9.rarbg.com:2710
+	        udp://9.rarbg.me:2710
+	        udp://9.rarbg.to:2710
+	        udp://coppersurfer.tk:6969
+	        udp://exodus.desync.com:6969
+	        udp://glotorrents.pw:6969
+	        udp://tracker.glotorrents.com:6969
+	        udp://tracker4.piratux.com:6969
 		};
 
 

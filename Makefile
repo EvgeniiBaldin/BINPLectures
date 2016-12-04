@@ -4,6 +4,7 @@
 
 include rules.mk
 
+#export VIDEOSIZE
 
 all:
 	@echo "run: make src"

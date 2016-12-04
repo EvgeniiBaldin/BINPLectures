@@ -16,6 +16,27 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
    2014 г. QCD и семинары, Резниченко А.В. 2015 г. QCDs)
  * Квантовая электродинамика (лекции, профессор Фадин В.С., 
    2013 г. QED и семинары, Резниченко А.В. 2015 г. QEDs)
+   https://www.youtube.com/playlist?list=PLPFUq1zn8x35Clwz11pSQTiJlPH5wjqQ1
+   + Семинар 1 https://youtu.be/vjqx-XVgjRA
+   + Семинар 2 https://youtu.be/8CMhaSa50bc
+   + Семинар 3 https://youtu.be/lwNPNLz0Njc
+   + Семинар 4 https://youtu.be/3ceGupwoAxQ
+   + Семинар 5 https://youtu.be/Z40FKahWyhA
+   + Семинар 6 https://youtu.be/5hhz-aLJLyg
+   + Семинар 7 https://youtu.be/ickf1DDSx-4
+   + Семинар 8 https://youtu.be/p904e6OrhXc
+   + Семинар 9 https://youtu.be/PpRxlojGx8k
+   + Семинар 10 https://youtu.be/shszbzEGFFQ
+   + Семинар 11 https://youtu.be/RPORmeiQzLQ
+   + Семинар 12 https://youtu.be/Sbu192GNW3Y
+   + Семинар 13 https://youtu.be/miYSBjbYbj8
+   + Семинар 14 https://youtu.be/VVXFaJaFim4
+   + Семинар 15 https://youtu.be/A-vVBUhBt9Q
+   + Семинар 16 https://youtu.be/evslrTjW7Rk
+   + Семинар 17 https://youtu.be/evslrTjW7Rk
+   + Семинар 18 https://youtu.be/H0FKyqJyhO8
+   + Семинар 19 https://youtu.be/dtCV6qBCzK0
+   + Семинар 20 https://youtu.be/N_GdZvWRtcM
  * Теория электрослабых взаимодействий (лекции, профессор Черняк В.Л.,
    2013 г. EW)
  * Суперсимметрия в квантовой теории поля (спецкурс профессора 
@@ -185,16 +206,17 @@ bin. Нужно убедиться, что для него установлен�
 пробел. В имени файла и директории не может быть пробельных
 символов. Можно оставлять комментарии за символом #
 
-moviemake-batch.pl предназначен для запуска на кластере. В зависимости
-от номера в массиве заданий (ключик -t команды qsub) он запускает
-сборку конкретного файла, список которых можно передать через ключик
--l (по умолчанию lectureslist.txt). Расширение выходного файла можно
-передать через ключик -e (по умолчанию mp4)
+moviemake-batch.pl изначально был предназначен для запуска
+исключительно на кластере. В зависимости от номера в массиве заданий
+(ключик -t команды qsub) он запускает сборку конкретного файла, список
+которых можно передать через ключик -l (по умолчанию
+lectureslist.txt). Расширение выходного файла можно передать через
+ключик -e (по умолчанию mp4)
 
-./moviemake-batch.pl 
-Usage: ./moviemake-batch.pl [-l lectureslist.txt] [-e ext] (for batch only!)
+Usage: ./moviemake-batch.pl [-l lectureslist.txt] [-e ext] (no options for batch only! || -i for interactive)
 Options: -l - lectures list (def. lectureslist.txt)
 Options: -e - output file extention (def. mp4) 
+Options: -i - ifile (not for batch mode)
 Options: -h - help message
 
 ./moviemake.pl позволяет натравливать ./moviemake-batch.pl на
@@ -202,14 +224,28 @@ Options: -h - help message
 нужно обработать. Удобно как для сборки всего, так и для добавления
 новых файлов. 
 
-./moviemake.pl 
-Usage: ./moviemake.pl [-h] [-a || -t ABBR]
-Options: -h - help message
-Options: -a - convert all lectures
-Options: -c ABBR - convert specific course
-Options:    ABBR could be ASTRO, QCD(s), QED, SUSY, EW, NaCD, HEP(s), GG, NUC, STR
-Options: -f INT - number of the first videofile (def. 1)
-Options: -t INT - number of the last videofile 
+Usage: ./moviemake.pl [-h] [-a || -c ABBR] [-b] [-l||-H]]
+Option: -h - help message
+Option: -a - convert all lectures
+Option: -c ABBR - convert specific course
+Option:    ABBR could be ASTRO, ANTAR, QCD(s), QED, SUSY, EW, NaCD, HEP(s), GG, NUC, STR, TO
+Option: -f INT - number of the first videofile (def. 1)
+Option: -t INT - number of the last videofile 
+Option: -l - lectures list (def. lectureslist.txt)
+Option: -b - batch (tuned for _stark_)
+Option: -C - remake "remake/update" cover (pdflatex and pdftoppm are nedded)
+Resolution: if basedirname is "1080p" then option -H is used
+Resolution: if basedirname is "720p" then option -l is used
+Option: -H - High resolution (hd1080)
+Option: -L - low resolution (hd720)
+
+Этот скрипт можно использовать для пересоздания заставок для
+видеофайлов (ключик -С). Заставки пересоздаются отдельно из-за того,
+что на кластере отсутствуют pdflatex и pdftoppm, необходимые для
+этого.
+
+Если скрипт находится в директории 1080p, то создаются видеофайлы
+формата hd1080, если в 720p -- hd720.
 
 *** mktorrent.pl
 
@@ -229,7 +265,9 @@ License CC-BY-SA" --outfile NSUphyslect1080p-140613.torrent --tracker
 udp://tracker.publicbt.com:80, но с ним что-то случилось.
 
 ** Закачка на YouTube
-Через интерфейс google. Закачка из командной строки дала дуба.
+Закачка из командной строки дала дуба из-за прекращения поддержки
+соответствующего API. Ниже идёт описание костылей, которые для этого
+использовались.
 
 Закачка производится через скрипт sendtoyoutube.pl 
 
@@ -250,20 +288,20 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
 #      given_account += '@gmail.com'
       given_account += '@pages.plusgoogle.com'
 
-** TODO [2/14]
+** TODO [4/15]
  * [X] Переименовать директории следуя именованию директорий в torrent
  * [ ] Сделать глобальную автоматическую чистку от промежуточных файлов.
  * [ ] Разделить сборку и файлы.
  * [ ] Увеличить степень сжатия (это можно как минимум на 30%)
  * [ ] Сделать автоматическую генерацию всех обложек
- * [ ] Сделать генерацию как 1080, так и 720 в зависимости от опции
+ * [X] Сделать генерацию как 1080, так и 720 в зависимости от опции
    moviemake.pl
  * [ ] Добавить magnet links
  * [X] Переименовать имена лекций на YouTube
  * [ ] Выложить исходники на git, а видеофайлы прикрутить туда через
    git-lfs. Стартовать отсюда:
    http://www.opennet.ru/opennews/art.shtml?num=42003
- * [ ] разобраться с git-annex
+ * [X] разобраться с git-annex
  * [ ] Приглядеться к git-lab
    https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/
    https://about.gitlab.com/2015/04/08/gitlab-dot-com-storage-limit-raised-to-10gb-per-repo/
@@ -272,6 +310,7 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
    иначе возникают коллизии при параллельной сборке файлов.
  * [ ] Разобраться с github
        git config credential.helper store
+ * [ ] Убрать png (Covers) из git (занести в gitignore)
 *** rutracker
 Добавляем в рубрику Образование: http://rutracker.org/forum/viewforum.php?f=614
 
@@ -426,7 +465,6 @@ done
 for d in ./*/ ; do (cd "$d" && ls -1 | xargs -n1 ../makescreens.sh); done
 #+END_SRC
 
-
 *** magnet links
 http://www.opennet.ru/opennews/art.shtml?num=41258#69
 
@@ -463,6 +501,23 @@ magnet:?xt=urn:btih:364d7ee5bccf6decce765a497a141e4eb80d24c1&dn=QCD%5FLectures%5
 
 magnet:?xt=urn:btih:364d7ee5bccf6decce765a497a141e4eb80d24c1
 
+*** git-annex
+http://git-annex.branchable.com
+sudo add-apt-repository ppa:jtgeibel/ppa
+Ubuntu 14.04 trusty: https://launchpad.net/~jtgeibel/+archive/ubuntu/ppa?field.series_filter=trusty
+**** Server config
+> git init
+> git annex init "server"
+> git annex add .
+> git commit -a -m "init commit"
+**** desktop config
+> git clone ssh://server/Space1/Lectures/torrent torrent
+> cd torrent
+> git annex init "static"
+> git remote add server ssh://server:/Space1/Lectures/torrent
+> git annex sync server
+# первая загрузка
+> git annex get .
 ** Обратная связь
 
 В проекте на разных его стадиях участвовали

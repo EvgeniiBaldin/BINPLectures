@@ -24,12 +24,13 @@ use Getopt::Std;
 use File::Find;
 use File::stat;
 
-getopts("hl:e:");
-use vars qw/$opt_h $opt_l $opt_e/;
-if (defined($opt_h)||(!defined($ENV{SGE_TASK_ID}))) {
-  print "Usage: $0 [-l lectureslist.txt] [-e ext] (for batch only!)\n";
+getopts("hl:e:i:");
+use vars qw/$opt_h $opt_l $opt_e $opt_i/;
+if (defined($opt_h)||!(defined($ENV{SGE_TASK_ID})||defined($opt_i))) {
+  print "Usage: $0 [-l lectureslist.txt] [-e ext] (no options for batch only! || -i for interactive)\n";
   print "Options: -l - lectures list (def. lectureslist.txt)\n";
   print "Options: -e - output file extention (def. mp4) \n";
+  print "Options: -i - ifile (not for batch mode)\n";
   print "Options: -h - help message\n";
   exit();
 }
@@ -48,10 +49,17 @@ while (<LIST>) {
 }
 close(LIST) or die "LIST close: \"$opt_l\" $!";
 
-$ifile=$ENV{SGE_TASK_ID};
+if (defined $opt_i) {
+  $ifile=$opt_i;
+}
+elsif (defined $ENV{SGE_TASK_ID}) {
+  $ifile=$ENV{SGE_TASK_ID};
+}
+else {
+  die "No _ifile_ for compilation!\n";
+}
 
 $cmd="cd ".$dirlist[$ifile]."; make ".$filelist[$ifile].".$opt_e";
-print "$cmd\n";
 
 if ($dirlist[$ifile] ne "NONE") {
   system($cmd);
