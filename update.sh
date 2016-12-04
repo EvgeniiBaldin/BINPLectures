@@ -1,7 +1,8 @@
-./moviemake.pl -c TO -f 16 -t 19
-./moviemake.pl -c QEDs
-./moviemake.pl -c Python -f 2  -t 2
-./moviemake.pl -c Python -f 4 -t 9
+./moviemake.pl -c RGeom -H -S /Space/Lectures/in/
+#./moviemake.pl -c TO -f 16 -t 19
+#./moviemake.pl -c QEDs
+#./moviemake.pl -c Python -f 2  -t 2
+#./moviemake.pl -c Python -f 4 -t 9
 #./moviemake.pl -c QCDs -f 21 -t 22
 #./moviemake.pl -c TO
 #./moviemake.pl -c ANTAR

@@ -12,9 +12,11 @@ YSIZE ?= 1080
 VIDEOTYPE ?= hd1080 
 
 # Путь до видеоисходников
-SRCPATH:= ../source/
+# (на один уровень относительная директория ниже)
+SRCPATH ?= ../../source/
 # Путь до заставок
-COVERPATH:= Cover/
+# (на один уровень относительная директория ниже)
+COVERPATH:= ../Cover/
 # Длительность заставки в секундах
 COVERDURATION:= 5
 # Расширение для контейнера
@@ -28,7 +30,8 @@ VIDEOENCODER:=libx264
 SOUNDCODEC:=ac3
 # Путь до исполняемого файла ffmpeg
 # Статически слинкованный бинарник можно скачать с сайта ffmpeg
-FFMPEG:=bin/ffmpeg
+# (на один уровень относительная директория ниже)
+FFMPEG ?=../bin/ffmpeg
 # Ключи результирующего файла для ffmeg
 FOUTKEY := -c:v $(VIDEOENCODER) -c:a $(SOUNDCODEC) -s $(VIDEOTYPE) -ac 2 -sn
 # Имя текущей директории
@@ -40,9 +43,9 @@ DIRNAME := $(word $(words $(subst /, ,$(PWD))),$(subst /, ,$(PWD)))
 # нужно для циклов (для другой оболочки придётся переписать)
 SHELL = /bin/bash
 # Переопределение путей и переменных
-SRCPATH := ../$(strip $(SRCPATH))$(DIRNAME)
-COVERPATH := ../$(strip $(COVERPATH))$(DIRNAME)
-FFMPEG := ../$(strip $(FFMPEG))
+SRCPATH:=$(strip $(SRCPATH))$(DIRNAME)
+COVERPATH:=$(strip $(COVERPATH))$(DIRNAME)
+FFMPEG:=$(strip $(FFMPEG))
 VIDEOEXT:=$(strip $(VIDEOEXT))
 ECHO:=/bin/echo
 # Заставка 
@@ -54,6 +57,7 @@ ECHO:=/bin/echo
 
 %.MTS.$(VIDEOEXT): $(SRCPATH)/%.MTS
 	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $@
+
 # Объединение файлов 
 MERGE =	n=0 ; for x in $1; do  let "n+=1" ; done ; let "m=n-1" ;\
          $(FFMPEG) $(patsubst %,-i %,$1)  -filter_complex \

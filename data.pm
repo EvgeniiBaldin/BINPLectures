@@ -852,3 +852,17 @@ $dirsrc{Python} ="Python_Lectures_Grozin_Autumn_2015_(src)";
 $commentsrc{Python}="Python Grozin A.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/~grozin/python/ License CC-BY-SA";
 $torrentfilenamesrc{Python}="NSUphyslect-Python-Grozin-source";
 
+# Riemannian geometry (lectures, PhD Evgeny Malkovich, Autumn 2016)
+$dir{RGeom} ="Riemannian_Geometry_Malkovich_Autumn_2016";
+
+$dir1080p{RGeom} ="Riemannian_Geometry_Malkovich_Autumn_2016_(1080p)";
+$comment1080p{RGeom}="Riemannian geometry, PhD Evgeny Malkovich, NSU Lectures, Autumn 2016 (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{RGeom}="NSUphyslect-RGeom-Malkovich-1080p";
+
+$dir720p{RGeom} ="Riemannian_Geometry_Malkovich_Autumn_2016_(720p)";
+$comment720p{RGeom}="Riemannian geometry, PhD Evgeny Malkovich, NSU Lectures, Autumn 2016 (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{RGeom}="NSUphyslect-RGeom-Malkovich-720p";
+
+$dirsrc{RGeom} ="Riemannian_Geometry_Malkovich_Autumn_2016_(src)";
+$commentsrc{RGeom}="Riemannian geometry, PhD Evgeny Malkovich, NSU Lectures, Autumn 2016 (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{RGeom}="NSUphyslect-RGeom-Malkovich-source";

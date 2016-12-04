@@ -28,5 +28,5 @@
 \#*
 # auctex dir
 auto/
-/bin/ffmpeg
+/bin/*
 *.synctex.gz

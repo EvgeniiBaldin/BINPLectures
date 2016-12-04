@@ -4,8 +4,8 @@ use File::Basename;
 use Cwd;
 use List::MoreUtils qw/ uniq /;
 
-getopts("ht:c:f:abLHC:l");
-use vars qw/$opt_h $opt_c $opt_a $opt_f $opt_t $opt_b $opt_l $opt_L $opt_H $opt_C/;
+getopts("ht:c:f:abLHC:lS:");
+use vars qw/$opt_h $opt_c $opt_a $opt_f $opt_t $opt_b $opt_l $opt_L $opt_H $opt_C $opt_S/;
 
 
 if (defined($opt_h)||
@@ -15,7 +15,7 @@ if (defined($opt_h)||
   print "Option: -h - help message\n";
   print "Option: -a - convert all lectures\n";
   print "Option: -c ABBR - convert specific course\n";
-  print "Option:    ABBR could be ASTRO, ANTAR, QCD(s), QED, SUSY, EW, NaCD, HEP(s), GG, NUC, STR, TO\n";
+  print "Option:    ABBR could be ASTRO, ANTAR, QCD(s), QED(s), SUSY, EW, NaCD, HEP(s), GG, NUC, STR, TO, RGeom\n";
   print "Option: -f INT - number of the first videofile (def. 1)\n";
   print "Option: -t INT - number of the last videofile \n";
   print "Option: -l - lectures list (def. lectureslist.txt)\n";
@@ -25,6 +25,7 @@ if (defined($opt_h)||
   print "Resolution: if basedirname is \"720p\" then option -l is used\n";
   print "Option: -H - High resolution (hd1080)\n";
   print "Option: -L - low resolution (hd720)\n";
+  print "Option: -S \"DIR\"- source dir (def. ../source/)\n";
   exit();
 }
 
@@ -49,6 +50,7 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  ANTAR => 241,
           QEDs => 251,
           Python => 271,
+          RGeom => 281,
 );
 
 %last = (
@@ -69,6 +71,7 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  ANTAR => 245,
           QEDs => 270,
           Python => 279,
+          RGeom => 286,
 	);
 
 if (!defined $first{$opt_c}||!defined $last{$opt_c}) {
@@ -104,6 +107,10 @@ if ($dirname eq "1080p") {#hd1920
 }
 elsif ($dirname eq "720p") {#hd720
   $EnvVars="XSIZE=1280 YSIZE=720 VIDEOTYPE=hd720 ";
+}
+
+if (defined $opt_S) {
+  $EnvVars.=" SRCPATH=\"$opt_S\" ";
 }
 
 
