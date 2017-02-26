@@ -31,6 +31,28 @@ RGeom_Malkovich_Lecture05.$(VIDEOEXT): RGeom_Malkovich_Lecture05.png.$(VIDEOEXT)
 RGeom_Malkovich_Lecture06.$(VIDEOEXT): RGeom_Malkovich_Lecture06.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_6-1_21.11.2016.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_6-2_21.11.2016.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 06","NSU 2016")
 
+RGeom_Malkovich_Lecture07.$(VIDEOEXT): RGeom_Malkovich_Lecture07.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_7.1_05.12.2016.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_7.2_05.12.2016.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 07","NSU 2016")
+
+RGeom_Malkovich_Lecture08.$(VIDEOEXT): RGeom_Malkovich_Lecture08.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_8.1_12.12.2016.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_8.2_12.12.2016.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 08","NSU 2016")
+
+RGeom_Malkovich_Lecture09.$(VIDEOEXT): RGeom_Malkovich_Lecture09.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_9.1_19.12.2016.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_9.2_19.12.2016.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 09","NSU 2016")
+
+RGeom_Malkovich_Lecture10.$(VIDEOEXT): RGeom_Malkovich_Lecture10.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_10.1_26.12.2016.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_10.2_26.12.2016.mts.$(VIDEOEXT) Riemannian_Geometry_Malkovich_10.3_26.12.2016.mts.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 10","NSU 2016")
+
+RGeom_Malkovich_Lecture11.$(VIDEOEXT): RGeom_Malkovich_Lecture11.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_11.1_27.01.2017.mts.$(VIDEOEXT) Riemannian_Geometry_Malkovich_11.2_27.01.2017.mts.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 11","NSU 2016")
+
+RGeom_Malkovich_Lecture12.$(VIDEOEXT): RGeom_Malkovich_Lecture12.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_12.1_03.02.2017.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_12.2_03.02.2017.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 12","NSU 2016")
+
+RGeom_Malkovich_Lecture13.$(VIDEOEXT): RGeom_Malkovich_Lecture13.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_13.1_10.02.2017.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_13.2_10.02.2017.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 13","NSU 2016")
+
+
 # Чистка
 clean:
 	rm -f *.*.$(VIDEOEXT)  *~

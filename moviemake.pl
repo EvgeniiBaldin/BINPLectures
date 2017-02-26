@@ -54,7 +54,7 @@ if (defined $opt_a) {$opt_c="ALL"};
 );
 
 %last = (
-	  ALL => 279,
+	  ALL => 293,
 	  QCD => 16,
 	  QED => 31,
 	  SUSY => 38,
@@ -71,7 +71,7 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  ANTAR => 245,
           QEDs => 270,
           Python => 279,
-          RGeom => 286,
+          RGeom => 293,
 	);
 
 if (!defined $first{$opt_c}||!defined $last{$opt_c}) {

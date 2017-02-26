@@ -301,8 +301,18 @@
 284 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture04
 285 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture05
 286 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture06
-287 NONE NONE
-288 NONE NONE
-289 NONE NONE
-290 NONE NONE
+287 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture07
+288 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture08
+289 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture09
+290 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture10
+291 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture11
+292 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture12
+293 Riemannian_Geometry_Malkovich_Autumn_2016 RGeom_Malkovich_Lecture13
+294 NONE NONE
+295 NONE NONE
+296 NONE NONE
+297 NONE NONE
+298 NONE NONE
+299 NONE NONE
+300 NONE NONE
 0
