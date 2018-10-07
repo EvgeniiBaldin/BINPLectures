@@ -866,3 +866,18 @@ $torrentfilename720p{RGeom}="NSUphyslect-RGeom-Malkovich-720p";
 $dirsrc{RGeom} ="Riemannian_Geometry_Malkovich_Autumn_2016_(src)";
 $commentsrc{RGeom}="Riemannian geometry, PhD Evgeny Malkovich, NSU Lectures, Autumn 2016 (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
 $torrentfilenamesrc{RGeom}="NSUphyslect-RGeom-Malkovich-source";
+
+# История квантовой механики (Грозин А.Г., 2018 г.)
+$dir{HQT} ="History_of_Quantum_Theory_Grozin_Fall_2018";
+
+$dir1080p{HQT} ="History_of_Quantum_Theory_Grozin_Fall_2018_(1080p)";
+$comment1080p{HQT}="History of Quantum Theory Grozin A.G., NSU Lectures on Physics (1080p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename1080p{HQT}="NSUphyslect-History-Quantum-Theory-Grozin-1080p";
+
+$dir720p{HQT} ="History_of_Quantum_Theory_Grozin_Fall_2018_(720p)";
+$comment720p{HQT}="History of Quantum Theory Grozin A.G., NSU Lectures on Physics (720p libx264 ac3) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilename720p{HQT}="NSUphyslect-History-Quantum-Theory-Grozin-720p";
+
+$dirsrc{HQT} ="History_of_Quantum_Theory_Grozin_Fall_2018_(src)";
+$commentsrc{HQT}="History of Quantum Theory Grozin A.G., NSU Lectures on Physics (source) http://www.inp.nsk.su/students/theor/videolectures/videolectures.html License CC-BY-SA";
+$torrentfilenamesrc{HQT}="NSUphyslect-History-Quantum-Theory-Grozin-source";
