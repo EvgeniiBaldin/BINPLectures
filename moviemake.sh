@@ -1,1 +1,1 @@
-./movimake.pl -c HQT
+./moviemake.pl -c HQT
