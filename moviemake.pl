@@ -95,6 +95,7 @@ while (<LIST>) {
 }
 close(LIST) or die "LIST close: \"$opt_l\" $!";
 
+$EnvVars="";
 if (defined $opt_H) {#hd1920
   $EnvVars="XSIZE=1920 YSIZE=1080 VIDEOTYPE=hd1080 ";
 }
