@@ -24,7 +24,12 @@ COVERDURATION:= 5
 VIDEOEXT:=mp4
 # Видеокодек
 # libx264 libtheora libvpx libvpx-vp9
+#VIDEOENCODER:=h264_nvenc #nvidia GTX1080
 VIDEOENCODER:=libx264
+# Фильтр (деинтерлейсинг)
+#VIDEOFILTERS:= -vf yadif_cuda=1 #nvidia GTX1080
+VIDEOFILTERS:= -vf yadif=1
+#VIDEOFILTERS:= 
 # Звуковой кодек
 # ac3 vorbis libvo_aacenc libmp3lame
 SOUNDCODEC:=ac3
@@ -33,7 +38,7 @@ SOUNDCODEC:=ac3
 # (на один уровень относительная директория ниже)
 FFMPEG ?=../bin/ffmpeg
 # Ключи результирующего файла для ffmeg
-FOUTKEY := -c:v $(VIDEOENCODER) -c:a $(SOUNDCODEC) -s $(VIDEOTYPE) -ac 2 -sn
+FOUTKEY := -c:v $(VIDEOENCODER) -c:a $(SOUNDCODEC) -s $(VIDEOTYPE) -ac 2 -sn 
 # Имя текущей директории
 DIRNAME := $(word $(words $(subst /, ,$(PWD))),$(subst /, ,$(PWD)))
 
@@ -53,10 +58,10 @@ ECHO:=/bin/echo
 	$(FFMPEG) -loop 1 -i $< -f lavfi -i aevalsrc=0 $(FOUTKEY) -q:v 1 -t $(COVERDURATION) $@
 # Кодирование фрагментов видеофайлов
 %.mts.$(VIDEOEXT): $(SRCPATH)/%.mts
-	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $@
+	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $(VIDEOFILTERS) $@
 
 %.MTS.$(VIDEOEXT): $(SRCPATH)/%.MTS
-	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $@
+	$(FFMPEG) -i $<  -q:v 1 -q:a 1 $(FOUTKEY) $(VIDEOFILTERS) $@
 
 # Объединение файлов 
 MERGE =	n=0 ; for x in $1; do  let "n+=1" ; done ; let "m=n-1" ;\

@@ -52,6 +52,12 @@ RGeom_Malkovich_Lecture12.$(VIDEOEXT): RGeom_Malkovich_Lecture12.png.$(VIDEOEXT)
 RGeom_Malkovich_Lecture13.$(VIDEOEXT): RGeom_Malkovich_Lecture13.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_13.1_10.02.2017.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_13.2_10.02.2017.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 13","NSU 2016")
 
+RGeom_Malkovich_Lecture14.$(VIDEOEXT): RGeom_Malkovich_Lecture14.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_14.1_17.02.2017.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_14.2_17.02.2017.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 14","NSU 2016")
+
+RGeom_Malkovich_Lecture15.$(VIDEOEXT): RGeom_Malkovich_Lecture15.png.$(VIDEOEXT) Riemannian_Geometry_Malkovich_15.1_24.02.2017.MTS.$(VIDEOEXT) Riemannian_Geometry_Malkovich_15.2_24.02.2017.MTS.$(VIDEOEXT) RGeom_Malkovich_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"RGeom Evgeny Malkovich Lecture 15","NSU 2016")
+
 
 # Чистка
 clean:

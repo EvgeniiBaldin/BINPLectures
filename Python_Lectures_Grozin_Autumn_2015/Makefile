@@ -10,6 +10,8 @@ all:
 	@echo "Usage: make fullclean"
 
 
+Python_Grozin_Lecture01.$(VIDEOEXT): Python_Grozin_Lecture01-1.png.$(VIDEOEXT) Python_Grozin_Lecture01-2.png.$(VIDEOEXT) Python_Grozin_01_14.09.16-1.MTS.$(VIDEOEXT) Python_Grozin_01_14.09.16-2.MTS.$(VIDEOEXT) Python_Grozin_Lecture_afterwords-1.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Python Grozin A.G. Lecture N 01","NSU 2015 2016")
 
 Python_Grozin_Lecture02.$(VIDEOEXT): Python_Grozin_Lecture02-1.png.$(VIDEOEXT) Python_Grozin_Lecture02-2.png.$(VIDEOEXT) Python_Grozin_02_19.10.15.MTS.$(VIDEOEXT) Python_Grozin_Lecture_afterwords-1.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Python Grozin A.G. Lecture N 02","NSU 2015")
