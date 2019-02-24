@@ -58,6 +58,9 @@ History_of_Quantum_Theory_Grozin_Lecture14.$(VIDEOEXT): History_of_Quantum_Theor
 History_of_Quantum_Theory_Grozin_Lecture15.$(VIDEOEXT): History_of_Quantum_Theory_Grozin_Lecture15.png.$(VIDEOEXT) History_of_Quantum_Theory_Grozin_15.1-2-20.12.2018.MTS.$(VIDEOEXT) History_of_Quantum_Theory_Grozin_15.3-20.12.2018.MTS.$(VIDEOEXT)  History_of_Quantum_Theory_Grozin_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"History of Quantum Theory by Andrey Grozin Lecture N 15","NSU 2018")
 
+History_of_Quantum_Theory_Grozin_Seminar01.$(VIDEOEXT): History_of_Quantum_Theory_Grozin_Seminar01.png.$(VIDEOEXT) Grozin_Histiry_of_quantum_theory_seminar_18-02-2019.MTS.$(VIDEOEXT)   History_of_Quantum_Theory_Grozin_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"History of Quantum Theory by Andrey Grozin BINP Seminar Part I","BINP 2019")
+
 
 # Чистка
 clean:
