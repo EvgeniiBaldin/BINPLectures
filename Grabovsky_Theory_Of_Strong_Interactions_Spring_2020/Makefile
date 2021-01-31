@@ -68,7 +68,7 @@ Grabovsky_Theory_Of_Strong_Interactions_Lecture18.$(VIDEOEXT): Grabovsky_Theory_
 Grabovsky_Theory_Of_Strong_Interactions_Lecture19.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture19.png.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.1_04.06.20.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 19","NSU 2020")
 
-Grabovsky_Theory_Of_Strong_Interactions_Lecture20.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture20.png.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.2_04.06.20.MTS.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.3_04.06.20.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+Grabovsky_Theory_Of_Strong_Interactions_Lecture20.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture20.png.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.2_04.06.20-part1.MTS.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.2_04.06.20-part2.MTS.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.3_04.06.20-part1.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 20","NSU 2020")
 
 
