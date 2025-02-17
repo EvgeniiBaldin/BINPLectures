@@ -1,5 +1,9 @@
 date
-#./moviemake.pl -c TO17 -f 1 -t 4
-#./moviemake.pl -c ToSI -f 18 -t 19
-#./moviemake.pl -c ToSI -f 1 -t 20
+#17.02.2025 update
+#./moviemake.pl -c ToSI -f 21 -t 27
+#./moviemake.pl -c TO23 
+#./moviemake.pl -c SM 
+#./moviemake.pl -c GR 
+#./moviemake.pl -c GRs 
+#./moviemake.pl -c GRdop 
 date
