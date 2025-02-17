@@ -71,6 +71,27 @@ Grabovsky_Theory_Of_Strong_Interactions_Lecture19.$(VIDEOEXT): Grabovsky_Theory_
 Grabovsky_Theory_Of_Strong_Interactions_Lecture20.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture20.png.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.2_04.06.20-part1.MTS.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.2_04.06.20-part2.MTS.$(VIDEOEXT) Gabovsky_TheoryOfStrongInteractions_19.3_04.06.20-part1.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
 	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 20","NSU 2020")
 
+Grabovsky_Theory_Of_Strong_Interactions_Lecture21.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture21.png.$(VIDEOEXT) QCD-Grabovsky-1-14.10.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 21","NSU 2024")
+
+Grabovsky_Theory_Of_Strong_Interactions_Lecture22.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture22.png.$(VIDEOEXT) QCD-Grabovsky-2-21.10.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 22","NSU 2024")
+
+Grabovsky_Theory_Of_Strong_Interactions_Lecture23.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture23.png.$(VIDEOEXT) QCD-Grabovsky-3-28.10.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 23","NSU 2024")
+
+Grabovsky_Theory_Of_Strong_Interactions_Lecture24.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture24.png.$(VIDEOEXT) QCD-Grabovsky-4-11.11.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 24","NSU 2024")
+
+Grabovsky_Theory_Of_Strong_Interactions_Lecture25.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture25.png.$(VIDEOEXT) QCD-Grabovsky-5-18.11.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 25","NSU 2024")
+
+Grabovsky_Theory_Of_Strong_Interactions_Lecture26.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture26.png.$(VIDEOEXT) QCD-Grabovsky-6-25.11.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 26","NSU 2024")
+
+Grabovsky_Theory_Of_Strong_Interactions_Lecture27.$(VIDEOEXT): Grabovsky_Theory_Of_Strong_Interactions_Lecture27.png.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture27-summery.png.$(VIDEOEXT) QCD-Grabovsky-7-02.12.24.MTS.$(VIDEOEXT) Grabovsky_Theory_Of_Strong_Interactions_Lecture_afterwords.png.$(VIDEOEXT)
+	$(call MERGE,$^,"Theory of Strong Interactions by Andrey Grabovsky Lecture N 27","NSU 2024")
+
 
 
 # Чистка

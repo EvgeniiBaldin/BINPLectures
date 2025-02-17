@@ -1,0 +1,77 @@
+%% -*- coding: utf-8 -*-
+\documentclass[12pt,pagesize,paper=192mm:108mm,landscape]{scrbook} 
+%1920x1080 1280x720
+\areaset[current]{192mm}{108mm}
+\usepackage{calc}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{microtype}
+\usepackage{misccorr}
+\usepackage{cmap}
+%\usepackage[unicode=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{srcltx}
+\usepackage{textcomp}
+\usepackage{xspace}
+%научные символы и смайлики \smiley \frownie
+\usepackage{wasysym}
+\usepackage{ccicons}
+%перенос формул в тексте
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+  {\hbox{$\mathsurround=0pt #1$}}{}}
+
+\begin{document}
+\begin{titlepage}
+  \vspace*{-0.5em}
+  \begin{center}    
+    % \hspace*{3em}
+    % \begin{minipage}[t]{3em}
+    %   \includegraphics[width=\textwidth]{../BINP-logo}
+    % \end{minipage}\hfill
+    % \begin{minipage}{0.23\linewidth}
+    % \includegraphics[width=\textwidth]{../NSU-logo}
+    % \end{minipage}
+    % \hfill
+    % \hspace*{6em}
+
+    % Кафедра теоретической физики физического факультета НГУ
+    % \medskip
+
+    % \Large
+    % Профессор Грабовский А.\,В.
+    % \smallskip
+
+    % \huge
+    % \textbf{Общая теория относительности}
+    % \smallskip
+
+    \vfill
+    \Large
+    Задание № 9
+ \smallskip
+
+    \normalsize
+    \begin{minipage}{0.9\linewidth}
+      \begin{enumerate}
+      \item Показать, что плотность энергии гравитационной волны
+        выражается через метрику волн с~``+'' и ``х'' поляризациями так
+        \[t_{00} = \frac{c^4}{16\pi G}\cdot \left<\left(h_{+,t}\right)^2+\left(h_{x,t}\right)^2\right>.\]
+      \item Показать, что скорость изменения периода обращения двойной
+        системы с разными массами получается из формулы для системы с
+        одинаковыми массами заменой 
+        \[(2M)^{\frac{5}{3}} \to 4M_1M_2/\left(M_1+M_2\right)^{\frac{1}{3}}.\]
+      \item Показать, что скорость изменения периода обращения двойной
+        системы по орбите с~ненулевым эксцентриситетом $e$ отличается от
+        формулы для нулевого эксцентриситета множителем
+        \[\left(1 + \frac{73}{24}\cdot e^2 + \frac{37}{96}\cdot e^4\right)\big/\left(1-e^2\right)^\frac{7}{2}.\]
+      \end{enumerate}
+    \end{minipage}
+    \vfill
+
+    % \normalsize \ccbysa\hspace{0.5em}  Новосибирск 2022
+  \end{center}
+\end{titlepage}
+\end{document}

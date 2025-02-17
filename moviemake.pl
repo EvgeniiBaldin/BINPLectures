@@ -15,7 +15,7 @@ if (defined($opt_h)||
   print "Option: -h - help message\n";
   print "Option: -a - convert all lectures\n";
   print "Option: -c ABBR - convert specific course\n";
-  print "Option:    ABBR could be ASTRO, ANTAR, QCD(s), QED(s), SUSY, EW, NaCD, HEP(s), GG, NUC, STR, TO, TO16, TO17, TO18, RGeom, HQT, QCDsh\n";
+  print "Option:    ABBR could be ASTRO, ANTAR, QCDs, QEDs, SUSY, EW, NaCD, HEPs, GG, NUC, STR, TO, TO16, TO17, TO18, TO23, RGeom, HQT, QCDsh, ToSI, GR, GRs, GRdop, SM\n";
   print "Option: -f INT - number of the first videofile (def. 1)\n";
   print "Option: -t INT - number of the last videofile \n";
   print "Option: -l - lectures list (def. lectureslist.txt)\n";
@@ -57,6 +57,11 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  TO17 => 351,
 	  TO18 => 361,
 	  ToSI => 371,
+	  GR => 401,
+	  GRs => 421,
+	  GRdop => 441,
+	  TO23 => 471,
+	  SM => 481,
 );
 
 %last = (
@@ -83,7 +88,12 @@ if (defined $opt_a) {$opt_c="ALL"};
 	  TO16 => 345,
 	  TO17 => 354,
 	  TO18 => 362,
-	  ToSI => 390,
+	  ToSI => 397,
+	  GR => 417,
+	  GRs => 437,
+	  GRdop => 468,
+	  TO23 => 471,
+	  SM => 487,
 	);
 
 if (!defined $first{$opt_c}||!defined $last{$opt_c}) {
