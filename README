@@ -140,8 +140,11 @@ http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
      (28.05.2014).
    + Гелаш А.А., "Нелинейная стадия модуляционной неустойчивости"
      (22.05.2014).
- * История Квантовой механики. Андрей Грозин. 2018
- * Квантовая Хромодинамика. Андрей Грабовский. 2020
+ * [[https://www.youtube.com/watch?v=EYqCG6D--k0&list=PLPFUq1zn8x34Fh8mJgYPvzCBqoygFjqfs][История Квантовой механики. Андрей Грозин. 2018]]
+ * [[https://www.youtube.com/watch?v=xsBo9m2AWgE&list=PLPFUq1zn8x35lnVdpXl1oDe8zJANIQ4hD][Квантовая Хромодинамика. Андрей Грабовский. 2020]]
+ * [[https://www.youtube.com/watch?v=72rqhtPI4cs&list=PLPFUq1zn8x37CnssnAdO54O1Oz6uYklQS][Общая теория относительности]] Андрей Грабовский 2022
+ * [[https://www.youtube.com/watch?v=pCZL1s7i6Zo&list=PLPFUq1zn8x363zSgt66FDydvXj6yALVGR][Дополнительные главы ОТО: чёрные дыры]] Андрей Грабовский 2022
+ * [[https://www.youtube.com/watch?v=g2t3nz0XJPQ&list=PLPFUq1zn8x35V2GTwZI8fI1e29ck_jjF3][Стандартная модель (ФЭЧ)]] Андрей Грабовский 2024
   
 *** сокращения
 
@@ -252,14 +255,14 @@ Option: -L - low resolution (hd720)
 Если скрипт находится в директории 1080p, то создаются видеофайлы
 формата hd1080, если в 720p -- hd720.
 
-*** mktorrent.pl
+*** mktorrent.pl                                                   :Устарело:
 
 В data.pm описаны директория до данных, комментарии к торрент-файлам и
 их имена, а также пути до базовых директорий и список треккеров.
 
 mktorrent.pl -- простейший скрипт, который готовит все торрент-файлы.
 
-** Создание торрент-файла
+** Создание торрент-файла                                          :Устарело:
 
 transmission-create --comment "NSU Lectures on Physics (1080p libx264 ac3)
 http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
@@ -269,7 +272,7 @@ License CC-BY-SA" --outfile NSUphyslect1080p-140613.torrent --tracker
 Раньше использовался другой сервис для анонсирования:
 udp://tracker.publicbt.com:80, но с ним что-то случилось.
 
-** Закачка на YouTube
+** Закачка на YouTube                                              :Устарело:
 Закачка из командной строки дала дуба из-за прекращения поддержки
 соответствующего API. Ниже идёт описание костылей, которые для этого
 использовались.
@@ -293,7 +296,7 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
 #      given_account += '@gmail.com'
       given_account += '@pages.plusgoogle.com'
 
-** TODO [4/15]
+** TODO [6/15]
  * [X] Переименовать директории следуя именованию директорий в torrent
  * [ ] Сделать глобальную автоматическую чистку от промежуточных файлов.
  * [ ] Разделить сборку и файлы.
@@ -313,9 +316,9 @@ udp://tracker.publicbt.com:80, но с ним что-то случилось.
  * [ ] Выложить ссылки на rutracker
  * [ ] Для каждого итого файла нужен свой _afterwords.tex, так как
    иначе возникают коллизии при параллельной сборке файлов.
- * [ ] Разобраться с github
+ * [X] Разобраться с github
        git config credential.helper store
- * [ ] Убрать png (Covers) из git (занести в gitignore)
+ * [X] Убрать png (Covers) из git (занести в gitignore) -- Не надо.
 *** rutracker
 Добавляем в рубрику Образование: http://rutracker.org/forum/viewforum.php?f=614
 
@@ -529,13 +532,13 @@ Ubuntu 14.04 trusty: https://launchpad.net/~jtgeibel/+archive/ubuntu/ppa?field.s
 
 Андрей Грабовский (лидер проекта) agrabovsky@gmail.com, 8-962-839-96-37
 Алексей Резниченко (замлидера) A.V.Reznichenko@inp.nsk.su, 8-913-946-45-55
-Евгений Балдин (торренты и сжатие видеофайлов)  E.M.Baldin@inp.nsk.su
+Евгений Балдин (торренты и сжатие видеофайлов)  E.M.Baldin@gmail.com
 Виталий Воробьев 
 Роман Герасимов
 Александр Руденко
 Ирина Соколова
 
-Сайт проекта:
+Сайт проекта (устарело):
 
 http://www.inp.nsk.su/students/theor/videolectures/videolectures.html
 
